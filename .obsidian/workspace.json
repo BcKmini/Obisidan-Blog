@@ -11,12 +11,14 @@
             "id": "cc4f650f7e89dbdf",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "학부연구생/1월/3주차/스크린샷 2024-12-13 오후 1.12.04.png"
+                "file": "학부연구생/1월/3주차/2025-01-15.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "스크린샷 2024-12-13 오후 1.12.04"
+              "icon": "lucide-file",
+              "title": "2025-01-15"
             }
           }
         ]
@@ -171,26 +173,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "cc4f650f7e89dbdf",
   "lastOpenFiles": [
-    "학부연구생/1월/3주차/2025-01-13.md",
-    "논문세미나/1월/2주차/PPT/N EURAL M ACHINE T RANSLATION BY J OINTLY L EARNING TO A LIGN AND T RANSLATE.pdf",
-    "논문세미나/1월/2주차/PPT/Learning Optical Flow from Still Images.pdf",
-    "논문세미나/1월/2주차/PPT/Detection of Wildlife Animals using Deep LearningApproaches A Systematic Review.pdf",
-    "논문세미나/1월/2주차/PPT/Deep Residual Learning for Image Recognition 복사본 2.pdf",
-    "논문세미나/1월/2주차/PPT/DEEP LEARNING FOR VEGETATION IMAGE SEGMENTATION IN LAI MEASUREMENT.pdf",
-    "논문세미나/1월/2주차/PPT/A Benchmark of Facial Recognition Pipelines and Co-Usability Performances of Modules.pdf",
-    "Detection of Wildlife Animals using Deep LearningApproaches A Systematic Review 1.pptx",
-    "DEEP LEARNING FOR VEGETATION IMAGE SEGMENTATION IN LAI MEASUREMENT 1.pptx",
-    "Learning Optical Flow from Still Images 1.pptx",
-    "Deep Residual Learning for Image Recognition 복사본 2.pptx",
-    "학부연구생/1월/3주차/2025-01-14.md",
+    "학부연구생/1월/3주차/대시보드-참고.mp4",
+    "학부연구생/1월/3주차/2025-01-15.md",
+    "conflict-files-obsidian-git.md",
+    "학부연구생/1월/3주차/img/스크린샷 2024-12-13 오후 1.12.04.png",
     "학부연구생/1월/3주차/스크린샷 2024-12-13 오후 1.12.04.png",
+    "논문세미나/1월/2주차/PPT/DEEP LEARNING FOR VEGETATION IMAGE SEGMENTATION IN LAI MEASUREMENT.pptx",
+    "논문세미나/1월/2주차/PPT/DEEP LEARNING FOR VEGETATION IMAGE SEGMENTATION IN LAI MEASUREMENT 1.pptx",
+    "논문세미나/1월/2주차/PPT/A Benchmark of Facial Recognition Pipelines and Co-Usability Performances of Modules.pptx",
+    "논문세미나/1월/2주차/PPT/A Benchmark of Facial Recognition Pipelines and Co-Usability Performances of Modules 1.pptx",
+    "논문세미나(1_10).pptx",
+    "Learning Optical Flow from Still Images.pptx",
+    "Learning Optical Flow from Still Images 1.pptx",
+    "Detection of Wildlife Animals using Deep LearningApproaches A Systematic Review.pptx",
+    "Detection of Wildlife Animals using Deep LearningApproaches A Systematic Review 1.pptx",
+    "Deep Residual Learning for Image Recognition 복사본 2.pptx",
+    "학부연구생/1월/2주차/2025-01-09.md",
+    "학부연구생/1월/3주차/img/00.png",
+    "학부연구생/1월/3주차/img/image 1.png",
+    "학부연구생/1월/3주차/img/image.png",
+    "학부연구생/1월/3주차/2025-01-13.md",
+    "학부연구생/1월/3주차/2025-01-14.md",
     "논문세미나/1월/3주차/2025-01-13 (논문세미나 추가).md",
     "학부연구생/1월/3주차/대시보드-참고사항.webp",
     "논문세미나/1월/3주차/2025-01-12.md",
     "논문세미나/1월/3주차/2025-01-13.md",
-    "학부연구생/1월/2주차/2025-01-09.md",
     "2025-01-12.md",
     "학부연구생/1월/2주차/2025-01-08.md",
     "논문세미나/1월/2주차/2025-01-10.md"
