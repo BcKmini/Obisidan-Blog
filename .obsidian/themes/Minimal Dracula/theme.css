@@ -1,0 +1,208 @@
+/* ==
+@name             Minimal Dracula
+@namespace        github.com/druxorey/minimal-dracula-for-obsidian
+@version          1.2.0
+@description      Are you tired of the same boring colors on Obsidian? Then try this modern color style based on the Dracula theme
+@author           Druxorey
+@license          GNU General Public License v3.0
+== */
+
+/* == VARIABLES == */
+
+:root {
+    --color-comment: #6272A4;
+
+    --color-red: #ff5555;
+    --color-orange: #FFB86C;
+    --color-yellow: #F1FA8C;
+    --color-green: #50FA7B;
+    --color-cyan: #8BE9FD;
+    --color-blue: #54B3FF;
+    --color-purple: #BD93F9;
+    --color-pink: #FF79C6;
+}
+
+/* == BASE == */
+
+body {
+    --h1-weight: 600;
+    --h2-weight: 600;
+    --h3-weight: 600;
+    --h4-weight: 500;
+    --h5-weight: 500;
+    --h6-weight: 500;
+
+    --h1-size: 1.25em;
+    --h2-size: 1.20em;
+    --h3-size: 1.15em;
+    --h4-size: 1.10em;
+    --h5-size: 1.05em;
+    --h6-size: 1.00em;
+
+	--h1-line-height: 3.00em;
+	--h2-line-height: 2.00em;
+	--h3-line-height: 2.00em;
+	--h4-line-height: 2.00em;
+	--h5-line-height: 2.00em;
+	--h6-line-height: 2.00em;
+
+    --code-comment: var(--color-comment);
+    --code-function: var(--color-green);
+    --code-important: var(--color-red);
+    --code-keyword: var(--color-pink);
+    --code-operator: var(--color-red);
+    --code-property: var(--color-orange);
+    --code-string: var(--color-yellow);
+    --code-tag: var(--color-red);
+    --code-value: var(--color-purple);
+
+    --tag-color: var(--color-pink);
+    --tag-color-hover: var(--color-pink);
+
+    --link-color: var(--color-purple);
+    --link-color-hover: var(--color-pink);
+    --link-external-color: var(--color-purple);
+    --link-external-color-hover: var(--color-pink);
+    --link-unresolved-color: var(--color-green);
+    --link-unresolved-decoration-color: var(--color-red);
+    --link-unresolved-opacity: 0.5;
+    --checklist-done-decoration: none;
+}
+
+/* == DARK THEME == */
+
+body.theme-dark {
+    --color-background-1: #525568;
+    --color-background-2: #44475a;
+    --color-background-3: #353747;
+    --color-background-4: #282a36;
+    --color-background-5: #21222c;
+
+    --color-foreground-1: #F8F8F2;
+    --color-foreground-2: #D9DADF;
+    --color-foreground-3: #B9BBCB;
+
+	--color-accent-1: #BD93F9;
+	--color-accent-2: #FF79C6;
+
+    color: var(--color-foreground-1);
+	
+    --bold-color: var(--color-foreground-1);
+    --text-selection: var(--color-background-3);
+
+	--hr-color: var(--color-background-1);
+
+    --color-base-00: var(--color-background-5);
+    --color-base-10: var(--color-background-3);
+    --color-base-20: var(--color-background-4);
+    --color-base-25: var(--color-background-3);
+    --color-base-30: var(--color-background-4);
+    --color-base-35: var(--color-background-2);
+    --color-base-40: var(--color-background-2);
+    --color-base-50: var(--color-background-1);
+    --color-base-60: red;
+    --color-base-70: var(--color-foreground-3);
+    --color-base-100: var(--color-foreground-1);
+
+    --table-header-background: var(--color-background-3);
+}
+
+body.theme-dark.is-mobile {
+    --color-base-00: var(--color-background-5);
+    --color-base-10: var(--color-background-4);
+    --color-base-20: var(--color-background-3);
+}
+
+.theme-dark .workspace-split.mod-root .view-content {
+    background-color: var(--color-background-4);
+}
+
+.theme-dark .nav-header {
+    background-color: var(--color-background-5);
+}
+
+/* == LIGHT THEME == */
+
+body.theme-light {
+    --color-background-1: #F3F4F6;
+    --color-background-2: #E8E8EE;
+    --color-background-3: #DCDDE5;
+    --color-background-4: #D0D2DC;
+    --color-background-5: #C4C7D4;
+
+    --color-foreground-1: #44475A;
+    --color-foreground-2: #353747;
+    --color-foreground-3: #282A36;
+
+	--color-accent-1: #BD93F9;
+	--color-accent-2: #FF79C6;
+
+    color: var(--color-foreground-1);
+	
+    --bold-color: var(--color-accent-1);
+    --text-selection: var(--color-background-3);
+
+	--hr-color: var(--color-background-3);
+
+    --color-base-00: var(--color-background-3);
+    --color-base-10: var(--color-background-4);
+    --color-base-20: var(--color-background-1);
+    --color-base-25: green;
+    --color-base-30: var(--color-background-2);
+    --color-base-35: var(--color-background-4);
+    --color-base-40: var(--color-background-3);
+    --color-base-50: var(--color-background-5);
+    --color-base-60: green;
+    --color-base-70: var(--color-foreground-1);
+    --color-base-100: var(--color-foreground-3);
+
+    --table-header-background: var(--color-background-3);
+}
+
+body.theme-light.is-mobile {
+    --color-base-00: var(--color-background-5);
+    --color-base-10: var(--color-background-4);
+    --color-base-20: var(--color-background-3);
+}
+
+.theme-light .workspace-split.mod-root .view-content {
+    background-color: var(--color-background-1);
+}
+
+.theme-light .nav-header {
+    background-color: var(--color-background-2);
+}
+
+/* == GENERAL CLASSES == */
+
+.workspace-split.mod-root .view-content {
+    margin: 20px auto;
+    border-radius: 10px;
+    width: calc(100% - 8vw);
+    max-width: 1000px;
+    align-self: center;
+    overflow-y: scroll;
+    transition: margin 0.25s ease-out, border-radius 0.25s ease-out, width 0.25s ease-out;
+}
+
+.nav-header {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.nav-files-container {
+    margin: 10px;
+    padding: 10px;
+}
+
+.markdown-source-view .cm-string.cm-url {
+    color: var(--color-cyan);
+}
+
+@media (max-width: 1000px) {
+    .workspace-split.mod-root .view-content {
+        border-radius: 0px;
+        margin: 0vh 0vw;
+        width: calc(100%);
+    }
+}
