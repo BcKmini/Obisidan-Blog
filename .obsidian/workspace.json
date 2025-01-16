@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학부연구생/1월/3주차/2025-01-15.md",
+                "file": "학부연구생/1월/3주차/2025-01-16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-15"
+              "title": "2025-01-16"
             }
           }
         ]
@@ -151,8 +151,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           }
         ]
@@ -173,11 +173,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc4f650f7e89dbdf",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "학부연구생/1월/3주차/2025-01-15.md",
+    "학부연구생/1월/3주차/2025-01-16.md",
     "Pasted image 20250115194431.png",
     "Pasted image 20250115194418.png",
-    "학부연구생/1월/3주차/2025-01-15.md",
     "학부연구생/1월/3주차/img/image 1.png",
     "학부연구생/1월/3주차/img/image.png",
     "학부연구생/1월/3주차/대시보드-참고.mp4",
