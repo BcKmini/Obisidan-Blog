@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7f500616dc87aa26",
+        "id": "2b741820ec3b5f29",
         "type": "tabs",
         "children": [
           {
-            "id": "daa0d2ea0cdc4210",
+            "id": "cc4f650f7e89dbdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학부연구생/1월/3주차/2025-01-14.md",
+                "file": "학부연구생/1월/3주차/2025-01-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-14"
+              "title": "2025-01-15"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "7f7b821c8e63a5d4",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "논문세미나/1월/3주차/2025-01-13.md",
+                "file": "논문세미나/1월/3주차/2025-01-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-01-13의 백링크"
+              "title": "2025-01-12의 백링크"
             }
           },
           {
@@ -151,8 +151,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -173,33 +173,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "daa0d2ea0cdc4210",
+  "active": "cc4f650f7e89dbdf",
   "lastOpenFiles": [
-    "스크린샷 2024-12-13 오후 1.12.04.png",
+    "Pasted image 20250115194431.png",
+    "Pasted image 20250115194418.png",
+    "학부연구생/1월/3주차/2025-01-15.md",
+    "학부연구생/1월/3주차/img/image 1.png",
+    "학부연구생/1월/3주차/img/image.png",
+    "학부연구생/1월/3주차/대시보드-참고.mp4",
+    "conflict-files-obsidian-git.md",
+    "학부연구생/1월/3주차/img/스크린샷 2024-12-13 오후 1.12.04.png",
+    "학부연구생/1월/3주차/스크린샷 2024-12-13 오후 1.12.04.png",
+    "논문세미나/1월/2주차/PPT/DEEP LEARNING FOR VEGETATION IMAGE SEGMENTATION IN LAI MEASUREMENT.pptx",
+    "논문세미나/1월/2주차/PPT/DEEP LEARNING FOR VEGETATION IMAGE SEGMENTATION IN LAI MEASUREMENT 1.pptx",
+    "논문세미나/1월/2주차/PPT/A Benchmark of Facial Recognition Pipelines and Co-Usability Performances of Modules.pptx",
+    "논문세미나/1월/2주차/PPT/A Benchmark of Facial Recognition Pipelines and Co-Usability Performances of Modules 1.pptx",
+    "논문세미나(1_10).pptx",
+    "Learning Optical Flow from Still Images.pptx",
+    "Learning Optical Flow from Still Images 1.pptx",
+    "Detection of Wildlife Animals using Deep LearningApproaches A Systematic Review.pptx",
+    "Detection of Wildlife Animals using Deep LearningApproaches A Systematic Review 1.pptx",
     "학부연구생/1월/2주차/2025-01-09.md",
+    "학부연구생/1월/3주차/img/00.png",
     "학부연구생/1월/3주차/2025-01-13.md",
     "학부연구생/1월/3주차/2025-01-14.md",
-    "학부연구생/1월/2주차/2025-01-08.md",
-    "학부연구생/1월/3주차/대시보드-참고.mp4",
-    "학부연구생/1월/3주차/대시보드-참고사항.webp",
-    "conflict-files-obsidian-git.md",
-    "대시보드-참고.mp4",
-    "학부연구생/1월/3주차/대시보드_참고사진.webp",
-    "31276375-7FA9-46E4-B8CC-0A0E94172669_1_105_c.webp",
-    "31276375-7FA9-46E4-B8CC-0A0E94172669_1_105_c 1.webp",
     "논문세미나/1월/3주차/2025-01-13 (논문세미나 추가).md",
-    "논문세미나/1월/3주차/2025-01-13.md",
+    "학부연구생/1월/3주차/대시보드-참고사항.webp",
     "논문세미나/1월/3주차/2025-01-12.md",
-    "논문세미나/1월/2주차/2025-01-10.md",
-    "무제 파일.md",
-    "논문세미나/1월/2주차/A Benchmark of Facial Recognition Pipelines and Co-Usability Performances of Modules.pdf",
-    "논문세미나/1월/2주차/N EURAL M ACHINE T RANSLATION BY J OINTLY L EARNING TO A LIGN AND T RANSLATE.pdf",
-    "논문세미나/1월/2주차/Deep Learning for Vegetation Image Segmentation in LAI Measurement - DEEP LEARNING FOR VEGETATION IMAGE SEGMENTATION IN LAI MEASUREMENT.pdf",
-    "논문세미나/1월/2주차/Learning Optical Flow From Still Images - Aleotti_Learning_Optical_Flow_From_Still_Images_CVPR_2021_paper.pdf",
-    "논문세미나/1월/2주차/Deep Residual Learning for Image Recognition - Deep Residual Learning for Image Recognition(ResNet).pdf",
-    "학부연구생/1월/3주차",
+    "논문세미나/1월/3주차/2025-01-13.md",
     "2025-01-12.md",
-    "학부연구생/1월/2주차",
-    "학부연구생/1월"
+    "학부연구생/1월/2주차/2025-01-08.md",
+    "논문세미나/1월/2주차/2025-01-10.md"
   ]
 }
