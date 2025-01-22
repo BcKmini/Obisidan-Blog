@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학부연구생/1월/3주차/2025-01-17.md",
+                "file": "학부연구생/1월/4주차/2025-01-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-17"
+              "title": "2025-01-22"
             }
           }
         ]
@@ -175,6 +175,9 @@
   },
   "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "학부연구생/1월/3주차/2025-01-17.md",
+    "학부연구생/1월/4주차/2025-01-22.md",
+    "학부연구생/1월/4주차",
     "Code/Pytorch-Tutorial/model.pth",
     "Code/Pytorch-Tutorial/Fashion-Mnist.ipynb",
     "Code/Pytorch-Tutorial/1.py",
@@ -184,13 +187,10 @@
     "논문세미나/1월/4주차/PPT/PyTorch-Tutorial.pptx",
     "논문세미나/1월/4주차/PPT",
     "논문세미나/1월/4주차/Deepness Deep neural remote sensing plugin for QGIS.pdf",
-    "논문세미나/1월/4주차/Color-Based Bird Image Classification using Support Vector Machine .pdf",
-    "논문세미나/1월/4주차/Absolute distance prediction based on deep.pdf",
     "학부연구생/1월/3주차/2025-01-15.md",
     "학부연구생/1월/3주차/img/Streamlit.png",
     "학부연구생/1월/3주차/img/Dashboard_v1.png",
     "학부연구생/1월/3주차/img/Dashboard1_v1.png",
-    "학부연구생/1월/3주차/2025-01-17.md",
     "학부연구생/1월/3주차/2025-01-16.md",
     "강의/3주차/개인공부/2025-01-16(따라하며 배우는 노드, 리액트 시리즈 - 기본 강의- 인프런).md",
     "Code/DashBoard/client/public/vite.svg",
