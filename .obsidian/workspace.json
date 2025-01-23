@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "2025-01-13"
             }
+          },
+          {
+            "id": "9f5b19627705c76e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,16 +72,6 @@
               },
               "icon": "lucide-search",
               "title": "검색"
-            }
-          },
-          {
-            "id": "9f5b19627705c76e",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
             }
           }
         ]
