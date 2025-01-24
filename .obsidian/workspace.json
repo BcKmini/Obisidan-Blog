@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1f9b9b378a1e21af",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "학부연구생/1월/4주차/img/Pasted image 20250124095852.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250124095852"
-            }
-          },
-          {
             "id": "b072b7f9d8367fff",
             "type": "leaf",
             "state": {
@@ -33,8 +21,7 @@
               "title": "2025-01-24"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,6 +175,8 @@
   },
   "active": "b072b7f9d8367fff",
   "lastOpenFiles": [
+    "학부연구생/1월/4주차/img/Pasted image 20250124095852.png",
+    "학부연구생/1월/4주차/2025-01-24.md",
     "Code/V2/server/app/routers/__pycache__/main.cpython-310.pyc",
     "Code/V2/server/app/routers/__pycache__/api.cpython-310.pyc",
     "Code/V2/server/app/__pycache__/__init__.cpython-310.pyc",
@@ -198,14 +187,11 @@
     "Code/V2/server/app/routers/api.py",
     "Code/V2/server/app/__pycache__",
     "Code/V2/server/app/__init__.py",
-    "Code/V2/server/app/routers",
     "Code/V2/client/public/img/south-korea.svg",
     "Code/V2/client/public/vite.svg",
     "Code/V2/client/README.md",
     "Code/V2/Readme.md",
     "학부연구생/1월/4주차/img/Pasted image 20250124095752.png",
-    "학부연구생/1월/4주차/img/Pasted image 20250124095852.png",
-    "학부연구생/1월/4주차/2025-01-24.md",
     "학부연구생/1월/4주차/img/Mysql_.png",
     "학부연구생/1월/4주차/2025-01-23.md",
     "학부연구생/1월/4주차/2025-01-22.md",
