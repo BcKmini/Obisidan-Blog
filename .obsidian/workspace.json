@@ -11,6 +11,18 @@
             "id": "1f9b9b378a1e21af",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "학부연구생/1월/4주차/img/Pasted image 20250124095852.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250124095852"
+            }
+          },
+          {
+            "id": "b072b7f9d8367fff",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "학부연구생/1월/4주차/2025-01-24.md",
@@ -21,7 +33,8 @@
               "title": "2025-01-24"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,12 +186,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f9b9b378a1e21af",
+  "active": "b072b7f9d8367fff",
   "lastOpenFiles": [
-    "Pasted image 20250124095852.png",
-    "Pasted image 20250124095752.png",
-    "학부연구생/1월/4주차/2025-01-23.md",
+    "학부연구생/1월/4주차/img/Pasted image 20250124095752.png",
+    "학부연구생/1월/4주차/img/Pasted image 20250124095852.png",
     "학부연구생/1월/4주차/2025-01-24.md",
+    "학부연구생/1월/4주차/img/Mysql_.png",
+    "학부연구생/1월/4주차/2025-01-23.md",
     "학부연구생/1월/4주차/2025-01-22.md",
     "D.md",
     "Code/V2/DashBoard",
@@ -208,8 +222,6 @@
     "Code/V1/DashBoard/client/public/vite.svg",
     "Code/V1/DashBoard/client/README.md",
     "Code/V1/DashBoard/Readme.md",
-    "Pasted image 20250115194431.png",
-    "Pasted image 20250115194418.png",
     "conflict-files-obsidian-git.md",
     "학부연구생/1월/2주차/2025-01-09.md",
     "논문세미나/1월/3주차/2025-01-13 (논문세미나 추가).md",
