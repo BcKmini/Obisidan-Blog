@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학부연구생/2월/1주차/2025-02-03.md",
+                "file": "학부연구생/2월/1주차/2025-02-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-03"
+              "title": "2025-02-04"
             }
           }
         ]
@@ -174,8 +174,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "b072b7f9d8367fff",
   "lastOpenFiles": [
+    "학부연구생/2월/1주차/2025-02-03.md",
+    "학부연구생/2월/1주차/2025-02-04.md",
     "학부연구생/Code/V3/client/src/pages/Charts/styles/PieChart.module.css",
     "학부연구생/Code/V3/client/src/pages/Charts/styles/LineChart.module.css",
     "학부연구생/Code/V3/server/app/routers/__pycache__/__init__.cpython-310.pyc",
@@ -186,13 +188,11 @@
     "학부연구생/Code/V3/server/app/routers/__pycache__/repellent_data_router.cpython-310.pyc",
     "학부연구생/Code/V3/server/app/routers/__pycache__/repellent_data.cpython-310.pyc",
     "학부연구생/Code/V3/server/app/routers/__pycache__/main.cpython-310.pyc",
-    "학부연구생/Code/V3/server/app/routers/__pycache__/api.cpython-310.pyc",
     "학부연구생/Code/V3/client/public/img/south-korea.svg",
     "학부연구생/Code/V3/client/public/vite.svg",
     "학부연구생/Code/V3/client/README.md",
     "학부연구생/Code/V3/README.md",
     "학부연구생/2월/1주차/img/bird detection.png",
-    "학부연구생/2월/1주차/2025-02-03.md",
     "학부연구생/2월/1주차/img/bird detection 1.png",
     "학부연구생/2월/1주차/img/Pasted image 20250203173643.png",
     "학부연구생/2월/1주차/img/KakaoTalk_20250202_233428529.png",
