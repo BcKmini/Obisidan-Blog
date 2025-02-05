@@ -174,9 +174,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8660c3df1a8229af",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "학부연구생/2월/2주차",
+    "학부연구생/2월/1주차/pdf/roboflow.pdf",
     "학부연구생/2월/1주차/2025-02-05.md",
+    "학부연구생/2월/1주차/pdf",
     "학부연구생/2월/1주차/2025-02-04.md",
     "학부연구생/2월/1주차/img/시나공.jpg",
     "학부연구생/2월/1주차/2025-02-03.md",
@@ -188,8 +191,6 @@
     "학부연구생/Code/V3/server/app/routers/__pycache__/repellent_device_router.cpython-310.pyc",
     "학부연구생/Code/V3/server/app/routers/__pycache__/repellent_device.cpython-310.pyc",
     "학부연구생/Code/V3/server/app/routers/__pycache__/repellent_data_router.cpython-310.pyc",
-    "학부연구생/Code/V3/server/app/routers/__pycache__/repellent_data.cpython-310.pyc",
-    "학부연구생/Code/V3/server/app/routers/__pycache__/main.cpython-310.pyc",
     "학부연구생/Code/V3/client/public/img/south-korea.svg",
     "학부연구생/Code/V3/client/public/vite.svg",
     "학부연구생/Code/V3/client/README.md",
@@ -221,7 +222,6 @@
     "학부연구생/Code/V1/DashBoard/Readme.md",
     "conflict-files-obsidian-git.md",
     "학부연구생/1월/2주차/2025-01-09.md",
-    "학부연구생/논문세미나/1월/3주차/2025-01-13 (논문세미나 추가).md",
-    "학부연구생/논문세미나/1월/3주차/2025-01-12.md"
+    "학부연구생/논문세미나/1월/3주차/2025-01-13 (논문세미나 추가).md"
   ]
 }
