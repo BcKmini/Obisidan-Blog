@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학부연구생/2월/1주차/2025-02-04.md",
+                "file": "학부연구생/2월/1주차/2025-02-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-04"
+              "title": "2025-02-05"
             }
           }
         ]
@@ -174,11 +174,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b072b7f9d8367fff",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "학부연구생/2월/1주차/2025-02-04.md",
+    "학부연구생/2월/1주차/2025-02-05.md",
     "학부연구생/2월/1주차/img/시나공.jpg",
     "학부연구생/2월/1주차/2025-02-03.md",
-    "학부연구생/2월/1주차/2025-02-04.md",
     "학부연구생/Code/V3/client/src/pages/Charts/styles/PieChart.module.css",
     "학부연구생/Code/V3/client/src/pages/Charts/styles/LineChart.module.css",
     "학부연구생/Code/V3/server/app/routers/__pycache__/__init__.cpython-310.pyc",
@@ -207,7 +208,6 @@
     "학부연구생/Code/V2/client/public/vite.svg",
     "학부연구생/Code/V2/client/README.md",
     "학부연구생/Code/V2/Readme.md",
-    "학부연구생/1월/4주차/img/Pasted image 20250124095752.png",
     "D.md",
     "학부연구생/1월/3주차/2025-01-16.md",
     "학부연구생/1월/3주차/2025-01-13.md",
