@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8660c3df1a8229af",
+            "id": "33ffc3838873b633",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학부연구생/2월/2주차/2025-02-10.md",
+                "file": "학부연구생/2월/2주차/2025-02-10-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-10"
+              "title": "2025-02-10-2"
             }
           }
         ]
@@ -174,8 +174,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8660c3df1a8229af",
+  "active": "33ffc3838873b633",
   "lastOpenFiles": [
+    "학부연구생/2월/2주차/2025-02-10-1.md",
+    "학부연구생/2월/2주차/2025-02-10-2.md",
+    "강의/2월/2025-02-10.md",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-04. kogpt2_chatbot_gpu.py",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-04. kogpt2_chatbot_gpu.ipynb",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-03. gpt_naver_review_classification.py",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-03. gpt_naver_review_classification.ipynb",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-02. gpt_sentence_genernation.py",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-02. gpt_sentence_genernation.ipynb",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/20. Fine-tuning BERT (Cls, Chatbot, MRC, NER, NLI)/20-06. sbert.py",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/20. Fine-tuning BERT (Cls, Chatbot, MRC, NER, NLI)/20-06. sbert.ipynb",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/20. Fine-tuning BERT (Cls, Chatbot, MRC, NER, NLI)/20-05. bert_muliti_label_classification.py",
+    "학부연구생/Code/switch/README.md",
+    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/README.md",
+    "conflict-files-obsidian-git.md",
+    "라즈베리파이 GPIO 핀 번호 1.png",
+    "라즈베리파이 GPIO 핀 번호 2.png",
+    "학부연구생/2월/2주차/img/라즈베리파이 GPIO 핀 번호.png",
+    "학부연구생/2월/2주차/img/KakaoTalk_20250210_174637005.jpg",
+    "학부연구생/2월/2주차/img/KakaoTalk_20250210_153020071.jpg",
+    "학부연구생/2월/2주차/img/KakaoTalk_20250210_151900815.jpg",
     "학부연구생/1월/4주차/2025-01-22.md",
     "학부연구생/2월/1주차/2025-02-03.md",
     "학부연구생/논문세미나/1월/3주차/2025-01-13.md",
@@ -186,42 +208,19 @@
     "학부연구생/1월/3주차/2025-01-14.md",
     "학부연구생/1월/4주차/2025-01-24.md",
     "학부연구생/1월/4주차/2025-01-23.md",
-    "학부연구생/2월/2주차/2025-02-10.md",
     "학부연구생/2월/1주차/2025-02-06.md",
-    "학부연구생/2월/3주차",
     "학부연구생/2월/1주차/2025-02-05.md",
-    "학부연구생/2월/1주차/pdf/roboflow.pdf",
     "학부연구생/2월/1주차/img/Pasted image 20250206161530.png",
     "학부연구생/2월/1주차/img/robo1.png",
     "학부연구생/2월/1주차/img/robo4.png",
     "학부연구생/2월/1주차/img/robo3.png",
-    "학부연구생/2월/1주차/img/robo2.png",
-    "1번.png",
-    "4.png",
-    "3.png",
-    "2.png",
-    "학부연구생/2월/2주차",
-    "학부연구생/2월/1주차/pdf",
     "학부연구생/2월/1주차/2025-02-04.md",
-    "학부연구생/2월/1주차/img/시나공.jpg",
-    "학부연구생/Code/V3/client/src/pages/Charts/styles/PieChart.module.css",
-    "학부연구생/Code/V3/client/src/pages/Charts/styles/LineChart.module.css",
-    "학부연구생/Code/V3/server/app/routers/__pycache__/__init__.cpython-310.pyc",
-    "학부연구생/Code/V3/server/app/routers/__pycache__/repellent_sound_router.cpython-310.pyc",
-    "학부연구생/Code/V3/server/app/routers/__pycache__/repellent_sound.cpython-310.pyc",
-    "학부연구생/Code/V3/server/app/routers/__pycache__/repellent_device_router.cpython-310.pyc",
     "학부연구생/Code/V3/client/README.md",
     "학부연구생/Code/V3/README.md",
     "학부연구생/2월/1주차/2025-02-02.md",
     "무제.canvas",
     "학부연구생/Code/V2/client/README.md",
     "학부연구생/Code/V2/Readme.md",
-    "D.md",
-    "강의/4주차/2025-01-22(처음 만난 React).md",
-    "강의/3주차/2025-01-16(따라하며 배우는 노드, 리액트 시리즈 - 기본 강의- 인프런).md",
-    "학부연구생/논문세미나/1월/4주차/2025-01-22.md",
-    "학부연구생/1월/3주차/2025-01-17.md",
-    "학부연구생/Code/V1/DashBoard/client/README.md",
-    "학부연구생/Code/V1/DashBoard/Readme.md"
+    "D.md"
   ]
 }
