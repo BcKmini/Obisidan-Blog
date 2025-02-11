@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학부연구생/2월/2주차/2025-02-10-2.md",
+                "file": "학부연구생/논문세미나/2월/2025-02-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-10-2"
+              "title": "2025-02-11"
             }
           }
         ]
@@ -187,9 +187,12 @@
   },
   "active": "33ffc3838873b633",
   "lastOpenFiles": [
-    "학부연구생/2월/2주차/2025-02-11.md",
-    "학부연구생/2월/2주차/2025-02-10-2.md",
+    "학부연구생/논문세미나/1월/4주차/2025-01-22.md",
+    "학부연구생/논문세미나/2월/2025-02-11.md",
+    "학부연구생/논문세미나/2월",
     "학부연구생/2월/2주차/2025-02-10-1.md",
+    "학부연구생/2월/2주차/2025-02-10-2.md",
+    "학부연구생/2월/2주차/2025-02-11.md",
     "강의/2월/2025-02-10.md",
     "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-04. kogpt2_chatbot_gpu.py",
     "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-04. kogpt2_chatbot_gpu.ipynb",
@@ -200,7 +203,6 @@
     "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)",
     "학부연구생/Code/01. Introduction/pytorch-tutorial-book/20. Fine-tuning BERT (Cls, Chatbot, MRC, NER, NLI)/20-06. sbert.py",
     "학부연구생/Code/01. Introduction/pytorch-tutorial-book/20. Fine-tuning BERT (Cls, Chatbot, MRC, NER, NLI)/20-06. sbert.ipynb",
-    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/20. Fine-tuning BERT (Cls, Chatbot, MRC, NER, NLI)/20-05. bert_muliti_label_classification.py",
     "학부연구생/Code/switch/README.md",
     "학부연구생/Code/01. Introduction/pytorch-tutorial-book/README.md",
     "conflict-files-obsidian-git.md",
@@ -231,8 +233,6 @@
     "학부연구생/Code/V3/README.md",
     "학부연구생/2월/1주차/2025-02-02.md",
     "무제.canvas",
-    "학부연구생/Code/V2/client/README.md",
-    "학부연구생/Code/V2/Readme.md",
-    "D.md"
+    "학부연구생/Code/V2/client/README.md"
   ]
 }
