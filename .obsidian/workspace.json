@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "2025-02-11"
             }
+          },
+          {
+            "id": "2faa4fb37303e47f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,11 +199,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "40fa7a9e75c1e105",
+  "active": "2faa4fb37303e47f",
   "lastOpenFiles": [
+    "학부연구생/2월/2주차/2025-02-11.md",
+    "conflict-files-obsidian-git.md",
+    "학부연구생/Code/Check-power/src/main.cpp",
+    "학부연구생/Code/Check-power/src/ina219_sensor.cpp",
+    "학부연구생/Code/Check-power/include/ina219_sensor.h",
+    "학부연구생/Code/Check-power/src/gpio_control.cpp",
+    "학부연구생/Code/Check-power/src/button_check.cpp",
+    "학부연구생/Code/Check-power/include/gpio_control.h",
+    "학부연구생/Code/Check-power/test_ina219.py",
+    "학부연구생/Code/Check-power/src",
+    "학부연구생/Code/Check-power/include",
+    "학부연구생/Code/Check-power/CMakeLists.txt",
     "학부연구생/2월/2주차/img/연결.jpg",
     "KakaoTalk_20250211_152033207.jpg",
-    "학부연구생/2월/2주차/2025-02-11.md",
     "KakaoTalk_20250211_170206382 1.jpg",
     "KakaoTalk_20250211_170206382.jpg",
     "학부연구생/2월/2주차/2025-02-10-2.md",
@@ -197,21 +223,10 @@
     "학부연구생/논문세미나/1월/4주차/2025-01-22.md",
     "학부연구생/논문세미나/2월/2주차/2025-02-11.md",
     "학부연구생/논문세미나/2월/2025-02-11.md",
-    "학부연구생/논문세미나/2월/2주차",
-    "학부연구생/논문세미나/2월",
     "학부연구생/2월/2주차/2025-02-10-1.md",
     "강의/2월/2025-02-10.md",
-    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-04. kogpt2_chatbot_gpu.py",
-    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-04. kogpt2_chatbot_gpu.ipynb",
-    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-03. gpt_naver_review_classification.py",
-    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-03. gpt_naver_review_classification.ipynb",
-    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-02. gpt_sentence_genernation.py",
-    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-02. gpt_sentence_genernation.ipynb",
-    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)",
-    "학부연구생/Code/01. Introduction/pytorch-tutorial-book/20. Fine-tuning BERT (Cls, Chatbot, MRC, NER, NLI)/20-06. sbert.py",
     "학부연구생/Code/switch/README.md",
     "학부연구생/Code/01. Introduction/pytorch-tutorial-book/README.md",
-    "conflict-files-obsidian-git.md",
     "라즈베리파이 GPIO 핀 번호 1.png",
     "라즈베리파이 GPIO 핀 번호 2.png",
     "학부연구생/2월/2주차/img/라즈베리파이 GPIO 핀 번호.png",
