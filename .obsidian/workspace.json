@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,10 +185,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "33ffc3838873b633",
   "lastOpenFiles": [
-    "학부연구생/2월/2주차/2025-02-10-1.md",
+    "학부연구생/2월/2주차/2025-02-11.md",
     "학부연구생/2월/2주차/2025-02-10-2.md",
+    "학부연구생/2월/2주차/2025-02-10-1.md",
     "강의/2월/2025-02-10.md",
     "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-04. kogpt2_chatbot_gpu.py",
     "학부연구생/Code/01. Introduction/pytorch-tutorial-book/21. Fine-tuning GPT-2 (Cls, Chatbot, NLI)/21-04. kogpt2_chatbot_gpu.ipynb",
