@@ -155,13 +155,23 @@
               "icon": "lucide-file",
               "title": "플러그인이 더 이상 활성화되지 않음"
             }
+          },
+          {
+            "id": "8c11006ee8e8ecb6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33ffc3838873b633",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
     "학부연구생/2월/2주차/2025-02-10-1.md",
     "학부연구생/2월/2주차/2025-02-10-2.md",
