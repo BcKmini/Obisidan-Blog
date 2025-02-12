@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학부연구생/2월/2주차/2025-02-11.md",
+                "file": "학부연구생/2월/2주차/2025-02-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-11"
+              "title": "2025-02-12"
             }
           }
         ]
@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,9 +185,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c11006ee8e8ecb6",
+  "active": "40fa7a9e75c1e105",
   "lastOpenFiles": [
+    "학부연구생/논문세미나/2월/2주차/2025-02-12.md",
+    "학부연구생/2월/2주차/2025-02-12.md",
+    "학부연구생/논문세미나/2월/2주차/2025-02-11.md",
     "학부연구생/2월/2주차/2025-02-11.md",
+    "강의/1월/3주차/2025-01-16(따라하며 배우는 노드, 리액트 시리즈 - 기본 강의- 인프런).md",
     "conflict-files-obsidian-git.md",
     "학부연구생/Code/Check-power/src/main.cpp",
     "학부연구생/Code/Check-power/src/ina219_sensor.cpp",
@@ -206,7 +211,6 @@
     "학부연구생/2월/2주차/img/images.jpg",
     "학부연구생/2월/2주차/img/3ba0558a7a95e349d08ecdde3d021e8e.jpg",
     "학부연구생/논문세미나/1월/4주차/2025-01-22.md",
-    "학부연구생/논문세미나/2월/2주차/2025-02-11.md",
     "학부연구생/논문세미나/2월/2025-02-11.md",
     "학부연구생/2월/2주차/2025-02-10-1.md",
     "강의/2월/2025-02-10.md",
@@ -229,8 +233,6 @@
     "학부연구생/2월/1주차/2025-02-06.md",
     "학부연구생/2월/1주차/2025-02-05.md",
     "학부연구생/2월/1주차/2025-02-04.md",
-    "학부연구생/Code/V3/client/README.md",
-    "학부연구생/Code/V3/README.md",
     "무제.canvas"
   ]
 }
