@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학부연구생/2월/2주차/2025-02-14 (Use Case Diagram).md",
+                "file": "학부연구생/2월/2주차/2025-02-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-14 (Use Case Diagram)"
+              "title": "2025-02-13"
             }
           }
         ]
@@ -184,10 +184,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af152b6dda85eef8",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
-    "학부연구생/2월/2주차/img/Usecase-관리자 기능.drawio.png",
+    "학부연구생/2월/2주차/2025-02-12 (나노랩).md",
+    "학부연구생/2월/2주차/2025-02-13.md",
+    "학부연구생/2월/2주차/2025-02-11 (라즈베이파이 INA219 연결).md",
     "학부연구생/2월/2주차/2025-02-14 (Use Case Diagram).md",
+    "학부연구생/2월/2주차/img/Usecase-관리자 기능.drawio.png",
     "학부연구생/2월/2주차/img/Usecase-회원가입_로그인 기능.drawio.png",
     "학부연구생/2월/2주차/img/Usecase-커뮤니티 기능.drawio.png",
     "학부연구생/2월/2주차/img/Usecase-전문가 인증.drawio.png",
@@ -196,8 +199,6 @@
     "학부연구생/2월/2주차/img/Usecase-도감 기능.drawio.png",
     "학부연구생/2월/2주차/2025-02-10-1 (ML 용어정리).md",
     "학부연구생/2월/2주차/2025-02-10-2 (라즈베이파이 GPIO제어).md",
-    "학부연구생/2월/2주차/2025-02-11 (라즈베이파이 INA219 연결).md",
-    "학부연구생/2월/2주차/2025-02-12 (나노랩).md",
     "학부연구생/논문/2월/2주차/2025-02-12 (Convolutional Neural Networks for Sentence Classification).md",
     "Techblog/당근/2월/2주차/2025-02-12.md",
     "학부연구생/1월/4주차/2025-01-22 (나노랩 + 개인공부).md",
