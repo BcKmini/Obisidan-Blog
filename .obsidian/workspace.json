@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41d6324c7da79554",
+        "id": "6754a77b037f2d28",
         "type": "tabs",
         "children": [
           {
-            "id": "38e58b7dadfacc72",
+            "id": "b983490b1eae736d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -131,6 +131,30 @@
               "icon": "lucide-tags",
               "title": "태그"
             }
+          },
+          {
+            "id": "0e63aa4986c3910f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          },
+          {
+            "id": "ae0458977c61ac21",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
+            }
           }
         ],
         "currentTab": 2
@@ -146,11 +170,10 @@
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6effff8475b6ed07",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
     "학부연구생/2월/2주차/2025-02-12 (나노랩).md",
     "학부연구생/2월/2주차/2025-02-13.md",
