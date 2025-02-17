@@ -159,14 +159,23 @@
               "icon": "lucide-file",
               "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
+          },
+          {
+            "id": "4b5aca49b4aea188",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
