@@ -145,3 +145,11 @@ Yoon Kim (뉴욕대학교, yhk255@nyu.edu)
 
 > 🚀 더 나아가기 
 - BERT 및 Transformer 모델 등장 전까지 **CNN이 NLP에서 강력한 기법임을 증명한 중요한 연구**
+
+
+
+
+
+
+
+- Max pooling을 사용하는 이유
