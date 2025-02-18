@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "66c5a92067302de4",
+        "id": "bf8ac7cb80cebe34",
         "type": "tabs",
         "children": [
           {
-            "id": "72cdca488b6d7b73",
+            "id": "ce2b3ba7ec7b680a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,10 +188,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72cdca488b6d7b73",
+  "active": "ce2b3ba7ec7b680a",
   "lastOpenFiles": [
-    "학부연구생/2025/2월/3주차/2025-02-17 (보고서 정리 +  로드맵_1).md",
     "학부연구생/2025/2월/3주차/2025-02-18 (랩미팅).md",
+    "학부연구생/2025/2월/3주차/2025-02-17 (보고서 정리 +  로드맵_1).md",
     "학부연구생/2025/2월/3주차/pdf/센서 및 배터리 기반 하드웨어 구조 조사 및 다음 버전 개발 의견 보고서.pdf",
     "학부연구생/2025/1월/2주차/2025-01-09 (FastAPi).md",
     "학부연구생/2025/1월/2주차/2025-01-08 (시작).md",
