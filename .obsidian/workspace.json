@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4dfba752ee4d3c89",
+        "id": "70c9a295c1606638",
         "type": "tabs",
         "children": [
           {
-            "id": "6c131e0da9bcdbb5",
+            "id": "ecf2f3b5d5dee985",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2025년/학부연구생/2025/논문세미나/1월/4주차/PDF/RetinaFace Single-stage Dense Face Localisation in the Wild.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "RetinaFace Single-stage Dense Face Localisation in the Wild"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -188,8 +186,8 @@
   },
   "active": "19b007a01bd87112",
   "lastOpenFiles": [
-    "2025년/Techblog1/무제.md",
     "2025년/학부연구생/2025/논문세미나/1월/4주차/PDF/RetinaFace Single-stage Dense Face Localisation in the Wild.pdf",
+    "2025년/Techblog1/무제.md",
     "2025년/Techblog",
     "2025년/강의+책",
     "2025년",
