@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "70c9a295c1606638",
+        "id": "daeb12740a504de0",
         "type": "tabs",
         "children": [
           {
-            "id": "ecf2f3b5d5dee985",
+            "id": "1e8dba5dd2cdd7f7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025년/학부연구생/2월/3주차/2025-02-17 (보고서 정리 +  개인공부(NLP-1).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-02-17 (보고서 정리 +  개인공부(NLP-1)"
+              "title": "새 탭"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 382.5
   },
   "right": {
     "id": "7f7b821c8e63a5d4",
@@ -88,39 +84,6 @@
         "id": "64060ae0128f61f7",
         "type": "tabs",
         "children": [
-          {
-            "id": "5784286b42330096",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "논문세미나/1월/3주차/2025-01-12.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "2025-01-12의 백링크"
-            }
-          },
-          {
-            "id": "65a1054dbd09f3ef",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "논문세미나/1월/3주차/2025-01-12.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "2025-01-12의 나가는 링크"
-            }
-          },
           {
             "id": "6effff8475b6ed07",
             "type": "leaf",
@@ -169,9 +132,39 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "bcaec3f98401fdea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "595560ff7535fe96",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -188,12 +181,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ecf2f3b5d5dee985",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "2025년/학부연구생/2월/3주차/2025-02-17 (보고서 정리 +  개인공부(NLP-1).md",
     "2025년/학부연구생/2월/3주차/2025-02-18 (랩미팅).md",
     "2025년/학부연구생/2월/3주차/2025-02-19 (나노랩).md",
     "2025년/학부연구생/2월/3주차/2025-02-20.md",
-    "2025년/학부연구생/2월/3주차/2025-02-17 (보고서 정리 +  개인공부(NLP-1).md",
     "2025년/학부연구생/2025/논문세미나/1월/4주차/PDF/RetinaFace Single-stage Dense Face Localisation in the Wild.pdf",
     "2025년/Techblog1/무제.md",
     "2025년/Techblog",
