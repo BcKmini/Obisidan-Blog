@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "daeb12740a504de0",
+        "id": "8ff3acfcc1d816f2",
         "type": "tabs",
         "children": [
           {
-            "id": "1e8dba5dd2cdd7f7",
+            "id": "8b8b99e650b6b793",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,12 +181,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "8b8b99e650b6b793",
   "lastOpenFiles": [
+    "2025년/학부연구생/2월/3주차/2025-02-20.md",
     "2025년/학부연구생/2월/3주차/2025-02-17 (보고서 정리 +  개인공부(NLP-1).md",
     "2025년/학부연구생/2월/3주차/2025-02-18 (랩미팅).md",
     "2025년/학부연구생/2월/3주차/2025-02-19 (나노랩).md",
-    "2025년/학부연구생/2월/3주차/2025-02-20.md",
     "2025년/학부연구생/2025/논문세미나/1월/4주차/PDF/RetinaFace Single-stage Dense Face Localisation in the Wild.pdf",
     "2025년/Techblog1/무제.md",
     "2025년/Techblog",
