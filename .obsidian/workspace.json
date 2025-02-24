@@ -173,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +186,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75c70a4278ad0038",
+  "active": "4b5aca49b4aea188",
   "lastOpenFiles": [
     "2025년/멘토멘티/동아리.md",
     "2025년/학부연구생/2월/4주차/2025-02-24 (HAM10000 전처리과정 ).md",
