@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "319832351d756384",
+        "id": "c98b1341d399eb7f",
         "type": "tabs",
         "children": [
           {
-            "id": "bd453dcbf25f6964",
+            "id": "6f2b1fca16123677",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2025년/멘토멘티/Doc/2회차/img/2회차.jpeg"
+                "file": "2025년/멘토멘티/Doc/2025-02-25 (2회차 멘토멘티 비대면 회의).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "2회차"
+              "icon": "lucide-file",
+              "title": "2025-02-25 (2회차 멘토멘티 비대면 회의)"
             }
           }
         ]
@@ -186,13 +188,14 @@
   },
   "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "2025년/멘토멘티/Doc/2025-02-24 (1회차 멘토멘티 비대면 회의).md",
+    "2025년/멘토멘티/Doc/2회차/img/2회차.jpeg",
     "2025년/멘토멘티/Doc/2회차/img/2회차-3.jpeg",
     "2025년/멘토멘티/Doc/2회차/img/2회차-2.jpeg",
     "2025년/멘토멘티/Doc/2회차/img/2회차-1.jpeg",
     "2025년/멘토멘티/Doc/2회차",
     "KakaoTalk_Photo_2025-02-25-22-34-11 005.jpeg",
-    "2025년/멘토멘티/Doc/2회차/img/2회차.jpeg",
-    "2025년/멘토멘티/2025-02-25 (2회차 멘토멘티 비대면 회의).md",
+    "2025년/멘토멘티/Doc/2025-02-25 (2회차 멘토멘티 비대면 회의).md",
     "2025년/멘토멘티/Doc/2회차/img/2회차-4.jpeg",
     "mobilenetv2.png",
     "KakaoTalk_Photo_2025-02-25-22-34-10 001.jpeg",
@@ -200,11 +203,9 @@
     "2025년/멘토멘티/Doc/2회차/img",
     "2025년/학부연구생/2월/4주차/2025-02-25 (Model 공부).md",
     "2025년/멘토멘티/동아리.md",
-    "2025년/멘토멘티/2025-02-24 (1회차 멘토멘티 비대면 회의).md",
     "2025년/학생회/2월/2025-02-24 ( 입학식 + 신입생 MT).md",
     "2025-02-25.md",
     "2025년/학부연구생/2월/4주차/img/densenet121.png",
-    "2025년/학부연구생/2월/4주차/img/EfficientNet-B0.jpg",
     "2025년/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
     "2025년/학부연구생/2월/3주차/2025-02-17 (보고서 정리 +  개인공부(NLP-1).md",
     "2025년/학부연구생/2월/3주차/2025-02-18 (랩미팅).md",
