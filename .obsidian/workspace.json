@@ -11,12 +11,14 @@
             "id": "75c70a4278ad0038",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2025년/학부연구생/2월/4주차/img/densenet121.png"
+                "file": "2025년/학부연구생/2월/4주차/2025-02-25 (Model 공부).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "densenet121"
+              "icon": "lucide-file",
+              "title": "2025-02-25 (Model 공부)"
             }
           }
         ]
@@ -184,12 +186,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "75c70a4278ad0038",
   "lastOpenFiles": [
-    "2025년/학부연구생/2월/4주차/2025-02-25.md",
+    "2025년/학부연구생/2월/4주차/img/densenet121.png",
+    "2025년/학부연구생/2월/4주차/2025-02-25 (Model 공부).md",
     "2025년/학부연구생/2월/4주차/img/EfficientNet-B0.jpg",
     "2025년/학부연구생/2월/4주차/img/mobilenetv2.png",
-    "2025년/학부연구생/2월/4주차/img/densenet121.png",
     "2025년/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
     "2025년/학부연구생/2월/3주차/2025-02-17 (보고서 정리 +  개인공부(NLP-1).md",
     "2025년/학부연구생/2월/3주차/2025-02-18 (랩미팅).md",
