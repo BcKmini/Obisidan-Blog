@@ -173,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +186,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e28d60d2216d20b0",
+  "active": "4b5aca49b4aea188",
   "lastOpenFiles": [
     "2025년/학부연구생/2월/4주차/pdf/dentity Mappings in Deep Residual Networks.pdf",
     "2025년/학부연구생/2월/3주차/2025-02-23 (HAM10000데이터셋 보고서 작성).md",
