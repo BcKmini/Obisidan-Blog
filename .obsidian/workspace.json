@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7ba0f94f380e0543",
+        "id": "56285d1597544837",
         "type": "tabs",
         "children": [
           {
-            "id": "e28d60d2216d20b0",
+            "id": "e873cbab02370ad3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-02-26.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-02-26"
+              "title": "새 탭"
             }
           }
         ]
@@ -187,10 +183,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e28d60d2216d20b0",
+  "active": "e873cbab02370ad3",
   "lastOpenFiles": [
-    "2025년/학부연구생/2월/4주차/2025-02-26 (나노랩 최종 + 랩미팅).md",
     "2025-02-26.md",
+    "2025년/학부연구생/2월/4주차/2025-02-26 (나노랩 최종 + 랩미팅).md",
     "2025년/학부연구생/2월/4주차/pdf/dentity Mappings in Deep Residual Networks.pdf",
     "2025년/학부연구생/2월/3주차/2025-02-23 (HAM10000데이터셋 보고서 작성).md",
     "2025년/학부연구생/2월/3주차/2025-02-17 (보고서 정리 +  개인공부(NLP-1).md",
