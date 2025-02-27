@@ -23,14 +23,12 @@
             "id": "59fe12e228641ab4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2025년/학부연구생/2월/4주차/2025-02-27 (랩미팅).md",
-                "mode": "source",
-                "source": false
+                "file": "2025년/학부연구생/2월/4주차/pdf/Deep Residual Learning for Image Recognition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2025-02-27 (랩미팅)"
+              "icon": "lucide-file-text",
+              "title": "Deep Residual Learning for Image Recognition"
             }
           }
         ],
@@ -202,10 +200,11 @@
   },
   "active": "59fe12e228641ab4",
   "lastOpenFiles": [
+    "2025년/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
+    "2025년/학부연구생/2월/4주차/2025-02-27 (랩미팅).md",
     "2025년/학부연구생/2월/4주차/pdf/Deep Residual Learning for Image Recognition.pdf",
     "2025년/학부연구생/2월/4주차/pdf/dentity Mappings in Deep Residual Networks.pdf",
     "2025년/학부연구생/2월/4주차/pdf/Densely Connected Convolutional Networks.pdf",
-    "2025년/학부연구생/2월/4주차/2025-02-27 (랩미팅).md",
     "2025년/학부연구생/2월/4주차/2025-02-25 (Model 공부).md",
     "2025년/학부연구생/2월/4주차/2025-02-24 (HAM10000 전처리과정 ).md",
     "2025년/학부연구생/2월/3주차/2025-02-23 (HAM10000데이터셋 보고서 작성).md",
@@ -233,7 +232,6 @@
     "2025년/학생회/2월/2025-02-24 ( 입학식 + 신입생 MT).md",
     "2025-02-25.md",
     "2025년/학부연구생/2월/4주차/img/densenet121.png",
-    "2025년/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
     "2025년/학부연구생/2월/4주차/img",
     "무제.canvas",
     "2025년/학생회/2월/2025-02-19 (입학식 + OT 비대면 회의).md",
