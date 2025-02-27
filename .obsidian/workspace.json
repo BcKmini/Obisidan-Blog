@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a0bcb65f962f791c",
+        "id": "73f20b46e84918a8",
         "type": "tabs",
         "children": [
           {
-            "id": "5ce6506875b673c4",
+            "id": "61e9117733b65c54",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2025년/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf"
+                "file": "2025년/개인공부/2월/3주차/2025-02-17 ( NLP 참고사항).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE"
+              "icon": "lucide-file",
+              "title": "2025-02-17 ( NLP 참고사항)"
             }
           }
         ]
@@ -184,8 +186,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b5aca49b4aea188",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "2025년/개인공부/2월/3주차/2025-02-17(자연어 처리 기초 - 토큰화).md",
+    "2025년/개인공부/2월/3주차/2025-02-17 ( NLP 참고사항).md",
+    "2025년/개인공부/2월/2주차/2025-02-10 (딥러닝 파이토치 문서).md",
+    "2025년/개인공부/2월/2주차/2025-02-12  ~ (Convolutional Neural Networks for Sentence Classification).md",
+    "2025년/학부연구생/1월/3주차/2025-01-17 (대시보드_V1).md",
+    "2025년/학부연구생/논문/Reanet",
+    "2025년/학부연구생/1월/3주차/2025-01-16 (Streamlit).md",
+    "2025년/학부연구생/1월/3주차/2025-01-15 (DB 라벨링 작업).md",
+    "2025년/학부연구생/1월/3주차/2025-01-14 (요구사항 회의, Fastapi + HTTP).md",
+    "2025년/학부연구생/1월/3주차/2025-01-13 (React).md",
+    "2025년/학부연구생/1월/2주차/2025-01-09 (FastAPi).md",
+    "2025년/학부연구생/1월/2주차/2025-01-08 (시작).md",
+    "2025년/학부연구생/2월/2주차/2025-02-10-1 (ML 용어정리).md",
+    "2025년/학부연구생/2월/2주차/2025-02-10-2 (라즈베이파이 GPIO제어).md",
+    "2025년/학부연구생/2월/2주차/2025-02-14 (Use Case Diagram).md",
+    "2025년/학부연구생/2월/2주차/2025-02-11 (라즈베이파이 INA219 연결).md",
+    "2025년/강의+책/2월/3주차/2025-02-19 (C++학습).md",
+    "2025년/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
     "2025년/학부연구생/2월/4주차/2025-02-24 (HAM10000 전처리과정 ).md",
     "2025년/학부연구생/논문/Ham10000/pdf/Deep Residual Learning for Image Recognition.pdf",
     "2025년/학부연구생/논문/Ham10000/pdf/Densely Connected Convolutional Networks.pdf",
@@ -193,10 +213,8 @@
     "2025년/학부연구생/논문/Ham10000/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
     "2025년/학부연구생/논문/Ham10000/pdf",
     "2025년/학부연구생/논문/Ham10000/무제 폴더",
-    "2025년/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
     "2025년/학부연구생/2월/4주차/pdf/무제",
     "2025년/학부연구생/2월/4주차/pdf/dentity Mappings in Deep Residual Networks.pdf",
-    "pdf",
     "2025년/학부연구생/2월/4주차/2025-02-25 (Model 공부).md",
     "2025년/학부연구생/2월/4주차/2025-02-26 (나노랩 최종  +  신입생 입학식 참여).md",
     "2025년/학부연구생/2월/4주차/2025-02-27 (랩미팅).md",
@@ -212,25 +230,10 @@
     "2025년/학부연구생/2월/3주차/2025-02-18 (랩미팅).md",
     "2025년/학부연구생/2월/3주차/2025-02-23 (HAM10000데이터셋 보고서 작성).md",
     "2025년/학부연구생/2월/3주차/2025-02-19 (나노랩).md",
-    "2025년/학부연구생/2월/3주차/2025-02-17 (보고서 정리 +  개인공부(NLP-1).md",
-    "2025년/학부연구생/2월/2주차/2025-02-14 (Use Case Diagram).md",
-    "2025년/학부연구생/2월/2주차/2025-02-12 (나노랩).md",
-    "2025년/학부연구생/2월/2주차/2025-02-13.md",
-    "2025년/학부연구생/2월/2주차/2025-02-11 (라즈베이파이 INA219 연결).md",
-    "2025년/학부연구생/2월/2주차/2025-02-10-1 (ML 용어정리).md",
-    "2025년/학부연구생/2월/2주차/2025-02-10-2 (라즈베이파이 GPIO제어).md",
     "Pasted image 20250227152048.png",
     "Pasted image 20250227152238.png",
     "Pasted image 20250227152224.png",
-    "2025년/학부연구생/논문/2월/3주차/2025-02-17 ( NLP 참고사항).md",
-    "2025년/Techblog/당근/2월/2주차/2025-02-12.md",
-    "2025년/학부연구생/논문/2월/2주차/2025-02-12  ~ (Convolutional Neural Networks for Sentence Classification).md",
-    "2025-02-26.md",
-    "2025년/멘토멘티/장학금 관련(에타참고).md",
-    "2025년/멘토멘티/Doc/2025-02-25 (2회차 멘토멘티 비대면 회의).md",
-    "2025년/멘토멘티/Doc/2025-02-24 (1회차 멘토멘티 비대면 회의).md",
     "2025년/멘토멘티/Doc/2회차/img/2회차.jpeg",
-    "2025년/멘토멘티/동아리.md",
     "무제.canvas"
   ]
 }
