@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "73f20b46e84918a8",
+        "id": "37a64af1a1c87b30",
         "type": "tabs",
         "children": [
           {
-            "id": "61e9117733b65c54",
+            "id": "0b887a7898f9c6a7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2025년/학부연구생/논문/Reanet/pdf/Deep Residual Learning for Image Recognition.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Deep Residual Learning for Image Recognition"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
