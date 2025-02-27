@@ -11,12 +11,12 @@
             "id": "5ce6506875b673c4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "2025년/학부연구생/논문/Ham10000/img/Pasted image 20250227152532.png"
+                "file": "2025년/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf"
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250227152532"
+              "icon": "lucide-file-text",
+              "title": "AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE"
             }
           }
         ]
@@ -186,19 +186,28 @@
   },
   "active": "4b5aca49b4aea188",
   "lastOpenFiles": [
-    "2025년/학부연구생/논문/Ham10000/img/Pasted image 20250227152539.png",
-    "2025년/학부연구생/논문/Ham10000/img/Pasted image 20250227152532.png",
-    "2025년/학부연구생/논문/Ham10000/img",
+    "2025년/학부연구생/2월/4주차/2025-02-24 (HAM10000 전처리과정 ).md",
+    "2025년/학부연구생/논문/Ham10000/pdf/Deep Residual Learning for Image Recognition.pdf",
+    "2025년/학부연구생/논문/Ham10000/pdf/Densely Connected Convolutional Networks.pdf",
+    "2025년/학부연구생/논문/Ham10000/pdf/dentity Mappings in Deep Residual Networks.pdf",
+    "2025년/학부연구생/논문/Ham10000/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
+    "2025년/학부연구생/논문/Ham10000/pdf",
+    "2025년/학부연구생/논문/Ham10000/무제 폴더",
+    "2025년/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
+    "2025년/학부연구생/2월/4주차/pdf/무제",
+    "2025년/학부연구생/2월/4주차/pdf/dentity Mappings in Deep Residual Networks.pdf",
+    "pdf",
+    "2025년/학부연구생/2월/4주차/2025-02-25 (Model 공부).md",
+    "2025년/학부연구생/2월/4주차/2025-02-26 (나노랩 최종  +  신입생 입학식 참여).md",
+    "2025년/학부연구생/2월/4주차/2025-02-27 (랩미팅).md",
+    "2025년/학생회/2월/2025-02-19 (입학식 + OT 비대면 회의).md",
     "2025년/학부연구생/논문/Ham10000/Ham10000 보고서.md",
-    "2025년/학부연구생/논문/Ham10000/ham.ipynb",
+    "2025년/학부연구생/논문/Ham10000/img/Pasted image 20250227152532.png",
+    "2025년/학부연구생/논문/Ham10000/img/Pasted image 20250227152539.png",
     "2025년/학부연구생/논문/Ham10000/img/Pasted image 20250227152548.png",
     "2025년/학부연구생/논문/Ham10000/img/Pasted image 20250227152535.png",
-    "2025년/학부연구생/2월/4주차/2025-02-27 (랩미팅).md",
     "Pasted image 20250227152326.png",
     "Pasted image 20250227152331.png",
-    "2025년/학부연구생/2월/4주차/2025-02-26 (나노랩 최종  +  신입생 입학식 참여).md",
-    "2025년/학부연구생/2월/4주차/2025-02-25 (Model 공부).md",
-    "2025년/학부연구생/2월/4주차/2025-02-24 (HAM10000 전처리과정 ).md",
     "2025년/학부연구생/2월/3주차/2025-02-20 (라벨링).md",
     "2025년/학부연구생/2월/3주차/2025-02-18 (랩미팅).md",
     "2025년/학부연구생/2월/3주차/2025-02-23 (HAM10000데이터셋 보고서 작성).md",
@@ -213,24 +222,15 @@
     "Pasted image 20250227152048.png",
     "Pasted image 20250227152238.png",
     "Pasted image 20250227152224.png",
-    "2025년/학부연구생/논문/2월/2주차/pdf/조류 분변 발자국 현장 식별 보고서.pdf",
-    "2025년/학부연구생/논문/Ham10000/보고서",
-    "2025년/학부연구생/논문/Ham10000",
-    "2025년/학부연구생/논문/Pytorch Tutorial",
-    "2025년/학부연구생/논문/Cat&Dog",
-    "2025년/학부연구생/논문/2월/2주차/pdf/NLP_ML.pdf",
     "2025년/학부연구생/논문/2월/3주차/2025-02-17 ( NLP 참고사항).md",
     "2025년/Techblog/당근/2월/2주차/2025-02-12.md",
     "2025년/학부연구생/논문/2월/2주차/2025-02-12  ~ (Convolutional Neural Networks for Sentence Classification).md",
-    "2025년/학부연구생/2월/4주차/pdf/Densely Connected Convolutional Networks.pdf",
-    "2025년/학부연구생/2월/4주차/pdf/Deep Residual Learning for Image Recognition.pdf",
     "2025-02-26.md",
     "2025년/멘토멘티/장학금 관련(에타참고).md",
     "2025년/멘토멘티/Doc/2025-02-25 (2회차 멘토멘티 비대면 회의).md",
     "2025년/멘토멘티/Doc/2025-02-24 (1회차 멘토멘티 비대면 회의).md",
     "2025년/멘토멘티/Doc/2회차/img/2회차.jpeg",
     "2025년/멘토멘티/동아리.md",
-    "2025년/학생회/2월/2025-02-24 ( 입학식 + 신입생 MT).md",
     "무제.canvas"
   ]
 }
