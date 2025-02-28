@@ -119,8 +119,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화돼있지 않음"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -182,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "b3d6222502624410",
   "lastOpenFiles": [
     "2024/3-1_summer/7-18 지도학습, 비지도학습 알고리즘.md",
     "2025/학부연구생/2월/4주차/2025-02-27 (랩미팅).md",
