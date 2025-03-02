@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "09cc5747f4945d73",
+        "id": "f2bff98445dcf433",
         "type": "tabs",
         "children": [
           {
-            "id": "b3d6222502624410",
+            "id": "4ea8d0b3b6e828ef",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2025/멘토멘티/Doc/3회차/3회차-2.jpg"
+                "file": "2025/학부연구생/논문/Reanet/2025-03-02 (Resnet 공식 풀이하기).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "3회차-2"
+              "icon": "lucide-file",
+              "title": "2025-03-02 (Resnet 공식 풀이하기)"
             }
           }
         ]
@@ -173,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,20 +189,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3d6222502624410",
+  "active": "4ea8d0b3b6e828ef",
   "lastOpenFiles": [
+    "2025/학부연구생/논문/Reanet/2025-02-28 (논문 읽기 및 모델 훈련).md",
+    "2025/학부연구생/논문/Reanet/img/스크린샷 2025-03-02 15.24.38.png",
+    "2025/학부연구생/논문/Reanet/2025-03-02 (Resnet 공식 풀이하기).md",
+    "2025/멘토멘티/Doc/2025-03-01 (3회차 멘토멘티 비대면 회의).md",
+    "2025/멘토멘티/Doc/3회차/3회차-2.jpg",
     "2025/멘토멘티/Doc/3회차/3회차-1.jpg",
     "2025/멘토멘티/Doc/3회차/3회차.jpg",
     "2025/멘토멘티/Doc/3회차",
-    "2025/멘토멘티/Doc/2025-03-01 (3회차 멘토멘티 비대면 회의).md",
-    "2025/멘토멘티/Doc/3회차/3회차-2.jpg",
     "2025/멘토멘티/Doc/2025-02-25 (2회차 멘토멘티 비대면 회의).md",
     "2025/멘토멘티/Doc/2025-02-24 (1회차 멘토멘티 비대면 회의).md",
     "2025/멘토멘티/동아리.md",
     "2025/멘토멘티/장학금 관련(2023 요람).md",
     "2025/학부연구생/2월/3주차/2025-02-19 (나노랩).md",
     "2025/학부연구생/2월/3주차/2025-02-18 (랩미팅).md",
-    "2025/학부연구생/논문/Reanet/2025-02-28 (논문 읽기 및 모델 훈련).md",
     "2025/개인공부/2월/3주차/2025-02-28 (딥러닝 오픈).md",
     "2025/개인공부/2월/3주차/2025-02-17(자연어 처리 기초 - 토큰화).md",
     "2025/학부연구생/논문/Reanet/pdf/Deep Residual Learning for Image Recognition - He_Deep_Residual_Learning_CVPR_2016_paper.pdf",
@@ -226,14 +231,11 @@
     "2025/학부연구생/논문/Cat&Dog/dataset.ipynb",
     "2025/학부연구생/논문/Cat&Dog/best_model.pth",
     "2025/학부연구생/논문/Ham10000/pdf/The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions - 1803.10417v3.pdf",
-    "2025/개인공부/2월/3주차/2025-02-17 ( NLP 참고사항).md",
     "2025/학부연구생/논문/Ham10000/img/Pasted image 20250227152532.png",
     "2025/학부연구생/논문/Ham10000/img/Pasted image 20250227152539.png",
     "2025/학부연구생/논문/Ham10000/img/Pasted image 20250227152548.png",
     "2025/학부연구생/논문/Ham10000/img/Pasted image 20250227152535.png",
     "Pasted image 20250227152326.png",
-    "Pasted image 20250227152331.png",
-    "Pasted image 20250227152048.png",
     "무제.canvas"
   ]
 }
