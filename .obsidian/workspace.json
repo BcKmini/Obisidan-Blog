@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ea8d0b3b6e828ef",
+  "active": "4b5aca49b4aea188",
   "lastOpenFiles": [
     "2025/학부연구생/논문/Reanet/2025-02-28 (논문 읽기 및 모델 훈련).md",
     "2025/학부연구생/논문/Reanet/img/스크린샷 2025-03-02 15.24.38.png",
