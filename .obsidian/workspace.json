@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "019211d7281edf1b",
+        "id": "b33026b7e15b65cc",
         "type": "tabs",
         "children": [
           {
-            "id": "d6de55da1faa9828",
+            "id": "96fa893d053b3c88",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025/학부연구생/논문/Reanet/2025-03-03 (Resnet 보고서 초안).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-03-03 (Resnet 보고서 초안)"
+              "title": "새 탭"
             }
           }
         ]
@@ -188,11 +184,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6de55da1faa9828",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "2025/학부연구생/논문/Reanet/2025-03-03 (Resnet 보고서 초안).md",
     "2025/학부연구생/논문/Reanet/2025-03-02 (Resnet 공부).md",
     "2025/학부연구생/논문/Reanet/img/Pasted image 20250303123023.png",
-    "2025/학부연구생/논문/Reanet/2025-03-03 (Resnet 보고서 초안).md",
     "2025/학부연구생/논문/Reanet/img/Pasted image 20250303123108.png",
     "2025/학부연구생/논문/Reanet/img/Pasted image 20250303123059.png",
     "2025/학부연구생/논문/Reanet/img/Pasted image 20250303123055.png",
