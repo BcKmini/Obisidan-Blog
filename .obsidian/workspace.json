@@ -133,8 +133,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화돼있지 않음"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59b35871bdce0f24",
+  "active": "4b5aca49b4aea188",
   "lastOpenFiles": [
     "2025/학부연구생/논문/Reanet/img/3번.png",
     "2025/학부연구생/논문/Reanet/2025-03-04 ( PlainCNN vs ResNet vs VGG, CIFAR-100).md",
