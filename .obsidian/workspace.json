@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/학부연구생/논문/Reanet/2025-03-04 ( PlainCNN vs ResNet vs VGG, CIFAR-100).md",
+                "file": "2025/학부연구생/논문/Reanet/2025-03-04 (PlainCNN vs ResNet vs VGG, CIFAR-100).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-04 ( PlainCNN vs ResNet vs VGG, CIFAR-100)"
+              "title": "2025-03-04 (PlainCNN vs ResNet vs VGG, CIFAR-100)"
             }
           }
         ]
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,10 +189,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b5aca49b4aea188",
+  "active": "59b35871bdce0f24",
   "lastOpenFiles": [
     "2025/학부연구생/논문/Reanet/img/3번.png",
-    "2025/학부연구생/논문/Reanet/2025-03-04 ( PlainCNN vs ResNet vs VGG, CIFAR-100).md",
+    "2025/학부연구생/논문/Reanet/2025-03-04 (PlainCNN vs ResNet vs VGG, CIFAR-100).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/1주차/2025-03-04 (OT).md",
     "2025/학부연구생/논문/Reanet/2025-03-03 (Resnet 보고서 초안).md",
     "2025/학부연구생/논문/Reanet/2025-03-02 (Resnet 공부).md",
