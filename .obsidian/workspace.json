@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "59b35871bdce0f24",
   "lastOpenFiles": [
     "2025/멘토멘티/Doc/대면",
     "2025/멘토멘티/Doc/비대면",
