@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/4학년1학기/운영체제 - 김정환/1주차/2025-03-05 (OT).md",
+                "file": "2025/4학년1학기/소프트웨어종합설계 - 이철원/1주차/2025-03-04 (OT).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-05 (OT)"
+              "title": "2025-03-04 (OT)"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "7f7b821c8e63a5d4",
@@ -176,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,10 +188,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59b35871bdce0f24",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
-    "2025/멘토멘티/Doc/대면/6회차/2025-03-05 (6회차).md",
     "2025/4학년1학기/운영체제 - 김정환/1주차/2025-03-05 (OT).md",
+    "2025/멘토멘티/Doc/대면/6회차/2025-03-05 (6회차).md",
     "2025/4학년1학기/운영체제 - 김정환/1주차",
     "2025/4학년1학기/운영체제 - 김정환",
     "2025/멘토멘티/장학금 관련(에타참고).md",
