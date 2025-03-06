@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "bdc6eb2dbe2b1809",
   "lastOpenFiles": [
     "2025/학부연구생/3월/1주차/pdf/유로 호라이즌 제안서 클론 PPT.pdf",
     "2025/학부연구생/3월/1주차/pdf",
