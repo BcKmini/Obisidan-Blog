@@ -11,10 +11,12 @@
             "id": "03f1d35ed1c875e4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "pdf",
+              "state": {
+                "file": "2025/학부연구생/3월/1주차/PPT-Reference/유로 호라이즌 제안서 클론 PPT.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "유로 호라이즌 제안서 클론 PPT"
             }
           }
         ]
@@ -184,12 +186,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b5aca49b4aea188",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
     "2025/학부연구생/3월/1주차/ppt/찬빙...rtf",
     "2025/학부연구생/3월/1주차/ppt/제안서 - 김성인.pptx",
-    "2025/학부연구생/3월/1주차/ppt/유로 호라이즌 제안서 클론 PPT.pdf",
-    "2025/학부연구생/3월/1주차/ppt/유로 호라이즌 제안서 클론 PPT-1.pdf",
+    "2025/학부연구생/3월/1주차/PPT-Reference/유로 호라이즌 제안서 클론 PPT.pdf",
+    "2025/학부연구생/3월/1주차/PPT-Reference/유로 호라이즌 제안서 클론 PPT-1.pdf",
     "2025/학부연구생/3월/1주차/PPT-Reference",
     "2025/학생회/3월/img/Pasted image 20250306170831.png",
     "2025/학부연구생/3월/1주차/2025-03-06 (제안서 PPT).md",
