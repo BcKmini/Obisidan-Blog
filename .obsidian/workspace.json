@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b5aca49b4aea188",
+  "active": "4c3812eb8f7beb17",
   "lastOpenFiles": [
     "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
     "2025/학생회/3월/2025-03-06 (신입생 MT 공지 추가).md",
