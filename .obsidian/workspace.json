@@ -159,7 +159,8 @@
               "title": "나가는 링크"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ed7b953151c6d078",
@@ -192,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ffff03bd0255548c",
+  "active": "4b5aca49b4aea188",
   "lastOpenFiles": [
     "2025/학생회/학생회.md",
     "2025/학부연구생/3월/2주차/2025-03-11.md",
