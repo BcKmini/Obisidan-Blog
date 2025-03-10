@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
+                "file": "2025/학생회/3월/2025-03-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-03 (신입생 MT 공지)"
+              "title": "2025-03-10"
             }
           }
         ]
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
+                "file": "2025/학생회/3월/2025-03-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-03-03 (신입생 MT 공지) 의 개요"
+              "title": "2025-03-10 의 개요"
             }
           },
           {
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
+                "file": "2025/학생회/3월/2025-03-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-03-03 (신입생 MT 공지) 의 백링크"
+              "title": "2025-03-10 의 백링크"
             }
           },
           {
@@ -164,12 +164,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
+                "file": "2025/학생회/3월/2025-03-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-03-03 (신입생 MT 공지) 의 나가는 링크"
+              "title": "2025-03-10 의 나가는 링크"
             }
           }
         ],
@@ -206,8 +206,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5073808b317ff4cb",
+  "active": "9f802cfa21f0ff33",
   "lastOpenFiles": [
+    "Vault.md",
+    "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
+    "2025/학생회/3월/2025-03-10.md",
     "2025/학생회/3월/2025-03-10 (개강총회 - 학생회모집).md",
     "2025/학생회/학생회.md",
     "2025/무제.md",
@@ -215,7 +218,6 @@
     "2025/개인공부/개인공부.md",
     "무제.md",
     "2025-03-11.md",
-    "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
     "2025/학부연구생/3월/1주차/pdf/유로 호라이즌 제안서 완성본.pdf",
     "2025/멘토멘티/장학금 관련(2023 요람).md",
     "2025/멘토멘티/동아리.md",
@@ -252,8 +254,6 @@
     "2025/4학년1학기/운영체제 - 김정환/2주차",
     "2025/학생회/3월/img/Pasted image 20250306170831.png",
     "2025/학생회/2월/2025-02-24 (입학식 + 신입생 MT).md",
-    "2025/학생회/2월/2025-02-19 (입학식 + OT 비대면 회의).md",
-    "2025/멘토멘티/Doc/대면/6회차/2025-03-05 (6회차).md",
     "무제.canvas"
   ]
 }
