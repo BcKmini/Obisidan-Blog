@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b5292b17005fc616",
+        "id": "dfadc239b247ac8d",
         "type": "tabs",
         "children": [
           {
-            "id": "02094016a4a69db3",
+            "id": "5073808b317ff4cb",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "2025/개인공부/1월"
+                "file": "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "1월"
+              "title": "2025-03-03 (신입생 MT 공지)"
             }
           }
         ]
@@ -118,22 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
-            }
-          },
-          {
-            "id": "ae0458977c61ac21",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화돼있지 않음"
+              "title": "2025-03-03 (신입생 MT 공지) 의 개요"
             }
           },
           {
@@ -152,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025/멘토멘티/Doc/2025-03-01 (3회차 멘토멘티 비대면 회의).md",
+                "file": "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-03-01 (3회차 멘토멘티 비대면 회의) 의 백링크"
+              "title": "2025-03-03 (신입생 MT 공지) 의 백링크"
             }
           },
           {
@@ -171,16 +164,32 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025/멘토멘티/Doc/2025-03-01 (3회차 멘토멘티 비대면 회의).md",
+                "file": "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-03-01 (3회차 멘토멘티 비대면 회의) 의 나가는 링크"
+              "title": "2025-03-03 (신입생 MT 공지) 의 나가는 링크"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "ed7b953151c6d078",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae0458977c61ac21",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -197,23 +206,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "02094016a4a69db3",
+  "active": "5073808b317ff4cb",
   "lastOpenFiles": [
+    "2025/학생회/3월/2025-03-10 (개강총회 - 학생회모집).md",
+    "2025/학생회/학생회.md",
+    "2025/무제.md",
+    "2025/4학년1학기/4학년1학기.md",
     "2025/개인공부/개인공부.md",
+    "무제.md",
+    "2025-03-11.md",
+    "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
+    "2025/학부연구생/3월/1주차/pdf/유로 호라이즌 제안서 완성본.pdf",
     "2025/멘토멘티/장학금 관련(2023 요람).md",
     "2025/멘토멘티/동아리.md",
     "2025/멘토멘티/장학금 관련(에타참고).md",
-    "2025/4학년1학기/4학년1학기.md",
-    "2025/학생회/학생회.md",
     "2025/멘토멘티/멘토멘티.md",
-    "2025/학생회/3월/2025-03-10 (개강총회 - 학생회모집).md",
-    "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
     "2025/2025.md",
-    "2025/학부연구생/3월/1주차/pdf/유로 호라이즌 제안서 완성본.pdf",
     "2025/학생회/3월/2025-03-06 (신입생 MT 공지 추가).md",
     "2025/학부연구생/학부연구생.md",
     "2024/2024.md",
-    "무제.md",
     "spaces:/#출력층",
     "spaces:",
     "2025/4학년1학기/운영체제 - 김정환/1주차/2025-03-05 (OT).md",
@@ -243,8 +254,6 @@
     "2025/학생회/2월/2025-02-24 (입학식 + 신입생 MT).md",
     "2025/학생회/2월/2025-02-19 (입학식 + OT 비대면 회의).md",
     "2025/멘토멘티/Doc/대면/6회차/2025-03-05 (6회차).md",
-    "2025/멘토멘티/Doc/비대면/1, 2회차/2025-02-25 (2회차 멘토멘티 비대면 회의).md",
-    "2025/멘토멘티/Doc/비대면/1, 2회차/2025-02-24 (1회차 멘토멘티 비대면 회의).md",
     "무제.canvas"
   ]
 }
