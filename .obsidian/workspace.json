@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "98a401191702a542",
+        "id": "818539b0c8d7148c",
         "type": "tabs",
         "children": [
           {
-            "id": "1f8979f1429e1f3f",
+            "id": "3dd2efa78e13e42a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "무제"
             }
           }
         ]
@@ -195,10 +199,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f8979f1429e1f3f",
+  "active": "3dd2efa78e13e42a",
   "lastOpenFiles": [
-    "2025/4학년1학기/운영체제 - 김정환/1주차/2025-03-05 (OT).md",
+    "무제.md",
+    "spaces:/#출력층",
+    "spaces:",
     "2025/2025.md",
+    "2025/4학년1학기/운영체제 - 김정환/1주차/2025-03-05 (OT).md",
     "Tags",
     "2025/학부연구생/3월/1주차/pdf/유로 호라이즌 제안서 클론 PPT.pdf",
     "2025/학부연구생/3월/1주차/pdf/유로 호라이즌 제안서 완성본.pdf",
@@ -225,8 +232,6 @@
     "2025/4학년1학기/운영체제 - 김정환/2주차/pdf",
     "무제",
     "2025/4학년1학기/운영체제 - 김정환/2주차",
-    "2025/학부연구생/3월/1주차/PPT-Reference/유로 호라이즌 제안서 클론 PPT.pdf",
-    "2025/학부연구생/3월/1주차/ppt/찬빙...rtf",
     "2025/학생회/3월/img/Pasted image 20250306170831.png",
     "2025/학생회/2월/2025-02-24 (입학식 + 신입생 MT).md",
     "2025/학생회/2월/2025-02-19 (입학식 + OT 비대면 회의).md",
@@ -242,7 +247,6 @@
     "2025/학부연구생/논문/Reanet/2025-02-28 (논문 읽기 및 모델 훈련).md",
     "2025/학부연구생/논문/Reanet/2025-03-02 (Resnet 공부).md",
     "2025/학부연구생/논문/Reanet/2025-03-03 (Resnet 보고서 초안).md",
-    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/code/readme.md",
     "무제.canvas"
   ]
 }
