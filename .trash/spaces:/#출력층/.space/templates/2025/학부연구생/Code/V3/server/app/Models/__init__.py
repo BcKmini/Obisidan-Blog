@@ -1,3 +1,0 @@
-from app.Models.repellent_data_model import RepellentData
-from app.Models.repellent_device_model import RepellentDevice
-from app.Models.repellent_sound_model import RepellentSound
