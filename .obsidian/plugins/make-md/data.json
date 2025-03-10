@@ -35,10 +35,14 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//spaces:",
     "//spaces:/spaces:/#출력층",
-    "//Tags"
+    "//Tags",
+    "/",
+    "//2025",
+    "//2025/2025/학생회/2025/학생회/3월",
+    "//2025/2025/개인공부",
+    "//2025/2025/개인공부/2025/개인공부/1월"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
