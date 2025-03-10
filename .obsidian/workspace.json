@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dfadc239b247ac8d",
+        "id": "d065dd60af1cbc39",
         "type": "tabs",
         "children": [
           {
-            "id": "5073808b317ff4cb",
+            "id": "ec501706cff4d877",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -73,19 +73,8 @@
               "icon": "lucide-search",
               "title": "검색"
             }
-          },
-          {
-            "id": "9f802cfa21f0ff33",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -120,13 +109,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/학생회/3월/2025-03-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-03-10 의 개요"
+              "title": "개요"
             }
           },
           {
@@ -145,7 +133,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025/학생회/3월/2025-03-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-03-10 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -164,12 +151,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025/학생회/3월/2025-03-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-03-10 의 나가는 링크"
+              "title": "나가는 링크"
             }
           }
         ],
@@ -206,11 +192,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f802cfa21f0ff33",
+  "active": "ec501706cff4d877",
   "lastOpenFiles": [
-    "Vault.md",
     "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
     "2025/학생회/3월/2025-03-10.md",
+    "Vault.md",
     "2025/학생회/3월/2025-03-10 (개강총회 - 학생회모집).md",
     "2025/학생회/학생회.md",
     "2025/무제.md",
