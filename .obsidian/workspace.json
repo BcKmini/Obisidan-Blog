@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6345390c094a2718",
+        "id": "500e8e84259292ca",
         "type": "tabs",
         "children": [
           {
-            "id": "dd355bf02cfee4ea",
+            "id": "b99fa0f53a0c5ecd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2025/학부연구생/논문/Reanet/pdf/Deep Residual Learning for Image Recognition-Review.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Deep Residual Learning for Image Recognition-Review"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -191,28 +189,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "b99fa0f53a0c5ecd",
   "lastOpenFiles": [
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/pdf/가짜동전문제 개선.pdf",
+    "2025/4학년1학기/운영체제 - 김정환/2주차/2025-03-10 (컴퓨터 역사).md",
+    "2025/학생회/3월/2025-03-10 (개강총회 + 학생회모집).md",
+    "2025/학부연구생/논문/Reanet/pdf/Deep Residual Learning for Image Recognition-Review.pdf",
     "2025/학부연구생/논문/Ham10000/H10000 보고서.pdf",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/Resume/202020827_Resume(국).pdf",
     "2025/학부연구생/논문/Ham10000/Ham10000 보고서.md",
-    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/pdf/가짜동전문제 개선.pdf",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/pdf",
     "2025/학부연구생/논문/Ham10000/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
     "2025/학부연구생/논문/Ham10000/pdf/Densely Connected Convolutional Networks.pdf",
     "2025/학부연구생/논문/Ham10000/pdf/dentity Mappings in Deep Residual Networks.pdf",
     "2025/학부연구생/논문/Ham10000/pdf/The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions - 1803.10417v3.pdf",
     "2025/학부연구생/논문/Reanet/pdf/Deep Residual Learning for Image Recognition - He_Deep_Residual_Learning_CVPR_2016_paper.pdf",
-    "2025/학부연구생/논문/Reanet/pdf/Deep Residual Learning for Image Recognition-Review.pdf",
     "2025/학부연구생/3월/2주차/2025-03-11 (랩미팅).md",
-    "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/202020827_Resume(국).docx",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/2025-03-11 (알고리즘이란?).md",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/img/스크린샷 2025-03-11 12.09.36.png",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/img/스크린샷 2025-03-11 12.21.47.png",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/img/스크린샷 2025-03-11 12.12.12.png",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/img/스크린샷 2025-03-11 12.06.57.png",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/2025-03-10 (목차).md",
-    "2025/4학년1학기/운영체제 - 김정환/2주차/2025-03-10 (컴퓨터 역사).md",
     "2025/4학년1학기/운영체제 - 김정환/2주차/img/스크린샷 2025-03-10 23.57.27.png",
     "2025/4학년1학기/운영체제 - 김정환/2주차/img/스크린샷 2025-03-10 16.06.00.png",
     "2025/4학년1학기/운영체제 - 김정환/2주차/img/스크린샷 2025-03-10 23.48.27.png",
@@ -225,7 +223,6 @@
     "2025/4학년1학기/4학년1학기.md",
     "2025/개인공부/개인공부.md",
     "2024/3-1_summer/7-25 딥러닝 프레임워크.md",
-    "2025/학생회/3월/2025-03-10 (개강총회 + 학생회모집).md",
     "2025-03-09.md",
     "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
     "Vault.md",
