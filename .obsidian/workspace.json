@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ffff03bd0255548c",
+  "active": "4b5aca49b4aea188",
   "lastOpenFiles": [
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/img/스크린샷 2025-03-11 12.09.36.png",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/2주차/2025-03-11 (알고리즘이란?).md",
