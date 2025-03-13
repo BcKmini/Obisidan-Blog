@@ -25,12 +25,14 @@
             "id": "71b256b002054e53",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/2025-03-13 (Resume-피드백).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "2025-03-13 (Resume-피드백)"
             }
           }
         ],
