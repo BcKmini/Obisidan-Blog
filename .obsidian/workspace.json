@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b5a03e603c7c4956",
+        "id": "72442374fef4419f",
         "type": "tabs",
         "children": [
           {
-            "id": "71b256b002054e53",
+            "id": "66607be35ecb6fcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,10 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71b256b002054e53",
+  "active": "66607be35ecb6fcc",
   "lastOpenFiles": [
-    "2025/학부연구생/3월/2주차/2025-03-14.md",
     "2025/학부연구생/3월/2주차/2025-03-13 (우분투 서버 - 웹).md",
+    "2025/학부연구생/3월/2주차/2025-03-11 (랩미팅).md",
+    "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/2025-03-13 (Resume-피드백).md",
+    "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/Resume/202020827_Resume(국).pdf",
+    "2025/학부연구생/3월/2주차/2025-03-14.md",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames/gizmo/frame_90.jpg",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames/gizmo/frame_60.jpg",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames/gizmo/frame_30.jpg",
@@ -212,10 +216,7 @@
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/js",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/css",
-    "2025/학부연구생/Code/CCTV-timeline/CCTV/templates",
     "2025/학부연구생/Code/CCTV-timeline/README.md",
-    "2025/학부연구생/3월/2주차/2025-03-11 (랩미팅).md",
-    "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/2025-03-13 (Resume-피드백).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/img/Resume.jpg",
     "2025/4학년1학기/운영체제 - 김정환/2주차/2025-03-12 (컴퓨터 하드웨어).md",
     "2025/4학년1학기/운영체제 - 김정환/2주차/img/스크린샷 2025-03-12 16.41.43.png",
@@ -240,7 +241,6 @@
     "Vault.md",
     "2025/학생회/3월/2025-03-10 (개강총회 - 학생회모집).md",
     "2025/무제.md",
-    "무제.md",
     "무제.canvas"
   ]
 }
