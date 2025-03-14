@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "af1a258cba600443",
   "lastOpenFiles": [
     "2025/4학년1학기/기계학습 - 백우진/2주차/pdf/pandas1.pdf",
     "2025/4학년1학기/기계학습 - 백우진/2주차/pdf/pandas2.pdf",
