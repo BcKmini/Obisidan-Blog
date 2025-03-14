@@ -59,11 +59,11 @@ def extract_frames():
     
     # 영상 이름으로 폴더 생성
     video_name = video_file.split('.')[0]  # 확장자 제외한 파일 이름
-    frames_folder = os.path.join(app.config['FRAMES_FOLDER'], video_name)  # 영상 이름 폴더에 프레임 저장
+    frames_folder = os.path.join(app.config['FRAMES_FOLDER'], video_name)
     if not os.path.exists(frames_folder):
         os.makedirs(frames_folder)
     
-    print(f"Extracting frames from: {video_path}")  # 프레임 추출 경로 확인
+    print(f"Extracting frames from: {video_path}")
     
     # 영상 파일 열기
     video_capture = cv2.VideoCapture(video_path)
@@ -78,20 +78,19 @@ def extract_frames():
         if not ret:
             break  # 영상 끝나면 종료
 
+        # fps/frame_rate → 1초마다 한 프레임씩 추출
         if frame_count % int(fps / frame_rate) == 0:
-            # 프레임 파일명 생성
             frame_filename = f"frame_{frame_count}.jpg"
             frame_path = os.path.join(frames_folder, frame_filename)
-            
-            # 프레임 이미지 저장
             cv2.imwrite(frame_path, frame)
-            frame_files.append(f'frames/{video_name}/{frame_filename}')  # /static/frames/영상이름/경로 수정
 
-            print(f"Frame saved: {frame_path}")  # 저장된 프레임 경로 출력
+            # 'frames/'를 빼고, video_name/파일명 형식만 JSON으로 넘김
+            frame_files.append(f'{video_name}/{frame_filename}')
+
+            print(f"Frame saved: {frame_path}")
 
         frame_count += 1
 
-    # 영상 파일 닫기
     video_capture.release()
 
     if frame_files:
@@ -100,4 +99,4 @@ def extract_frames():
         return jsonify({"error": "No frames extracted"}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)  # 디버깅 모드에서 서버 실행
+    app.run(debug=True)
