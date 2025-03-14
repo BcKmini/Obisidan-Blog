@@ -11,10 +11,14 @@
             "id": "af1a258cba600443",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025/4학년1학기/기계학습 - 백우진/2주차/2025-03-14.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "2025-03-14"
             }
           }
         ]
@@ -191,6 +195,9 @@
   },
   "active": "af1a258cba600443",
   "lastOpenFiles": [
+    "2025/4학년1학기/기계학습 - 백우진/2주차/2025-03-14.md",
+    "2025/4학년1학기/기계학습 - 백우진/2주차",
+    "2025/4학년1학기/기계학습 - 백우진",
     "2025/학부연구생/Code/CCTV-timeline/README.md",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/uploads/1718848236_Sample_1.mp4",
     "2025/학부연구생/3월/2주차/2025-03-13 (우분투 서버 - 웹).md",
@@ -218,8 +225,6 @@
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/js/app.js",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames/gizmo",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/css/style.css",
-    "2025/학부연구생/Code/CCTV-timeline/CCTV/templates/index.html",
-    "2025/학부연구생/Code/CCTV-timeline/CCTV/static/uploads",
     "2025/학부연구생/3월/1주차/2025-03-06 (제안서 PPT).md",
     "2025/학부연구생/3월/1주차/2025-03-05 (3D모델링-라이노).md",
     "2025/학생회/3월/2025-03-10 (개강총회 + 학생회모집).md",
