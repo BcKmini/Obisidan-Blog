@@ -1,36 +1,80 @@
+/* body 배경, 폰트 기본 설정 */
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
 }
 
+/* 전체 컨테이너: 가운데 정렬 + 너비 제한 */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    width: 80%;
+    max-width: 1200px; /* 화면이 너무 커지지 않도록 최대 너비 지정 */
+    margin: 20px auto; /* 수평 가운데 정렬 */
+    text-align: center; /* 내부 텍스트와 요소 가운데 정렬 */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* 비디오 플레이어 영역 중앙 배치 */
+.player-container {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-button {
+/* 비디오 크기 확대 (가로 폭에 맞춰서) */
+video {
+    max-width: 80%; /* 화면 너비의 80%까지 확대 */
+    margin: 0 auto; 
+    display: block; /* 가운데 정렬을 위해 block + margin: 0 auto */
+    height: auto;
+}
+
+/* 타임라인 컨테이너: 높이를 좀 더 늘려 프레임 크게 보이게 */
+.timeline-container {
+    position: relative;
+    width: 100%;
+    height: 160px; /* 기존 120px → 160px으로 늘림 */
+    background-color: #2c2c2c;
+    overflow-x: auto; 
+    border: 1px solid #444;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+/* 스크러버(빨간 선) */
+.timeline-progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: red;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* 프레임 썸네일 래퍼: 가로로 나열 + 가운데 정렬 */
+.frames-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    align-items: center;
+    height: 100%;
     padding: 10px;
-    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+/* 프레임 썸네일 크기 확대 */
+.timeline-frame {
+    width: 150px; /* 기존 80px → 150px으로 확대 */
+    height: auto;
+    margin-right: 5px;
     cursor: pointer;
+    border: 1px solid #444;
+    box-sizing: border-box;
 }
-
-#videoTimeline {
-    display: flex;  /* 썸네일을 가로로 배치 */
-    overflow-x: auto;  /* 가로로 스크롤 가능 */
-    padding: 10px 0;
-    gap: 5px;  /* 썸네일 간격 */
-    justify-content: flex-start;  /* 썸네일을 왼쪽으로 정렬 */
-}
-
-#videoTimeline img {
-    border-radius: 5px;  /* 썸네일 이미지의 둥근 모서리 */
-    width: 100px;  /* 썸네일 크기 조정 */
-    height: auto;  /* 비율 유지 */
-    cursor: pointer;  /* 썸네일을 클릭할 수 있도록 커서 설정 */
-    transition: transform 0.3s ease;  /* 확대 효과 */
-}
-
-#videoTimeline img:hover {
-    transform: scale(1.1);  /* 마우스를 올렸을 때 이미지 확대 */
+.timeline-frame:hover {
+    border-color: #fff;
 }
