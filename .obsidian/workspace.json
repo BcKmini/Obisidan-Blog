@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +193,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af1a258cba600443",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "2025/4학년1학기/기계학습 - 백우진/2주차/pdf/pandas1.pdf",
+    "2025/4학년1학기/기계학습 - 백우진/2주차/pdf/pandas2.pdf",
+    "2025/4학년1학기/기계학습 - 백우진/2주차/pdf",
+    "2025/4학년1학기/기계학습 - 백우진/2주차/~$pandas1(1).pptx",
+    "2025/4학년1학기/기계학습 - 백우진/2주차/pandas1(1).pptx",
     "2025/4학년1학기/기계학습 - 백우진/2주차/2025-03-14.md",
     "2025/4학년1학기/기계학습 - 백우진/2주차",
     "2025/4학년1학기/기계학습 - 백우진",
@@ -222,10 +226,6 @@
     "2025/학부연구생/3월/2주차/img",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/2025-03-13 (Resume-피드백).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/Resume/202020827_Resume(국).pdf",
-    "2025/학부연구생/Code/CCTV-timeline/CCTV/static/uploads/gizmo.mp4",
-    "2025/학부연구생/Code/CCTV-timeline/CCTV/static/js/app.js",
-    "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames/gizmo",
-    "2025/학부연구생/Code/CCTV-timeline/CCTV/static/css/style.css",
     "2025/학부연구생/3월/1주차/2025-03-06 (제안서 PPT).md",
     "2025/학부연구생/3월/1주차/2025-03-05 (3D모델링-라이노).md",
     "2025/학생회/3월/2025-03-10 (개강총회 + 학생회모집).md",
@@ -241,7 +241,6 @@
     "2025-03-09.md",
     "2025/학생회/3월/2025-03-03 (신입생 MT 공지).md",
     "Vault.md",
-    "2025/학생회/3월/2025-03-10 (개강총회 - 학생회모집).md",
     "무제.canvas"
   ]
 }
