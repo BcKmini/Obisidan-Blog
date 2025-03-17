@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a1c35cae61925069",
+        "id": "70cf9e254e3b33f0",
         "type": "tabs",
         "children": [
           {
-            "id": "af1a258cba600443",
+            "id": "61be787c5f64c3f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/학생회/3월/2025-03-17 (학생회 면접).md",
+                "file": "2025/4학년1학기/운영체제 - 김정환/3주차/2025-03-17 (System call).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-17 (학생회 면접)"
+              "title": "2025-03-17 (System call)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "7f7b821c8e63a5d4",
@@ -194,10 +195,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af1a258cba600443",
+  "active": "61be787c5f64c3f8",
   "lastOpenFiles": [
-    "무제.canvas",
+    "2025/4학년1학기/운영체제 - 김정환/3주차/2025-03-17 (System call).md",
     "2025/학생회/3월/2025-03-17 (학생회 면접).md",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/3주차",
+    "2025/4학년1학기/운영체제 - 김정환/3주차",
+    "무제.canvas",
     "무제 1.canvas",
     "2025/학부연구생/3월/2주차/2025-03-13 (우분투 서버 - 웹).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/2025-03-13 (Resume-피드백).md",
@@ -225,10 +229,8 @@
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames/1718848236_Sample_1/frame_25.jpg",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames/1718848236_Sample_1/frame_125.jpg",
     "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames/1718848236_Sample_1/frame_100.jpg",
-    "2025/학부연구생/Code/CCTV-timeline/CCTV/static/frames/1718848236_Sample_1",
     "2025/4학년1학기/운영체제 - 김정환/2주차/2025-03-10 (컴퓨터 역사).md",
     "2025/학부연구생/3월/2주차/2025-03-11 (랩미팅).md",
-    "2025/학부연구생/3월/2주차/img",
     "2025/학부연구생/3월/1주차/2025-03-06 (제안서 PPT).md",
     "2025/학부연구생/3월/1주차/2025-03-05 (3D모델링-라이노).md",
     "2025/학생회/3월/2025-03-10 (개강총회 + 학생회모집).md",
