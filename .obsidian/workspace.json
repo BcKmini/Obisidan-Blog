@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "db7bd942eeab7d9a",
+        "id": "42ddd2b7b79f72f6",
         "type": "tabs",
         "children": [
           {
-            "id": "ddc946f8d5b54281",
+            "id": "30b5e97147349b65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/멘토멘티/Doc/대면/9회차/2025-03-19 (모람제 + 질문응답).md",
+                "file": "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/2025-03-13 (Resume-피드백).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-19 (모람제 + 질문응답)"
+              "title": "2025-03-13 (Resume-피드백)"
             }
           }
         ]
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,12 +194,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b5aca49b4aea188",
+  "active": "30b5e97147349b65",
   "lastOpenFiles": [
+    "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/Resume/202020827_Resume(국).pdf",
+    "2025/4학년1학기/소프트웨어종합설계 - 이철원/2주차/2025-03-13 (Resume-피드백).md",
+    "2025/학생회/3월/2025-03-18 (비대면).md",
+    "2025/4학년1학기/소프트웨어종합설계 - 이철원/3주차",
+    "2025/멘토멘티/Doc/대면/9회차/2025-03-19 (모람제 + 질문응답).md",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/3주차/2025-03-18 (O-표기).md",
     "2025/멘토멘티/Doc/대면/9회차/img/IMG_3042.jpg",
     "2025/4학년1학기/운영체제 - 김정환/3주차/pdf/Exp-LowLevel-Read.pdf",
-    "2025/멘토멘티/Doc/대면/9회차/2025-03-19 (모람제 + 질문응답).md",
     "2025/멘토멘티/Doc/대면/9회차/img",
     "2025/멘토멘티/Doc/대면/9회차/img/IMG_3043.jpg",
     "2025/멘토멘티/Doc/대면/7회차-8히촤/2025-03-12 (신입생OT-기초교과목 진단평가).md",
@@ -229,13 +234,9 @@
     "2025/학부연구생/2월/4주차/2025-02-25 (Model 공부).md",
     "2025/학부연구생/2월/4주차/2025-02-24 (HAM10000 전처리과정 ).md",
     "2025/학부연구생/2월/3주차/2025-02-23 (HAM10000데이터셋 보고서 작성).md",
-    "2025/학부연구생/2월/3주차/2025-02-20 (라벨링).md",
-    "2025/학부연구생/2월/3주차/2025-02-19 (나노랩).md",
-    "2025/학부연구생/2월/3주차/2025-02-18 (랩미팅).md",
     "2025/학부연구생/3월/3주차/img/KKU AI TimeLINE.png",
     "2025/학부연구생/3월/3주차/img",
     "2025/학부연구생/3월/3주차/pdf/프로젝트별 인원분배_.pdf",
-    "2025/학부연구생/3월/3주차/pdf",
     "2025/학부연구생/Code/cctv_timeline-V2/CCTV/static/frames/test_waterdeer/frame_960.jpg",
     "2025/학부연구생/Code/cctv_timeline-V2/CCTV/static/frames/test_waterdeer/frame_930.jpg",
     "2025/학부연구생/Code/cctv_timeline-V2/CCTV/static/frames/test_waterdeer/frame_900.jpg",
