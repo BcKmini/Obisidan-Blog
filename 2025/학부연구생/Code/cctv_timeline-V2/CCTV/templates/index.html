@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영상 업로드 및 타임라인</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>KKU AI TIMELINE</h1>
+
+        <!-- 업로드 폼 -->
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="videoFile" name="file" accept="video/*" required>
+            <button type="submit">검출 시각 추출</button>
+        </form>
+
+        <!-- 비디오 플레이어 -->
+        <div class="player-container">
+            <video id="videoPlayer" controls>
+                <source id="videoSource" type="video/mp4">
+            </video>
+        </div>
+
+        <!--  타임라인 -->
+        <div class="timeline-container">
+            <div class="timeline-progress" id="timelineProgress"></div>
+            <div class="frames-wrapper" id="framesWrapper"></div>
+        </div>
+
+
+        <!-- 탐지 결과 다운로드 -->
+        <div class="detection-results">
+            <h2>📌 탐지 결과</h2>
+            <div id="detectionResults"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
