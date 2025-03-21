@@ -1,0 +1,6 @@
+path: 
+train: augmented/train/images
+val: augmented/valid/images
+
+nc: 1
+names: ['swan']
