@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2025-03-26"
             }
+          },
+          {
+            "id": "709f412225124b24",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2025/4학년1학기/운영체제 - 김정환/4주차/pdf/01-2-Introduction-fork.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "01-2-Introduction-fork"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,11 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0439bb329b486933",
+  "active": "709f412225124b24",
   "lastOpenFiles": [
-    "2025/4학년1학기/운영체제 - 김정환/4주차/2025-03-24 (Fork 실습).md",
-    "2025/4학년1학기/운영체제 - 김정환/4주차/pdf/01-2-Introduction-fork.pdf",
     "2025/4학년1학기/운영체제 - 김정환/4주차/2025-03-26.md",
+    "2025/4학년1학기/운영체제 - 김정환/4주차/pdf/01-2-Introduction-fork.pdf",
+    "2025/4학년1학기/운영체제 - 김정환/4주차/2025-03-24 (Fork 실습).md",
     "2025/학부연구생/3월/3주차/2025-03-17 (외부망).md",
     "2025/학부연구생/3월/4주차/2025-03-25 (랩미팅).md",
     "2025/학부연구생/3월/4주차/img/스크린샷 2025-03-25 18.03.48.png",
