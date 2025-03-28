@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "76a0eab6e1bfc601",
+        "id": "9ca4eacfdef09f2b",
         "type": "tabs",
         "children": [
           {
-            "id": "0439bb329b486933",
+            "id": "9808cbcbc47dd20f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2025/4학년1학기/컴퓨터알고리즘 - 김창호/4주차/pdf/기본 정렬알고리즘 시간복잡도 비교.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "기본 정렬알고리즘 시간복잡도 비교"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -188,11 +186,13 @@
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "0439bb329b486933",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/4주차/pdf/기본 정렬알고리즘 시간복잡도 비교.pdf",
     "2025/4학년1학기/운영체제 - 김정환/4주차/2025-03-24 (Fork 실습).md",
     "2025/4학년1학기/운영체제 - 김정환/4주차/2025-03-26 (Forkn.c).md",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/4주차/img/스크린샷 2025-03-24 18.22.16.png",
@@ -201,7 +201,6 @@
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/4주차/2025-03-25 (정렬 알고리즘 실습).md",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/4주차/2025-03-24 (정렬 알고리즘).md",
     "무제",
-    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/4주차/pdf/기본 정렬알고리즘 시간복잡도 비교.pdf",
     "2025/4학년1학기/기계학습 - 백우진/4주차/2025-03-28.md",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/4주차/pdf",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/4주차/2025-03-27 (기획안 발표).md",
