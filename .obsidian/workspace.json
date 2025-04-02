@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/멘토멘티/Doc/대면/11회차/2025-04-01.md",
+                "file": "2025/개인공부/3월/2025-03-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-01"
+              "title": "2025-03-22"
             }
           }
         ]
@@ -194,11 +194,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "9808cbcbc47dd20f",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
+    "2025/개인공부/4월/img",
+    "2025/개인공부/4월/img/수험표.pdf",
+    "2025/개인공부/4월",
+    "2025/개인공부/3월/2025-03-20 (map50).md",
+    "2025/멘토멘티/Doc/대면/11회차/2025-04-01.md",
     "2025/4학년1학기/운영체제 - 김정환/3주차/2025-03-17 (System call).md",
     "2025/4학년1학기/운영체제 - 김정환/3주차/2025-03-19 (System call).md",
-    "2025/멘토멘티/Doc/대면/11회차/2025-04-01.md",
     "2025/학부연구생/4월/1주차/2025-04-01 (보고서, 랩미팅).md",
     "2025/학부연구생/Code/labeling/client/src/pages/Labeling/Sections/stylesheet/ProjectList.css",
     "2025/학부연구생/Code/labeling/client/src/pages/Labeling/Sections/stylesheet/LabelList.css",
@@ -208,8 +212,6 @@
     "2025/학부연구생/Code/labeling/client/src/pages/ProjectDetail/stylesheet/index.css",
     "2025/학부연구생/Code/labeling/client/src/pages/Main/stylesheet/index.css",
     "2025/학부연구생/Code/labeling/client/src/pages/Labeling/stylesheet/index.css",
-    "2025/학부연구생/Code/labeling/client/src/pages/Labeling/Sections/stylesheet",
-    "2025/학부연구생/Code/labeling/client/src/pages/Labeling/Sections/ProjectList.jsx",
     "2025/학부연구생/Code/labeling/client/src/assets/react.svg",
     "2025/학부연구생/Code/labeling/server/README.md",
     "2025/학부연구생/Code/labeling/client/README.md",
@@ -240,8 +242,6 @@
     "2025-03-25.md",
     "2025/학생회/3월/2025-03-10 (개강총회 + 학생회모집).md",
     "2025/학생회/3월/2025-03-17 (학생회 면접).md",
-    "2025/학생회/3월/2025-03-18 (비대면).md",
-    "2025/4학년1학기/운영체제 - 김정환/2주차/2025-03-10 (컴퓨터 역사).md",
     "무제.canvas",
     "무제 1.canvas"
   ]
