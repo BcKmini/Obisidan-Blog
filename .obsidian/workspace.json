@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "542cdee7656fe9ac",
+        "id": "9ab2faca926a61fa",
         "type": "tabs",
         "children": [
           {
-            "id": "189a71ff44fb100a",
+            "id": "6922ced97ed8b248",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2025/개인공부/4월/img/스크린샷_2024-04-03_오전_11.27.59.png"
+                "file": "2025/개인공부/4월/2024-04-02 (빅분기 필기 요약정리).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "스크린샷_2024-04-03_오전_11.27.59"
+              "icon": "lucide-file",
+              "title": "2024-04-02 (빅분기 필기 요약정리)"
             }
           }
         ]
@@ -178,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,13 +194,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "6922ced97ed8b248",
   "lastOpenFiles": [
+    "2025/개인공부/4월/img/스크린샷_2024-04-03_오전_11.27.59.png",
     "2025/개인공부/4월/2024-04-02 (빅분기 필기 요약정리).md",
     "2025/개인공부/4월/img/스크린샷_2024-04-03_오후_4.01.34.png",
     "2025/개인공부/4월/img/스크린샷_2024-04-03_오후_3.41.10.png",
     "2025/개인공부/4월/img/스크린샷_2024-04-03_오전_11.57.53.png",
-    "2025/개인공부/4월/img/스크린샷_2024-04-03_오전_11.27.59.png",
     "무제.md",
     "2025/개인공부/4월/img/스크린샷_2024-04-04_오후_12.50.36.png",
     "2025/개인공부/4월/img/스크린샷_2024-04-04_오후_12.46.06.png",
