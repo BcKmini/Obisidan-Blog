@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,7 +195,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "4b5aca49b4aea188",
+  "active": "674ed6c345c2f5ae",
   "lastOpenFiles": [
     "2025/4학년1학기/운영체제 - 김정환/6주차/pdf/Exp-thr1-1.pdf",
     "2025/4학년1학기/운영체제 - 김정환/6주차/pdf/Thr1.pdf",
