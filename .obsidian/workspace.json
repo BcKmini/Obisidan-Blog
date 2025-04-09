@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/4학년1학기/운영체제 - 김정환/6주차/2025-04-09.md",
+                "file": "2025/4학년1학기/운영체제 - 김정환/6주차/2025-04-09 (Thread 실습).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-09"
+              "title": "2025-04-09 (Thread 실습)"
             }
           }
         ]
@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,13 +194,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "4b5aca49b4aea188",
   "lastOpenFiles": [
     "2025/4학년1학기/운영체제 - 김정환/6주차/pdf/Exp-thr1-1.pdf",
     "2025/4학년1학기/운영체제 - 김정환/6주차/pdf/Thr1.pdf",
     "2025/4학년1학기/운영체제 - 김정환/6주차/img/스크린샷 2025-04-09 16.43.46.png",
     "2025/4학년1학기/운영체제 - 김정환/6주차/2025-04-07 (프로세스 상태).md",
-    "2025/4학년1학기/운영체제 - 김정환/6주차/2025-04-09.md",
+    "2025/4학년1학기/운영체제 - 김정환/6주차/2025-04-09 (Thread 실습).md",
     "2025/학부연구생/4월/2주차/2025-04-08 (랩미팅).md",
     "2025/학부연구생/4월/2주차/img/고1.webp",
     "2025/학부연구생/4월/2주차/img",
