@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1fb99cb36b6fbd4f",
+        "id": "2690080d5d0d6c86",
         "type": "tabs",
         "children": [
           {
-            "id": "47a7c4111fb6fa95",
+            "id": "c061979c9438ded7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/학부연구생/4월/2주차/2025-04-9 (축전 포스터 최종 기초연구실).md",
+                "file": "2025/개인공부/4월/2025-04-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-9 (축전 포스터 최종 기초연구실)"
+              "title": "2025-04-11"
             }
           }
         ]
@@ -195,8 +195,16 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "c061979c9438ded7",
   "lastOpenFiles": [
+    "2025/학부연구생/4월/2주차/img/1.jpg",
+    "2025/KT/pdf/(서식)2025년 KT디지털인재장학생 서약서_학교명_이름(연락처뒷자리).pdf",
+    "2025/KT/pdf/개인정보 수집 활용 동의서.pdf",
+    "2025/학부연구생/4월/2주차/img/고3.webp",
+    "2025/학부연구생/4월/2주차/img/고2.webp",
+    "2025/학부연구생/4월/2주차/img/고1.webp",
+    "2025/학부연구생/4월/2주차/img/3.jpg",
+    "2025/학부연구생/4월/2주차/2025-04-9 (축전 포스터 최종 기초연구실).md",
     "2025/학부연구생/4월/2주차/pdf/축전_포스터_최종_기초연구실_건국대학교 AI동물생태제어기초연구실[1].pdf",
     "2025/학부연구생/4월/2주차/2025-04-08 (랩미팅).md",
     "2025/개인공부/4월/2025-04-11.md",
@@ -210,7 +218,6 @@
     "2025/개인공부/4월/2024-04-02 (빅분기 필기 요약정리).md",
     "2025/학부연구생/4월/2주차/2025-04-10 (오픈소스 LLM으로 금융 뉴스 요약).md",
     "2025/4학년1학기/기계학습 - 백우진/6주차",
-    "2025/학부연구생/4월/2주차/2025-04-9 (축전 포스터 최종 기초연구실).md",
     "2025/학부연구생/4월/2주차/2025-04-06 (야생동물 데이터 수집 앱 가이드).md",
     "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/2025-04-10 (논문 읽기).md",
     "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/img/스크린샷 2025-04-10 18.28.50.png",
@@ -219,19 +226,12 @@
     "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/img/스크린샷 2025-04-10 18.30.42.png",
     "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/img/스크린샷 2025-04-10 18.29.57.png",
     "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/img/스크린샷 2025-04-10 18.29.11.png",
-    "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/img/스크린샷 2025-04-10 18.28.32.png",
     "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/img",
-    "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/pdf/Cat Sounds Classification with Convolutional Neural Network.pdf",
-    "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/pdf",
     "2025/학부연구생/4월/1주차/2025-04-03 (자연 관찰 웹사이트 회의).md",
-    "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network",
     "2025/학부연구생/논문/Reanet/2025-03-02 (Resnet 공부).md",
     "2025/학부연구생/논문/Reanet/2025-02-28 (논문 읽기 및 모델 훈련).md",
     "2025/학부연구생/4월/1주차/2025-04-01 (교수님 상담).md",
     "2025/학부연구생/4월/1주차/2025-04-01 (보고서, 랩미팅).md",
-    "2025/학부연구생/4월/2주차/img/1.jpg",
-    "2025/학부연구생/4월/2주차/img/3.jpg",
-    "2025/학부연구생/4월/2주차/img/2.jpg",
     "2025/학부연구생/3월/4주차/2025-03-29 (과학기술대전 포스터).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/6주차/2025-04-10 (팀 지정).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/5주차/2025-04-03 (서비스 다른 회사 비교).md",
