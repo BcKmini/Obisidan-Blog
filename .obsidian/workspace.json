@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/학부연구생/4월/2주차/2025-04-9 (축전 포스터 최종 기초연구실).md",
+                "file": "2025/학부연구생/4월/2주차/2025-04-13 (collection_web_back-V1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-9 (축전 포스터 최종 기초연구실)"
+              "title": "2025-04-13 (collection_web_back-V1)"
             }
           }
         ]
@@ -194,8 +194,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "4b5aca49b4aea188",
+  "active": "cccbc8364ef28264",
   "lastOpenFiles": [
+    "2025/학부연구생/4월/2주차/2025-04-9 (축전 포스터 최종 기초연구실).md",
     "2025/학부연구생/Code/collection_web_back/client/src/pages/MainPage/Sections/card.jsx",
     "2025/학부연구생/Code/collection_web_back/client/src/pages/MainPage/Sections/card.css",
     "2025/학부연구생/Code/collection_web_back/client/src/pages/MainPage/Sections/SearchInput.jsx",
@@ -206,7 +207,6 @@
     "2025/학부연구생/Code/collection_web_back/client/src/layout/Header/Sections/HeaderItem.jsx",
     "2025/학부연구생/Code/collection_web_back/client/src/pages/Upload/UploadPage.jsx",
     "2025/학부연구생/Code/collection_web_back/client/src/pages/Upload/UploadPage.css",
-    "2025/학부연구생/Code/collection_web_back/client/src/pages/MainPage/mainPage.css",
     "2025/학부연구생/Code/collection_web_back/server/uploads/img/20250407_064106_스크린샷 2025-04-07 05.32.00.png",
     "2025/학부연구생/Code/collection_web_back/server/uploads/img/20250407_063533_스크린샷 2025-04-07 06.02.25.png",
     "2025/학부연구생/Code/collection_web_back/server/uploads/img/20250407_062654_스크린샷 2025-04-07 06.02.25.png",
@@ -230,7 +230,6 @@
     "2025/학부연구생/4월/1주차/2025-04-02 (최종 보고서 확인).md",
     "기티.md",
     "2025/학부연구생/4월/2주차/2025-04-08 (랩미팅).md",
-    "2025/학부연구생/4월/2주차/2025-04-9 (축전 포스터 최종 기초연구실).md",
     "2025/학생회/2월/2025-02-24 (입학식 + 신입생 MT).md",
     "2025/개인공부/4월/2025-04-11.md",
     "2025/4학년1학기/기계학습 - 백우진/6주차/2025-04-11.md",
