@@ -1,0 +1,123 @@
+/* 전체 화면 설정 */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: lightgray;
+    overflow: hidden; /* 💡 body 전체 스크롤 방지 */
+}
+
+/* 검색 바: header 바로 아래 고정 */
+.search {
+    width: 100%;
+    height: 11vh;
+    background-color: lightcyan;
+    display: flex;  
+    align-items: center;  
+    justify-content: center;
+    position: fixed;  /* 💡 header 아래 고정 */
+    top: 11vh;  /* 💡 header 높이만큼 아래로 */
+    left: 0;
+    z-index: 999; /* header보다 아래 */
+}
+
+.search_ {
+    padding: 0 10px;
+}
+
+.search_filter{
+    width: 100px;
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search_filter:hover {
+    background-color: lightgray;
+}
+
+.search_filter.active {
+    background-color: lightgray;
+}
+
+.searchinput {
+    width: 500px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.search_filter_modal {
+    position: absolute;
+    top: 80px;
+    left: 424px;
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    /* z-index: 1000; */
+    /* padding: 10px; */
+}
+
+.search_btn {
+    width: 1.5%;
+    height: 23%;
+    border: 1px solid black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.search_filter_modal .modalContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search_filter_modal button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search_filter_modal button:hover {
+    background-color: lightgray;
+}
+
+
+/* 게시글 목록 (스크롤 가능) */
+.Main {
+    width: 100%;
+    height: calc(100vh - 22vh); /* 💡 화면 전체 높이에서 header + search(22vh) 만큼 제외 */
+    background-color: lightslategray;
+    overflow-y: auto;  /* 💡 스크롤 가능하게 설정 */
+    position: absolute;
+    top: 22vh;  /* 💡 search 아래에 배치 */
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* .post {
+    width: 50%;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+
+.post {
+    width: 70%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    justify-items: center;
+}
