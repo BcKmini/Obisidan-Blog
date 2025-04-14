@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/2025-04-14.md",
+                "file": "기티.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-14"
+              "title": "기티"
             }
           }
         ],
@@ -210,11 +210,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "19b007a01bd87112",
+  "active": "76dd1cf541e2da76",
   "lastOpenFiles": [
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/2025-04-14.md",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차",
     "2025/4학년1학기/운영체제 - 김정환/7주차/img/스크린샷 2025-04-14 15.07.13.png",
-    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/2025-04-14.md",
     "2025/4학년1학기/운영체제 - 김정환/7주차/2025-04-14.md",
     "2025/개인공부/4월/2025-04-11 (정처기 실기 준비).md",
     "2025/4학년1학기/운영체제 - 김정환/7주차/pdf",
@@ -227,7 +227,6 @@
     "2025/학부연구생/Code/collection_web_back-V1/client/src/pages/MainPage/Sections/CardItem.jsx",
     "2025/학부연구생/Code/collection_web_back-V1/client/src/layout/Header/Sections/HeaderItem.module.css",
     "2025/학부연구생/Code/collection_web_back-V1/client/src/layout/Header/Sections/HeaderItem.jsx",
-    "2025/학부연구생/Code/collection_web_back-V1/client/src/pages/UploadPage/index.jsx",
     "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_163158_0_스크린샷_2025-04-13_오후_4.30.52.png",
     "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_152728_0_벌새.png",
     "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_145843_0_참새.jpg",
