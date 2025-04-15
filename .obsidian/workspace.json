@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/4학년1학기/소프트웨어종합설계 - 이철원/7주차/2025-04-15 (팀 회의 - 1).md",
+                "file": "2025/학부연구생/4월/3주차/2025-04-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-15 (팀 회의 - 1)"
+              "title": "2025-04-15"
             }
           }
         ],
@@ -209,10 +209,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "76dd1cf541e2da76",
+  "active": "19b007a01bd87112",
   "lastOpenFiles": [
-    "2025/학생회/4월/2025-04-14 (오프라인).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/7주차/2025-04-15 (팀 회의 - 1).md",
+    "2025/학부연구생/4월/3주차/2025-04-15.md",
+    "2025/학부연구생/4월/3주차",
+    "2025/학생회/4월/2025-04-14 (오프라인).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/7주차",
     "2025/개인공부/4월/2025-04-11 (정처기 실기 준비).md",
     "2025/개인공부/4월/2024-04-02 (빅분기 필기 요약정리).md",
@@ -239,7 +241,6 @@
     "2025/학부연구생/4월/2주차/2025-04-13 (collection_web_back-V1).md",
     "2025/학부연구생/Code/collection_web_back-V1/client/src/pages/MainPage/Sections/SearchInput.jsx",
     "2025/학부연구생/Code/collection_web_back-V1/client/src/pages/MainPage/Sections/SearchFilterModal.jsx",
-    "2025/학부연구생/Code/collection_web_back-V1/client/src/pages/MainPage/Sections/CardItem.jsx",
     "2025/학부연구생/Code/collection_web_back-V1/server/readme.md",
     "2025/학부연구생/Code/collection_web_back-V1/client/README.md",
     "2025/학부연구생/Code/collection_web_back-V1/README.md",
@@ -256,7 +257,6 @@
     "2025/학생회/2월/2025-02-24 (입학식 + 신입생 MT).md",
     "2025/4학년1학기/기계학습 - 백우진/6주차/2025-04-11.md",
     "2025/개인공부/4월/2025-04-05 (빅분기 필기).md",
-    "2025/학부연구생/4월/2주차/2025-04-06 (야생동물 데이터 수집 앱 가이드).md",
     "무제.canvas",
     "무제 1.canvas"
   ]
