@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기티.md",
+                "file": "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/2025-04-15 (중간고사 정리).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기티"
+              "title": "2025-04-15 (중간고사 정리)"
             }
           }
         ],
@@ -212,9 +212,22 @@
   },
   "active": "76dd1cf541e2da76",
   "lastOpenFiles": [
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.10.41.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.11.48.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/2025-04-15 (중간고사 정리).md",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.28.19.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.27.28.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.25.15.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.22.11.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.19.26.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.19.03.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.15.37.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.13.55.png",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img",
+    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/img/스크린샷 2025-04-15 11.13.26.png",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차/2025-04-14.md",
+    "기티.md",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/7주차",
-    "2025/4학년1학기/운영체제 - 김정환/7주차/img/스크린샷 2025-04-14 15.07.13.png",
     "2025/4학년1학기/운영체제 - 김정환/7주차/2025-04-14.md",
     "2025/개인공부/4월/2025-04-11 (정처기 실기 준비).md",
     "2025/4학년1학기/운영체제 - 김정환/7주차/pdf",
@@ -226,16 +239,6 @@
     "2025/학부연구생/Code/collection_web_back-V1/client/src/pages/MainPage/Sections/SearchFilterModal.jsx",
     "2025/학부연구생/Code/collection_web_back-V1/client/src/pages/MainPage/Sections/CardItem.jsx",
     "2025/학부연구생/Code/collection_web_back-V1/client/src/layout/Header/Sections/HeaderItem.module.css",
-    "2025/학부연구생/Code/collection_web_back-V1/client/src/layout/Header/Sections/HeaderItem.jsx",
-    "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_163158_0_스크린샷_2025-04-13_오후_4.30.52.png",
-    "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_152728_0_벌새.png",
-    "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_145843_0_참새.jpg",
-    "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_144313_0_뉴진스.png",
-    "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_144236_0_고니.jpg",
-    "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_143103_1_새호리기.jpg",
-    "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_143103_0_뉴진스.png",
-    "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_142941_0_새호리기.jpg",
-    "2025/학부연구생/Code/collection_web_back-V1/server/uploads/img/20250413_142725_0_새호리기.jpg",
     "2025/학부연구생/Code/collection_web_back-V1/server/readme.md",
     "2025/학부연구생/Code/collection_web_back-V1/client/README.md",
     "2025/학부연구생/Code/collection_web_back-V1/README.md",
@@ -248,7 +251,6 @@
     "2025/학부연구생/4월/2주차/2025-04-10 (오픈소스 LLM으로 금융 뉴스 요약).md",
     "2025/학부연구생/4월/1주차/2025-04-03 (자연 관찰 웹사이트 회의).md",
     "2025/학부연구생/4월/1주차/2025-04-02 (최종 보고서 확인).md",
-    "기티.md",
     "2025/학부연구생/4월/2주차/2025-04-08 (랩미팅).md",
     "2025/학생회/2월/2025-02-24 (입학식 + 신입생 MT).md",
     "2025/4학년1학기/기계학습 - 백우진/6주차/2025-04-11.md",
@@ -256,7 +258,6 @@
     "2025/개인공부/4월/2024-04-02 (빅분기 필기 요약정리).md",
     "2025/학부연구생/4월/2주차/2025-04-06 (야생동물 데이터 수집 앱 가이드).md",
     "2025/학부연구생/논문/Cat Sounds Classification with Convolutional Neural Network/2025-04-10 (논문 읽기).md",
-    "2025/학부연구생/논문/Reanet/2025-03-02 (Resnet 공부).md",
     "무제.canvas",
     "무제 1.canvas"
   ]
