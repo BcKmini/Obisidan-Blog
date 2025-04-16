@@ -1,4 +1,4 @@
-read(fd, buffer, nbytes)
+ read(fd, buffer, nbytes)
 fd -> file에 일부분을 메모리에 가져와 읽는것
 buffer -> 메모리에 보낸 파일에 주소값
 nbytes -> 넣을 공간
