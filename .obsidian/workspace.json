@@ -11,10 +11,14 @@
             "id": "201a03522b3fd57c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025/개인공부/4월/2025-04-18.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "2025-04-18"
             }
           }
         ]
@@ -190,9 +194,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "4b5aca49b4aea188",
+  "active": "201a03522b3fd57c",
   "lastOpenFiles": [
     "2025/개인공부/4월/2025-04-18 (빅데이터 분석 기사 필기 합격).md",
+    "2025/개인공부/4월/2025-04-18.md",
     "2025/개인공부/4월/img/빅분기.png",
     "2025/개인공부/4월/2025-04-17 (정처기 문제 정리 - 디자인패턴).md",
     "2025/학부연구생/4월/3주차/2025-04-15 (중간고사 준비).md",
