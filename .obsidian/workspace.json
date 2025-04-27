@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
+                "file": "2025-04-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-18"
+              "title": "2025-04-28"
             }
           }
         ]
@@ -109,23 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/4학년1학기/운영체제 - 김정환/2주차/2025-03-10 (컴퓨터 역사).md",
+                "file": "2025-04-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-03-10 (컴퓨터 역사) 의 개요"
-            }
-          },
-          {
-            "id": "4b5aca49b4aea188",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "2025-04-28 의 개요"
             }
           },
           {
@@ -152,22 +142,33 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2025-04-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "2025-04-28 의 나가는 링크"
+            }
+          },
+          {
+            "id": "f56a725c30badb62",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
-        "id": "ed7b953151c6d078",
+        "id": "c54bf246aa6c7862",
         "type": "tabs",
         "children": [
           {
-            "id": "ae0458977c61ac21",
+            "id": "9ccde5d51fc1b4d7",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -194,8 +195,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "4b5aca49b4aea188",
+  "active": "85a1a59ab407c837",
   "lastOpenFiles": [
+    "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
+    "2025-04-28.md",
     "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearningMidTerm202501-4.pdf",
     "2025/4학년1학기/기계학습 - 백우진/midterm/pdf",
     "2025/4학년1학기/기계학습 - 백우진/midterm",
@@ -235,12 +238,10 @@
     "2025/개인공부/4월/img/빅분기.png",
     "2025/개인공부/4월/2025-04-17 (정처기 문제 정리 - 디자인패턴).md",
     "2025/학부연구생/4월/3주차/2025-04-15 (중간고사 준비).md",
-    "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
     "2025/4학년1학기/기계학습 - 백우진/중간고사",
     "2025/개인공부/4월/2025-04-16 (정처기 특강).md",
     "2025/개인공부/4월/정처기img",
     "2025/개인공부/4월/img/수험표.pdf",
-    "2025/개인공부/4월/pdf/정보처리기사실기_05_코드-구조체3문제.pdf",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/7주차/2025-04-15 (팀 회의 - 1).md",
     "무제.canvas",
     "무제 1.canvas"
