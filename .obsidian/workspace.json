@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fbce069024b7f53f",
+        "id": "fa68d93b686c8a2e",
         "type": "tabs",
         "children": [
           {
-            "id": "85a1a59ab407c837",
+            "id": "91799675740bc24a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-04-28.md",
+                "file": "2025/개인공부/4월/2025-04-28 (빅분기 시험일정_ 필기합).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-28"
+              "title": "2025-04-28 (빅분기 시험일정_ 필기합)"
             }
           }
         ]
@@ -109,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-04-28.md",
+                "file": "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-04-28 의 개요"
+              "title": "2025-04-18 의 개요"
             }
           },
           {
@@ -124,34 +124,21 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "2025-04-18 의 백링크"
             }
           },
           {
-            "id": "595560ff7535fe96",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2025-04-28.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "2025-04-28 의 나가는 링크"
-            }
-          },
-          {
-            "id": "f56a725c30badb62",
+            "id": "dea8fe59e1bcf4ed",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -161,10 +148,10 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
-        "id": "c54bf246aa6c7862",
+        "id": "f094219d66cc1191",
         "type": "tabs",
         "children": [
           {
@@ -185,23 +172,39 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
+      "obsidian-git:Open Git source control": false,
+      "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "85a1a59ab407c837",
+  "active": "91799675740bc24a",
   "lastOpenFiles": [
+    "2025/개인공부/4월/img/스크린샷 2025-04-28 14.11.20.png",
+    "2025/개인공부/4월/img/스크린샷 2025-04-28 14.12.28.png",
+    "2025/개인공부/4월/img/스크린샷_2024-04-04_오후_5.30.40.png",
+    "2025/개인공부/4월/img/스크린샷_2024-04-04_오후_12.46.06.png",
+    "2025/개인공부/4월/img/스크린샷_2024-04-04_오후_12.50.36.png",
+    "2025/개인공부/4월/2025-04-28 (빅분기 시험일정_ 필기합).md",
+    "스크린샷 2025-04-28 14.11.20 1.png",
+    "2025/개인공부/4월/img/빅분기.png",
+    "기티.md",
     "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
-    "2025-04-28.md",
-    "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearningMidTerm202501-4.pdf",
+    "무제",
+    "2025/4학년1학기/기계학습 - 백우진/midterm/pdf/지침서.pdf",
     "2025/4학년1학기/기계학습 - 백우진/midterm/pdf",
-    "2025/4학년1학기/기계학습 - 백우진/midterm",
+    "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/word/202020827_wine_Classification.docx",
+    "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/word/202020827_student_mental_health.docx",
+    "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/pdf/202020827_wine_Classification.pdf",
+    "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/pdf/202020827_student_mental_health.pdf",
+    "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/data/Student Mental health.csv",
+    "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/data/README.md",
+    "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/code/Wine_Reviews_Data.ipynb",
+    "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/code/Student_Mental_Health.ipynb",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/중간고사/2025-04-19 (중간고사 준비).md",
     "2025/4학년1학기/운영체제 - 김정환/중간고사 정리/2025-04-21 (코드).md",
     "2025/4학년1학기/운영체제 - 김정환/중간고사 정리/2025-04-21 (개념 정리).md",
@@ -222,27 +225,11 @@
     "2025/4학년1학기/운영체제 - 김정환/중간고사 정리/img/스크린샷 2025-04-21 10.04.26.png",
     "2025/4학년1학기/운영체제 - 김정환/중간고사 정리/img/스크린샷 2025-04-21 09.58.59.png",
     "2025/4학년1학기/운영체제 - 김정환/중간고사 정리/img/스크린샷 2025-04-21 04.27.35.png",
-    "2025/4학년1학기/운영체제 - 김정환/중간고사 정리/img",
-    "2025/4학년1학기/운영체제 - 김정환/중간고사 정리/img/스크린샷 2025-04-21 04.24.47.png",
     "2025/개인공부/4월/2025-04-19 (서버 구현해보자 후에).md",
-    "2025/4학년1학기/운영체제 - 김정환/중간고사 정리",
     "2025/개인공부/4월/2025-04-18 (정리).md",
-    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/중간고사/img/스크린샷 2025-04-19 14.55.46.png",
-    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/중간고사/img",
-    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/중간고사/img/스크린샷 2025-04-19 15.03.04.png",
-    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/중간고사/img/스크린샷 2025-04-19 15.01.49.png",
-    "2025/4학년1학기/컴퓨터알고리즘 - 김창호/중간고사/img/스크린샷 2025-04-19 14.57.43.png",
-    "기티.md",
-    "무제 1",
     "2025/개인공부/4월/2025-04-18 (빅데이터 분석 기사 필기 합격).md",
-    "2025/개인공부/4월/img/빅분기.png",
     "2025/개인공부/4월/2025-04-17 (정처기 문제 정리 - 디자인패턴).md",
     "2025/학부연구생/4월/3주차/2025-04-15 (중간고사 준비).md",
-    "2025/4학년1학기/기계학습 - 백우진/중간고사",
-    "2025/개인공부/4월/2025-04-16 (정처기 특강).md",
-    "2025/개인공부/4월/정처기img",
-    "2025/개인공부/4월/img/수험표.pdf",
-    "2025/4학년1학기/소프트웨어종합설계 - 이철원/7주차/2025-04-15 (팀 회의 - 1).md",
     "무제.canvas",
     "무제 1.canvas"
   ]
