@@ -168,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,7 +182,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bf06ebe507fdb96c",
+  "active": "dea8fe59e1bcf4ed",
   "lastOpenFiles": [
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/9주차/2025-04-29 (팀회의 - 2).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/9주차/2025-05-01.md",
