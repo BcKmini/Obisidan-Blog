@@ -1,0 +1,686 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>코딩문제 5장. 알고리즘 기초</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: undefined; }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-transparentGray { background-color: undefined; }
+.select-value-color-translucentGray { background-color: undefined; }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="145ec508-cf3c-8088-9f26-f8e6f010846a" class="page sans"><header><h1 class="page-title">코딩문제 5장. 알고리즘 기초</h1><p class="page-description"></p><table class="properties"><tbody><tr class="property-row property-row-multi_select"><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesMultipleSelect"><path d="M1.91602 4.83789C2.44238 4.83789 2.87305 4.40723 2.87305 3.87402C2.87305 3.34766 2.44238 2.91699 1.91602 2.91699C1.38281 2.91699 0.952148 3.34766 0.952148 3.87402C0.952148 4.40723 1.38281 4.83789 1.91602 4.83789ZM5.1084 4.52344H14.3984C14.7607 4.52344 15.0479 4.23633 15.0479 3.87402C15.0479 3.51172 14.7607 3.22461 14.3984 3.22461H5.1084C4.74609 3.22461 4.45898 3.51172 4.45898 3.87402C4.45898 4.23633 4.74609 4.52344 5.1084 4.52344ZM1.91602 9.03516C2.44238 9.03516 2.87305 8.60449 2.87305 8.07129C2.87305 7.54492 2.44238 7.11426 1.91602 7.11426C1.38281 7.11426 0.952148 7.54492 0.952148 8.07129C0.952148 8.60449 1.38281 9.03516 1.91602 9.03516ZM5.1084 8.7207H14.3984C14.7607 8.7207 15.0479 8.43359 15.0479 8.07129C15.0479 7.70898 14.7607 7.42188 14.3984 7.42188H5.1084C4.74609 7.42188 4.45898 7.70898 4.45898 8.07129C4.45898 8.43359 4.74609 8.7207 5.1084 8.7207ZM1.91602 13.2324C2.44238 13.2324 2.87305 12.8018 2.87305 12.2686C2.87305 11.7422 2.44238 11.3115 1.91602 11.3115C1.38281 11.3115 0.952148 11.7422 0.952148 12.2686C0.952148 12.8018 1.38281 13.2324 1.91602 13.2324ZM5.1084 12.918H14.3984C14.7607 12.918 15.0479 12.6309 15.0479 12.2686C15.0479 11.9062 14.7607 11.6191 14.3984 11.6191H5.1084C4.74609 11.6191 4.45898 11.9062 4.45898 12.2686C4.45898 12.6309 4.74609 12.918 5.1084 12.918Z"></path></svg></span>태그</th><td></td></tr></tbody></table></header><div class="page-body"><h3 id="145ec508-cf3c-8139-95b6-fb9f134019e2" class="">공통사항</h3><ul id="145ec508-cf3c-81a4-bcaa-e2f9a9661d68" class="bulleted-list"><li style="list-style-type:disc">모든 문제의 입력은  <code><strong>input.txt</strong></code> 파일에서 읽어오며, 출력은 <code><strong>output.txt</strong></code> 파일에 저장해야 합니다.</li></ul><hr id="145ec508-cf3c-8150-9b54-e1fbb8fc20ec"/><h2 id="145ec508-cf3c-814e-a9f9-d7cd86aca02c" class="">문제 23: 가장 큰 수와 가장 작은 수의 차이</h2><h3 id="145ec508-cf3c-81b3-8bee-e7f68fabc99e" class="">설명</h3><p id="145ec508-cf3c-818d-9f68-c9f88889fd5c" class="">숲 속에는 다양한 숫자가 새겨진 돌들이 있습니다. 우리는 이 숫자들 중에서 <strong>가장 큰 수와 가장 작은 수를 찾아 그 차이</strong>를 구하려고 합니다.</p><p id="145ec508-cf3c-81b1-aac8-f421b5bb05b0" class="">숫자의 범위와 위치에 따라 다르게 배치된 돌들을 탐색하면서 가장 큰 값과 가장 작은 값을 찾아보세요.</p><h3 id="145ec508-cf3c-81eb-9582-da5f29b74edf" class="">입력 형식</h3><ul id="145ec508-cf3c-8127-8d4c-d40af0fa4281" class="bulleted-list"><li style="list-style-type:disc">첫 번째 줄에 배열의 크기 N이 주어집니다. (1≤N≤100)<p id="145ec508-cf3c-8151-bb64-e5759b575c00" class="">N</p><p id="145ec508-cf3c-81e1-9d55-f92d6b64e25a" class="">1≤N≤100</p></li></ul><ul id="145ec508-cf3c-8114-bbc8-da813209b3ef" class="bulleted-list"><li style="list-style-type:disc">두 번째 줄에 N개의 정수가 공백으로 구분되어 주어집니다. 각 정수는 −100≤정수≤100의 범위입니다.<p id="145ec508-cf3c-8116-9634-e1a427d0ee25" class="">N</p><p id="145ec508-cf3c-8145-9f1f-d27f4050fc6d" class="">−100≤정수≤100</p></li></ul><h3 id="145ec508-cf3c-81dd-a541-fe02993c51b9" class="">출력 형식</h3><ul id="145ec508-cf3c-8199-803e-e562550b2f57" class="bulleted-list"><li style="list-style-type:disc">배열에서 가장 큰 수와 가장 작은 수의 차이를 출력합니다.</li></ul><h3 id="145ec508-cf3c-81b3-a220-f4c79d8d278d" class="">입출력 예시</h3><table id="145ec508-cf3c-8194-8316-dd1472d2e2e0" class="simple-table"><tbody><tr id="145ec508-cf3c-8141-8d80-de946201a56b"><td id="t[A;" class="">입력</td><td id="fMT\" class="">출력</td></tr><tr id="145ec508-cf3c-8171-a1a9-cc1e3b1f3bc8"><td id="t[A;" class="">5<br/>3 -1 4 -5 2<br/></td><td id="fMT\" class="">9</td></tr><tr id="145ec508-cf3c-81fa-8e06-cb64ded1937a"><td id="t[A;" class="">4<br/>-10 20 -5 15<br/></td><td id="fMT\" class="">30</td></tr><tr id="145ec508-cf3c-8170-87b2-fcc4453ce393"><td id="t[A;" class="">6<br/>-2 -4 6 8 -1 -3<br/></td><td id="fMT\" class="">12</td></tr><tr id="145ec508-cf3c-81df-968a-eea01a028e1c"><td id="t[A;" class="">3<br/>100 0 -50<br/></td><td id="fMT\" class="">150</td></tr><tr id="145ec508-cf3c-8100-8369-c0359a94dbdc"><td id="t[A;" class="">5<br/>1 -1 1 -1 1<br/></td><td id="fMT\" class="">2</td></tr></tbody></table><h3 id="145ec508-cf3c-81a6-bef0-f27c369cb2ec" class="">풀이 방법</h3><ol type="1" id="145ec508-cf3c-813f-81da-d7ab4be6f51c" class="numbered-list" start="1"><li>배열의 첫 번째 값을 초기값으로 하여 <code>max_value</code>와 <code>min_value</code> 변수를 설정합니다.</li></ol><ol type="1" id="145ec508-cf3c-8187-902c-fb054c7213e4" class="numbered-list" start="2"><li>배열을 순회하면서 각 숫자가 <code>max_value</code>보다 크면 <code>max_value</code>를 갱신하고, <code>min_value</code>보다 작으면 <code>min_value</code>를 갱신합니다.</li></ol><ol type="1" id="145ec508-cf3c-81f8-a21f-fef4d1fb04f5" class="numbered-list" start="3"><li>배열 전체를 순회한 후, <code>max_value</code>와 <code>min_value</code>의 차이를 출력합니다.</li></ol><p id="145ec508-cf3c-81b0-b583-f17c1d39292d" class="">
+</p><hr id="145ec508-cf3c-811b-bbcd-f08d9096edf9"/><h2 id="145ec508-cf3c-8162-aeb1-d2f991949cb6" class="">문제 24: 비밀 회선 암호화</h2><h3 id="145ec508-cf3c-8191-a9df-f973052cae2f" class="">설명</h3><p id="145ec508-cf3c-817a-85a4-dc03557ff2a4" class="">비밀 요원이 서로 통신할 때는 메시지 내용을 특정 규칙에 따라 암호화해야 합니다. 암호화 규칙은 <strong>지정된 두 위치 사이의 숫자의 합을 계산</strong>하여 전송하는 것입니다. 배열의 특정 구간을 선택하고, 이 구간에 해당하는 숫자의 합을 구하는 프로그램을 작성하세요.</p><h3 id="145ec508-cf3c-8187-a37d-d1936cfef1bf" class="">입력 형식</h3><ul id="145ec508-cf3c-81d8-b662-f82c6897c57b" class="bulleted-list"><li style="list-style-type:disc">첫 번째 줄에 배열의 크기 N이 주어집니다.</li></ul><ul id="145ec508-cf3c-818c-814f-fad2ea39a1b8" class="bulleted-list"><li style="list-style-type:disc">두 번째 줄에 N개의 정수가 공백으로 구분되어 주어집니다.</li></ul><ul id="145ec508-cf3c-8185-bedd-c823935cde37" class="bulleted-list"><li style="list-style-type:disc">세 번째 줄에 시작 위치 A와 끝 위치 B가 주어집니다.</li></ul><ul id="145ec508-cf3c-816b-af5d-ffbb3b86d4ce" class="bulleted-list"><li style="list-style-type:disc">1≤A,B≤N이며, A≤B입니다.</li></ul><h3 id="145ec508-cf3c-812a-890d-d99e0ff0f0f1" class="">출력 형식</h3><ul id="145ec508-cf3c-8170-97a9-dce0c33e3034" class="bulleted-list"><li style="list-style-type:disc">배열에서 인덱스 A에서 B까지의 숫자 합을 출력합니다.</li></ul><h3 id="145ec508-cf3c-8142-8f1f-d7a7a3538260" class="">입출력 예시</h3><table id="145ec508-cf3c-81d1-8399-f794317ebdee" class="simple-table"><tbody><tr id="145ec508-cf3c-8177-8bb9-e71918112773"><td id="fQ}y" class="">입력</td><td id="G^Ku" class="">출력</td></tr><tr id="145ec508-cf3c-817f-a30d-d0f0a36fd2b9"><td id="fQ}y" class="">5<br/>10 20 30 40 501 <br/>3<br/></td><td id="G^Ku" class="">60</td></tr><tr id="145ec508-cf3c-8172-a2d8-d7e346acfc2d"><td id="fQ}y" class="">6<br/>2 -3 5 8 -7 102 <br/>5<br/></td><td id="G^Ku" class="">3</td></tr><tr id="145ec508-cf3c-810e-ba91-e4b0b4c1b27f"><td id="fQ}y" class="">4<br/>7 5 -6 23 <br/>4<br/></td><td id="G^Ku" class="">-4</td></tr><tr id="145ec508-cf3c-81b0-a8de-f5e11e1c49d0"><td id="fQ}y" class="">3<br/>100 50 -1001 <br/>3<br/></td><td id="G^Ku" class="">50</td></tr><tr id="145ec508-cf3c-8109-a8a0-c7e1d0da0e45"><td id="fQ}y" class="">8<br/>1 1 1 1 1 1 1 14 <br/>8<br/></td><td id="G^Ku" class="">5</td></tr></tbody></table><h3 id="145ec508-cf3c-816c-b109-d3c739d6435d" class="">풀이 단계</h3><ol type="1" id="145ec508-cf3c-81e0-9de0-e31aa802a3cf" class="numbered-list" start="1"><li><strong>구간 선택</strong>: 배열의 인덱스 A에서 B까지의 구간을 선택합니다.</li></ol><ol type="1" id="145ec508-cf3c-8182-9edb-e0c055831ed7" class="numbered-list" start="2"><li><strong>합산</strong>: 선택된 구간의 모든 값을 순회하며 합산합니다.</li></ol><ol type="1" id="145ec508-cf3c-8130-b275-ecdfe900104a" class="numbered-list" start="3"><li><strong>출력</strong>: 구간의 합을 출력합니다.</li></ol><hr id="145ec508-cf3c-81ef-b64d-cdcd9a73fe94"/><h2 id="145ec508-cf3c-8192-8e12-c1221ea2a8ca" class="">문제 25: 최대 연속 합 찾기</h2><h3 id="145ec508-cf3c-8153-ae4c-f73c9e61f237" class="">설명</h3><p id="145ec508-cf3c-810d-9b4e-ef9d70cdd7f5" class="">숫자로 가득 찬 종이에서 연속된 숫자 구간 중 가장 큰 합을 찾고자 합니다. 이 문제는 연속된 숫자의 최대 합을 구하는 문제로, <strong>주어진 배열에서 연속된 숫자의 구간 중 가장 큰 합을 출력하는 프로그램</strong>을 작성하세요.</p><h3 id="145ec508-cf3c-81a7-bc4e-dc219f257d1c" class="">입력 형식</h3><ul id="145ec508-cf3c-81ed-8928-efb395fa5fd2" class="bulleted-list"><li style="list-style-type:disc">첫 번째 줄에 배열의 크기 N이 주어집니다.</li></ul><ul id="145ec508-cf3c-819c-823e-fcbbb53f0221" class="bulleted-list"><li style="list-style-type:disc">두 번째 줄에 N개의 정수가 공백으로 구분되어 주어집니다.</li></ul><ul id="145ec508-cf3c-8165-8618-dd8d67416191" class="bulleted-list"><li style="list-style-type:disc">1≤N≤100, 각 정수는 −100 이상 +100 이하입니다.</li></ul><h3 id="145ec508-cf3c-81ea-8b57-cf5a816b1f7f" class="">출력 형식</h3><ul id="145ec508-cf3c-8180-9d99-e76ec4050830" class="bulleted-list"><li style="list-style-type:disc">배열에서 <strong>연속된 숫자 구간 중 가장 큰 합</strong>을 출력합니다.</li></ul><h3 id="145ec508-cf3c-817c-9e3a-d93850448089" class="">입출력 예시</h3><table id="145ec508-cf3c-8198-9142-f1699d93472e" class="simple-table"><tbody><tr id="145ec508-cf3c-816a-b9bf-e852fe06b386"><td id="@];y" class="">입력</td><td id=";d_c" class="">출력</td></tr><tr id="145ec508-cf3c-8133-8f56-cbcc2b24fd31"><td id="@];y" class="">6<br/>-1 3 -2 4 -1 2<br/></td><td id=";d_c" class="">6</td></tr><tr id="145ec508-cf3c-812e-91b3-c454d4bd4059"><td id="@];y" class="">5<br/>10 -2 5 -3 7<br/></td><td id=";d_c" class="">17</td></tr><tr id="145ec508-cf3c-81c9-9de0-cf5e76c1c497"><td id="@];y" class="">4<br/>-1 -2 -3 -4<br/></td><td id=";d_c" class="">-1</td></tr><tr id="145ec508-cf3c-81da-8273-c9137dcc3afa"><td id="@];y" class="">3<br/>3 2 1<br/></td><td id=";d_c" class="">6</td></tr><tr id="145ec508-cf3c-8125-96ce-e067c8e22615"><td id="@];y" class="">8<br/>5 4 -1 7 8 -5 3 2<br/></td><td id=";d_c" class="">23</td></tr></tbody></table><h3 id="145ec508-cf3c-8107-b226-dbbd4d343321" class="">풀이 단계</h3><ol type="1" id="145ec508-cf3c-8109-838d-c016f71ee205" class="numbered-list" start="1"><li><strong>연속 구간 탐색</strong>: 배열의 각 요소를 시작으로 연속 구간의 합을 계산합니다.</li></ol><ol type="1" id="145ec508-cf3c-8142-8ba6-c225391e313a" class="numbered-list" start="2"><li><strong>최대값 갱신</strong>: 각 구간의 합을 계산할 때마다 최대값과 비교하여, 더 큰 합이 발견될 때 최대값을 갱신합니다.</li></ol><ol type="1" id="145ec508-cf3c-81c6-917f-cc5f8daf3631" class="numbered-list" start="3"><li><strong>출력</strong>: 최대 합을 출력합니다.</li></ol><hr id="145ec508-cf3c-81fe-8cda-d7754be954db"/><h2 id="145ec508-cf3c-8188-9460-d9854d96b3eb" class="">문제 26: 교차로 차량 정리</h2><h3 id="145ec508-cf3c-81da-9054-f7bf6fd117d1" class="">설명</h3><p id="145ec508-cf3c-81ab-ac51-c9164d30bfc6" class="">교차로에서 차량들이 안전하게 지나가기 위해 홀수 차량 번호와 짝수 차량 번호를 구분하여 정렬해야 합니다. <strong>홀수 차량 번호는 앞쪽으로, 짝수 차량 번호는 뒤쪽으로 배치</strong>하는 프로그램을 작성하세요.</p><h3 id="145ec508-cf3c-8167-b8e9-f281e89ef9d9" class="">입력 형식</h3><ul id="145ec508-cf3c-8153-b8b8-c7278d7eddf9" class="bulleted-list"><li style="list-style-type:disc">첫 번째 줄에 차량 번호 배열의 크기 N이 주어집니다.</li></ul><ul id="145ec508-cf3c-81f4-8b2f-f2b2d6422964" class="bulleted-list"><li style="list-style-type:disc">두 번째 줄에 N개의 차량 번호가 공백으로 구분되어 주어집니다.</li></ul><ul id="145ec508-cf3c-81c7-8026-d170000c8eb3" class="bulleted-list"><li style="list-style-type:disc">1≤N≤100, 각 차량 번호는 −100≤번호≤100입니다.</li></ul><h3 id="145ec508-cf3c-8193-8392-db132a6283a3" class="">출력 형식</h3><ul id="145ec508-cf3c-81e9-8ce9-c6ea7eabed3e" class="bulleted-list"><li style="list-style-type:disc">홀수 차량이 앞쪽에, 짝수 차량이 뒤쪽에 나열된 순서로 차량 번호를 출력합니다.</li></ul><h3 id="145ec508-cf3c-81c7-a214-e75c03ab13ec" class="">입출력 예시</h3><table id="145ec508-cf3c-81af-af78-fc7b440afb8c" class="simple-table"><tbody><tr id="145ec508-cf3c-8151-9ec7-f42769334713"><td id="O|uc" class="">입력</td><td id="G{EY" class="">출력</td></tr><tr id="145ec508-cf3c-810d-a95f-fee78d81c791"><td id="O|uc" class="">5<br/>2 7 4 9 10<br/></td><td id="G{EY" class="">7 9 2 4 10</td></tr><tr id="145ec508-cf3c-816a-9a1e-ca24a4c0209b"><td id="O|uc" class="">4<br/>3 6 7 2<br/></td><td id="G{EY" class="">3 7 6 2</td></tr><tr id="145ec508-cf3c-8170-9311-ca74c0366e09"><td id="O|uc" class="">6<br/>1 4 3 8 5 10<br/></td><td id="G{EY" class="">1 3 5 4 8 10</td></tr><tr id="145ec508-cf3c-81f2-8166-c1ec1225cbe9"><td id="O|uc" class="">3<br/>2 4 6<br/></td><td id="G{EY" class="">2 4 6</td></tr><tr id="145ec508-cf3c-8147-94ea-f16e6f33a5cb"><td id="O|uc" class="">7<br/>11 13 15 2 4 6 8<br/></td><td id="G{EY" class="">11 13 15 2 4 6 8</td></tr></tbody></table><h3 id="145ec508-cf3c-81bc-9f71-e00fe0f57241" class="">풀이 단계</h3><ol type="1" id="145ec508-cf3c-81bd-a6f3-cd004c443fb6" class="numbered-list" start="1"><li><strong>홀수, 짝수 분리</strong>: 각 차량 번호가 홀수인지 짝수인지 판별하여 두 그룹으로 나눕니다.</li></ol><ol type="1" id="145ec508-cf3c-8181-ba14-e02d3603b987" class="numbered-list" start="2"><li><strong>결합하여 출력</strong>: 홀수 그룹을 먼저 출력하고, 이어서 짝수 그룹을 출력합니다.</li></ol><hr id="145ec508-cf3c-81ba-b4a9-fa4e56cf1dd2"/><h2 id="145ec508-cf3c-8150-83b1-ea7c8562de6a" class="">문제 27: 두 수의 차의 절댓값 구하기</h2><h3 id="145ec508-cf3c-81db-aa43-c02c9d6319b5" class="">설명</h3><p id="145ec508-cf3c-817e-8b94-c1c10521b5c2" class="">숲 속에 있는 마법사는 주어진 두 숫자에 대해 특정 연산을 수행하는 주문을 걸었습니다. 두 숫자 AA와 BB가 주어졌을 때, <strong>두 수의 차의 절댓값</strong>을 계산하여 출력하는 프로그램을 작성하세요.</p><h3 id="145ec508-cf3c-8131-bc22-f119cfcd03e5" class="">입력 형식</h3><ul id="145ec508-cf3c-810f-a601-d920db779720" class="bulleted-list"><li style="list-style-type:disc">첫 번째 줄에 두 정수 A와 B가 주어집니다.</li></ul><ul id="145ec508-cf3c-8170-adda-feae1f9b55e4" class="bulleted-list"><li style="list-style-type:disc">−100≤A,B≤100</li></ul><h3 id="145ec508-cf3c-8155-9663-f203c4620b0c" class="">출력 형식</h3><ul id="145ec508-cf3c-819e-bc3f-d62f7b1302c7" class="bulleted-list"><li style="list-style-type:disc">A−BA−B의 <strong>절댓값</strong>을 출력합니다.</li></ul><h3 id="145ec508-cf3c-81df-b2e0-e0dee0b567f2" class="">입출력 예시</h3><table id="145ec508-cf3c-8121-9c92-f47a6a267dc6" class="simple-table"><tbody><tr id="145ec508-cf3c-815a-b832-fcfca8c0951a"><td id="?dSC" class="">입력</td><td id="Ge@Y" class="">출력</td></tr><tr id="145ec508-cf3c-812a-b278-fbfb66fb9909"><td id="?dSC" class="">5 10</td><td id="Ge@Y" class="">5</td></tr><tr id="145ec508-cf3c-81dc-a7d5-f35e249180e3"><td id="?dSC" class="">-3 -8</td><td id="Ge@Y" class="">5</td></tr><tr id="145ec508-cf3c-815e-88e4-f401fa3e1e26"><td id="?dSC" class="">50 0</td><td id="Ge@Y" class="">50</td></tr><tr id="145ec508-cf3c-81f3-861c-f5d91e0797a1"><td id="?dSC" class="">-10 10</td><td id="Ge@Y" class="">20</td></tr><tr id="145ec508-cf3c-8176-a430-fa7232ee2dad"><td id="?dSC" class="">50 50</td><td id="Ge@Y" class="">0</td></tr></tbody></table><h3 id="145ec508-cf3c-811a-9259-d5b6a9de3fe7" class="">풀이 단계</h3><ol type="1" id="145ec508-cf3c-81ed-9ed2-de12a95a4e07" class="numbered-list" start="1"><li><strong>차이 계산</strong>: 두 수 A와 B의 차를 구합니다.</li></ol><ol type="1" id="145ec508-cf3c-819c-842b-f6b18a852a9a" class="numbered-list" start="2"><li><strong>절댓값 계산</strong>: 차이가 음수일 경우 양수로 변환하여 절댓값을 출력합니다.</li></ol><hr id="145ec508-cf3c-816e-9eea-f6d07aed5461"/><h2 id="145ec508-cf3c-81d6-8048-cfb6b7cc49a0" class="">문제 28: 산과 골짜기 정렬</h2><h3 id="145ec508-cf3c-8125-865a-f32402ee6c4b" class="">설명</h3><p id="145ec508-cf3c-8178-9d76-c111079e1d5a" class="">숲 속 돌판에는 두 가지의 숫자들로 구성된 메시지가 새겨져 있습니다. 돌판을 올바르게 해석하려면 숫자를 특이한 패턴으로 정렬해야 합니다. <strong>양수는 오름차순으로, 음수는 내림차순으로 정렬</strong>하여 배열에 배치하는 규칙을 따릅니다. 이때, 양수는 앞쪽에, 음수는 뒤쪽에 위치해야 합니다. 이를 통해 해독된 숫자 배열을 출력하는 프로그램을 작성하세요.</p><h3 id="145ec508-cf3c-8184-b0e8-e737a3036cae" class="">입력 형식</h3><ul id="145ec508-cf3c-81f1-a101-ea4220b37d5b" class="bulleted-list"><li style="list-style-type:disc">첫 번째 줄에 배열의 크기 N이 주어집니다.</li></ul><ul id="145ec508-cf3c-8172-bc8c-dd93e2c4ecef" class="bulleted-list"><li style="list-style-type:disc">두 번째 줄에 N개의 정수가 공백으로 구분되어 주어집니다.</li></ul><ul id="145ec508-cf3c-8180-92a6-cd6c1e926b91" class="bulleted-list"><li style="list-style-type:disc">1≤N≤100, 각 정수는 −100≤정수≤100입니다.</li></ul><h3 id="145ec508-cf3c-81b0-809c-fbd917042677" class="">출력 형식</h3><ul id="145ec508-cf3c-817c-b8bc-dcde7abd528c" class="bulleted-list"><li style="list-style-type:disc">양수는 오름차순, 음수는 내림차순으로 정렬하여 한 줄에 출력합니다.<ul id="145ec508-cf3c-81dc-8576-f735c7efb47f" class="bulleted-list"><li style="list-style-type:circle">예를 들어, 양수들은 <code>[1, 2, 3]</code>, 음수들은 <code>[-1, -2, -3]</code>으로 배치됩니다.</li></ul><ul id="145ec508-cf3c-8168-b819-d88ee47db539" class="bulleted-list"><li style="list-style-type:circle">결과적으로 <code>[1 2 3 -1 -2 -3]</code> 형태로 출력됩니다.</li></ul></li></ul><h3 id="145ec508-cf3c-8170-9bf3-f2ccbb46e9ac" class="">입출력 예시</h3><table id="145ec508-cf3c-815b-93bc-ea7dd9b44343" class="simple-table"><tbody><tr id="145ec508-cf3c-81ec-9185-df1cef80f268"><td id=":}&gt;v" class="">입력</td><td id="~Lhq" class="">출력</td></tr><tr id="145ec508-cf3c-813a-b067-eea03c631baa"><td id=":}&gt;v" class="">6<br/>3 -1 4 -5 2 -2<br/></td><td id="~Lhq" class="">2 3 4 -1 -2 -5</td></tr><tr id="145ec508-cf3c-81a8-b664-d5991de311b4"><td id=":}&gt;v" class="">5<br/>10 -10 0 5 -5<br/></td><td id="~Lhq" class="">0 5 10 -5 -10</td></tr><tr id="145ec508-cf3c-816a-aec3-e5065b1b5d3b"><td id=":}&gt;v" class="">4<br/>-2 -4 3 1<br/></td><td id="~Lhq" class="">1 3 -2 -4</td></tr><tr id="145ec508-cf3c-8190-91c5-f03819a4e231"><td id=":}&gt;v" class="">7<br/>7 -3 5 -1 -6 8 0<br/></td><td id="~Lhq" class="">0 5 7 8 -1 -3 -6</td></tr><tr id="145ec508-cf3c-8144-9704-c2e666ad414c"><td id=":}&gt;v" class="">3<br/>-8 -7 -9<br/></td><td id="~Lhq" class="">-7 -8 -9</td></tr></tbody></table><h3 id="145ec508-cf3c-8199-be45-ffcf1503582e" class="">풀이 단계</h3><ol type="1" id="145ec508-cf3c-81ae-908e-dc7e3860116a" class="numbered-list" start="1"><li><strong>양수와 음수 분리</strong>: 배열을 순회하면서 양수와 음수를 각각 따로 저장합니다.</li></ol><ol type="1" id="145ec508-cf3c-81a3-97ea-cf6a5b8a8e65" class="numbered-list" start="2"><li><strong>정렬</strong>: 양수 배열은 오름차순, 음수 배열은 내림차순으로 정렬합니다.</li></ol><ol type="1" id="145ec508-cf3c-81c1-a1eb-c6905b8afafb" class="numbered-list" start="3"><li><strong>배열 합치기</strong>: 정렬된 양수 배열을 먼저 출력하고, 그다음 음수 배열을 이어서 출력합니다.</li></ol><p id="145ec508-cf3c-81b7-bddf-e200faec68ff" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
