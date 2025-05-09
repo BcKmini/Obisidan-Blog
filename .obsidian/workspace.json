@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-05-08.md",
+                "file": "2025/학부연구생/5월/1주차/2025-05-08 (제안서 작성_대학로고).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-08"
+              "title": "2025-05-08 (제안서 작성_대학로고)"
             }
           }
         ]
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,9 +196,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "dfb4ea3b002bb7b1",
+  "active": "dea8fe59e1bcf4ed",
   "lastOpenFiles": [
-    "2025-05-08.md",
+    "2025/학부연구생/5월/1주차/pdf/Logo.pdf",
+    "2025/학부연구생/5월/1주차/pdf",
+    "2025/학부연구생/5월/1주차/2025-05-08 (제안서 작성_대학로고).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/10주차/2025-05-08 (졸업작품 평가).md",
     "2025/학부연구생/5월/1주차/2025-05-07 (프로그램 코딩 채점 서비스).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/10주차",
@@ -211,7 +212,6 @@
     "2025/학부연구생/Code/Grading problems/class_v2.2/uploaded_codes/8395/202201232/input.txt",
     "2025/학부연구생/Code/Grading problems/class_v2.2/uploaded_codes/8395/202201232/202201232_problem2_problem2.py",
     "2025/학부연구생/Code/Grading problems/class_v2.2/uploaded_codes/8395/202024123/output.txt",
-    "2025/학부연구생/Code/Grading problems/class_v2.2/uploaded_codes/8395/202024123/input.txt",
     "2025/학부연구생/Code/Grading problems/class_v2.2/static/images/image01.png",
     "2025/학부연구생/Code/Grading problems/class_v2.2/static/images/image00.png",
     "2025/4학년1학기/운영체제 - 김정환/10주차/img/스크린샷 2025-05-07 17.36.40.png",
@@ -244,7 +244,6 @@
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/9주차/2025-05-06 (대체 과제).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/9주차/2025-05-01 (교수님 피드백).md",
     "2025/학부연구생/4월/1주차/2025-04-01 (보고서, 랩미팅).md",
-    "2025/학부연구생/4월/1주차/2025-04-01 (교수님 상담).md",
     "무제.canvas",
     "무제 1.canvas"
   ]
