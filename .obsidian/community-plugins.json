@@ -2,5 +2,6 @@
   "calendar",
   "obsidian-git",
   "obsidian-tasks-plugin",
-  "obsidian-importer"
+  "obsidian-importer",
+  "copy-as-html"
 ]
