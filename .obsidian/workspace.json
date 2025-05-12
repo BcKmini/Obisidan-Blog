@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "88cce8bc25314ea3",
+  "active": "dea8fe59e1bcf4ed",
   "lastOpenFiles": [
     "2025/학부연구생/5월/1주차/pdf/경민_추진체계(참고2).pdf",
     "2025/학부연구생/5월/1주차/pdf/경민_추진체계.pdf",
