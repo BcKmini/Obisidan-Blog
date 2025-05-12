@@ -1,4 +1,5 @@
 {
+  "includes": {},
   "globalQuery": "",
   "globalFilter": "#todo",
   "removeGlobalFilter": false,
@@ -14,6 +15,7 @@
   "filenameAsScheduledDateFormat": "",
   "filenameAsDateFolders": [],
   "recurrenceOnNextLine": false,
+  "removeScheduledDateOnRecurrence": false,
   "statusSettings": {
     "coreStatuses": [
       {
