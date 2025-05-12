@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#구축한",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,8 +143,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화돼있지 않음"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,6 +198,7 @@
   },
   "active": "0af921a75eb5eedc",
   "lastOpenFiles": [
+    "스크린샷 2025-05-12 15.58.19.png",
     "스크린샷 2025-05-12 15.50.50.png",
     "2025/4학년1학기/운영체제 - 김정환/10주차/2025-05-07 (스케줄링).md",
     "2025/4학년1학기/운영체제 - 김정환/11주차/2025-05-12.md",
@@ -236,7 +236,6 @@
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/10주차/2025-05-08 (졸업작품 평가).md",
     "2025/학부연구생/5월/1주차/img/지도.png",
     "2025/학부연구생/5월/1주차/img/image.png",
-    "2025/학부연구생/Code/Grading problems/class_v2.2/static/images/image01.png",
     "2025/개인공부/5월/2025-05-07 (OCR 모델 돌려보기).md",
     "2025/개인공부/4월/2024-04-02 (빅분기 필기 요약정리).md",
     "2025/개인공부/4월/2025-04-05 (빅분기 필기).md",
