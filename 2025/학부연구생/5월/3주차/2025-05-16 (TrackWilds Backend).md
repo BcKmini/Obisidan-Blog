@@ -1,4 +1,4 @@
-## 까치
+## 까치 GPS 
 
 - 과제 1. https://wi-tracker.com/bbs/login.php에서 조류 추적 데이터 예제 다운로드
 - 과제 2. Google Map Web을 사용하여 조류 이력 그리기
