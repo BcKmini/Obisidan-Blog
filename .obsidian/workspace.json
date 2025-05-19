@@ -11,12 +11,14 @@
             "id": "506e6ca6a4f38104",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2025/4학년1학기/운영체제 - 김정환/12주차/img/Swapping.png"
+                "file": "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Swapping"
+              "icon": "lucide-file",
+              "title": "2025-05-11 ((구글 +네이버) 로그인API)"
             }
           }
         ]
@@ -180,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,11 +197,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "dea8fe59e1bcf4ed",
+  "active": "506e6ca6a4f38104",
   "lastOpenFiles": [
+    "2025/학부연구생/5월/3주차/2025-05-14 (DB 재구성).md",
+    "2025/학부연구생/5월/3주차/2025-05-15 (베리어프리공모전).md",
+    "2025/학부연구생/5월/3주차/2025-05-13 (프로그램 채점 코딩 에러 해결).md",
+    "2025/학부연구생/5월/3주차/2025-05-13 (CCTV - Labelbox 개선).md",
+    "2025/학부연구생/5월/3주차/2025-05-14 (CCTV 개선 UI).md",
+    "2025/학부연구생/5월/4주차/2025-05-19 (Reproduction of SOTA Models for Video-based Animal Behavior Classification).md",
+    "2025/4학년1학기/운영체제 - 김정환/12주차/img/Swapping.png",
     "2025/4학년1학기/운영체제 - 김정환/12주차/2025-05-19 (Basic Memory Management).md",
     "2025/4학년1학기/운영체제 - 김정환/12주차/img/Swapping1.png",
-    "2025/4학년1학기/운영체제 - 김정환/12주차/img/Swapping.png",
     "2025/4학년1학기/운영체제 - 김정환/12주차/img/Address Binding.png",
     "2025/4학년1학기/운영체제 - 김정환/12주차/img/Address Binding1.png",
     "2025/4학년1학기/운영체제 - 김정환/12주차/img/모노프로그래밍.png",
@@ -214,14 +223,8 @@
     "2025/학부연구생/4월/4주차/2025-04-29 (랩미팅).md",
     "2025/4학년1학기/운영체제 - 김정환/12주차",
     "2025/학부연구생/5월/3주차/2025-05-16 (TrackWilds Backend).md",
-    "2025/학부연구생/5월/4주차/2025-05-19.md",
     "2025/학부연구생/5월/4주차/img",
     "2025/학부연구생/5월/4주차",
-    "2025/학부연구생/5월/3주차/2025-05-14 (DB 재구성).md",
-    "2025/학부연구생/5월/3주차/2025-05-14 (CCTV 개선 UI).md",
-    "2025/학부연구생/5월/3주차/2025-05-13 (CCTV - Labelbox 개선).md",
-    "2025/학부연구생/5월/3주차/2025-05-13 (프로그램 채점 코딩 에러 해결).md",
-    "2025/학부연구생/5월/3주차/2025-05-15 (베리어프리공모전).md",
     "2025/학부연구생/4월/4주차/2025-05-03 (Development of Video Labeling Tools).md",
     "2025/4학년1학기/운영체제 - 김정환/11주차/pdf/Scheduling.pdf",
     "2025/4학년1학기/운영체제 - 김정환/11주차/pdf/Round-Robin.pdf",
