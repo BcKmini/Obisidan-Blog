@@ -11,3 +11,6 @@ Reproduction of SOTA Models for Video-based Animal Behavior Classification
 
 - 경민이는 아직 미숙할테니, 단계별로 보고하고, 막히면 나에게 질문하세요.
 
+---
+
+해킹 아님 그냥 우리 db에 들어간거 바로 지워줄게 
