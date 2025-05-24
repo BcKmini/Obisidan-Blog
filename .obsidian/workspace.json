@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "d3ea43f5cfb9ffd6",
+  "active": "dea8fe59e1bcf4ed",
   "lastOpenFiles": [
     "2025/학부연구생/5월/4주차/2025-05-19 (Reproduction of SOTA Models for Video-based Animal Behavior Classification).md",
     "2025-05-24.md",
