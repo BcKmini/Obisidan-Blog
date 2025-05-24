@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d244edc4ea2551f8",
+        "id": "539f7f8816ff7b44",
         "type": "tabs",
         "children": [
           {
-            "id": "df3c5f48ff527c48",
+            "id": "d3ea43f5cfb9ffd6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025/학부연구생/5월/4주차/2025-05-22 (ChatGPT).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-05-22 (ChatGPT)"
+              "title": "새 탭"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 225.5
   },
   "right": {
     "id": "7f7b821c8e63a5d4",
@@ -182,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +193,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "dea8fe59e1bcf4ed",
+  "active": "d3ea43f5cfb9ffd6",
   "lastOpenFiles": [
-    "2025/학부연구생/5월/2주차/2025-05-12 (프로그램 채점 코딩 에러 해결).md",
     "2025/학부연구생/5월/4주차/2025-05-22 (ChatGPT).md",
+    "2025/학부연구생/5월/2주차/2025-05-12 (프로그램 채점 코딩 에러 해결).md",
     "2025/학부연구생/5월/4주차/img/팀원단체사진_1.jpg",
     "2025/학부연구생/5월/4주차/pdf/프롬포트 질문-답변.pdf",
     "2025/학부연구생/5월/4주차/pdf/생성형 AI 활용 전략 PPT 자동화와 프롬프트 설계.pdf",
