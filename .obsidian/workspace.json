@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "001dbb366bc6e88b",
+        "id": "f131754c3255a8cd",
         "type": "tabs",
         "children": [
           {
-            "id": "42bf07535d22bb86",
+            "id": "5cf85155c282dd60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "참고/기티.md",
+                "file": "2025/학부연구생/5월/4주차/2025-05-27 (cctv timeline 수정).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기티"
+              "title": "2025-05-27 (cctv timeline 수정)"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 275.5
   },
   "right": {
     "id": "7f7b821c8e63a5d4",
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,28 +196,29 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "42bf07535d22bb86",
+  "active": "dea8fe59e1bcf4ed",
   "lastOpenFiles": [
-    "2025/학부연구생/5월/4주차/2025-05-26 (cctv timeline 수정).md",
-    "스크린샷 2025-05-27 11.28.18.png",
+    "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (DeepAction_a MATLAB toolbox for automated classification of animal behavior in video).md",
+    "2025/학부연구생/5월/4주차/2025-05-27 (cctv timeline 수정).md",
+    "2025/학부연구생/5월/4주차/2025-05-24.md",
+    "2025/학부연구생/5월/4주차/img/참고_task3.jpg",
+    "2025/4학년1학기/운영체제 - 김정환/13주차/img/스크린샷 2025-05-26 15.11.06.png",
+    "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
+    "2025/개인공부/5월/2025-05-03 (Text to image).md",
+    "2025/학부연구생/5월/4주차/img/dot_line.png",
+    "2025/학부연구생/5월/4주차/img/수정_mian.png",
+    "2025/학부연구생/5월/4주차/img/수정_mian.png",
+    "참고/기티.md",
     "2025/학부연구생/5월/4주차/img/수정사항.png",
     "2025/학부연구생/5월/4주차/img/수정사항 1.png",
-    "2025/학부연구생/5월/4주차/2025-05-24.md",
-    "참고/기티.md",
     "참고/외부포트.md",
     "2025/학부연구생/5월/4주차/2025-05-26.md",
-    "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (DeepAction_a MATLAB toolbox for automated classification of animal behavior in video).md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
     "2025/4학년1학기/운영체제 - 김정환/13주차/2025-05-26 (가상메모리_Virtual Memory).md",
-    "2025/개인공부/5월/2025-05-03 (Text to image).md",
     "2025/4학년1학기/운영체제 - 김정환/13주차/img/Mapping with TLB.png",
     "2025/개인공부/5월/2025-05-07 (OCR 모델 돌려보기).md",
     "2025/4학년1학기/운영체제 - 김정환/13주차/img/TLBs.png",
     "2025/4학년1학기/운영체제 - 김정환/13주차/img/연관사상.png",
-    "2025/4학년1학기/운영체제 - 김정환/13주차/img/페이지 부재1.png",
-    "2025/4학년1학기/운영체제 - 김정환/13주차/img/페이지 테이블 엔트리 구조.png",
-    "2025/4학년1학기/운영체제 - 김정환/13주차/img/Pasted image 20250526151014.png",
-    "2025/4학년1학기/운영체제 - 김정환/13주차/img/페이지 부재.png",
     "2025/학부연구생/논문/Animal Behavior in video",
     "2025/4학년1학기/운영체제 - 김정환/13주차/img",
     "2025/4학년1학기/운영체제 - 김정환/13주차/pdf",
@@ -228,7 +228,6 @@
     "2025/4학년1학기/졸작개발/5월/2025-05-26 (메인, DB_Token 연결).md",
     "2025/4학년1학기/졸작개발/5월/pdf/1조_프로젝트_설계서.pdf",
     "2025/4학년1학기/졸작개발/5월/pdf",
-    "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
     "2025/학부연구생/5월/3주차/2025-05-19 (Reproduction of SOTA Models for Video-based Animal Behavior Classification).md",
     "2025/학부연구생/5월/3주차/2025-05-23 (CCTV_라벨링툴 개선).md",
     "2025/학부연구생/5월/3주차/2025-05-22 (ChatGPT).md",
