@@ -1,5 +1,4 @@
 #### [깃허브 참고](https://github.com/carlwharris/DeepAction?tab=readme-ov-file)
-## ✅ 논문 전문 번역 (1/다수)
 
 ### 📄 원문 제목
 
