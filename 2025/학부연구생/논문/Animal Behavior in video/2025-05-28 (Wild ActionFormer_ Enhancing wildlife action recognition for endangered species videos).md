@@ -1,4 +1,4 @@
-## Intreduction
+# Intreduction
 - 생물 다양성 하락 (개체수 크게 감소)
 - 이유 : 서식지파괴, 기후 변화, 밀렵, 인간활동  등
 CBD, CITES -> 생물종을 보호
@@ -13,8 +13,8 @@ We trained our model on the LoTE-Animal dataset ([Liu et al., 2023a](https://www
 ![[Comparison of mainstream methods on the video LoTE-Animal dataset.png]]
 
 
-## 2.  Preliminary work
-### 2.1 Action recognition
+# 2.  Preliminary work
+## 2.1 Action recognition
 CNN은 이미지에서 공간적 특징을 추출하는 데는 탁월하지만 비디오 시퀀스에서 시간적 의존성을 포착하는 데는 어려움을 겪는다.
 
 CNNs excel at extracting spatial features from images but struggle to capture temporal dependencies in video sequences. ViT-based models – such as TimeSFormer ([Bertasius et al., 2021](https://www.sciencedirect.com/science/article/pii/S1574954125001578#b3)) and Video Swin Transformer ([Liu et al., 2022](https://www.sciencedirect.com/science/article/pii/S1574954125001578#b31)) – use self-attention mechanisms to capture long-range dependencies.
@@ -46,8 +46,8 @@ CNN은 공간적 특징 추출에 중점을 두는 반면, ViT는 시간적 종�
 [언더/오버 샘플링](https://hwi-doc.tistory.com/entry/%EC%96%B8%EB%8D%94-%EC%83%98%ED%94%8C%EB%A7%81Undersampling%EA%B3%BC-%EC%98%A4%EB%B2%84-%EC%83%98%ED%94%8C%EB%A7%81Oversampling)
 [Loss Function Explained](https://wikidocs.net/235772)
 
-## 3. Materials and methods
-### 3.1. Materials (실험 위치 안내)
+# 3. Materials and methods
+## 3.1. Materials (실험 위치 안내)
 Wolong National Nature Reserve (hereafter the reserve) is located between 102°52′ to 103°24′ E and 30° 45′ to 31°25′ N. It covers 2,000 km
 and has an elevation range of 1,150 to 6,250 meters (Liu et al., 2001).
 
@@ -55,3 +55,19 @@ and has an elevation range of 1,150 to 6,250 meters (Liu et al., 2001).
 ![[Dataset construction.png]]
 
 ### 3.1.2 Dataset content
+- LoTE-Animal dataset use 
+동물들의 활동 패턴은 계절/날씨/시각에 따라 달라진다.
+이 데이터 세트는 세 가지 차원으로 동물 종을 분류
+- 장면 차원 - 시간대(아침, 정오, 밤)
+- 계절 변화(봄, 여름-가을, 겨울)
+- 기상 조건(안개, 눈, 맑음, 비, 흐림, 흐림)이 포함
+![[Dataset content.png]]
+
+## 3.2 Methods
+The network architecture in [Fig. 4](https://www.sciencedirect.com/science/article/pii/S1574954125001578#fig4) integrates a self-supervised learning adapter to improve wild animal action recognition (Section [3.2.1](https://www.sciencedirect.com/science/article/pii/S1574954125001578#sec3.2.1)). A loss function combines differential divergence regularization with MSE to enhance feature alignment and robustness (Section [3.2.2](https://www.sciencedirect.com/science/article/pii/S1574954125001578#sec3.2.2)). A loss re-weighting function reduces bias from the long-tailed data distribution (Section [3.2.3](https://www.sciencedirect.com/science/article/pii/S1574954125001578#sec3.2.3)).
+
+The model has four main components: input, feature adapter, backbone, and output. The input consists of infrared trap camera videos. The output provides predicted animal actions. The Feature Adapter is designed for self-supervised spatio-temporal learning. It follows an encoder–decoder structure. During pre-training, the model learns behavior features from unlabeled video data by performing future frame prediction and occlusion recovery. Inception modules with multi-scale convolutions (1 × 1, 3 × 3, 5 × 5) refine features and capture temporal dependencies. The decoder uses deconvolution (unConv2d) to reconstruct occluded features and reduce information loss caused by occlusions and noise. The backbone UniFormerV2 combines CNNs and Transformers to model short- and long-term dependencies. The Local UniBlock captures short-term patterns, while Global Cross MHRA aggregates cross-frame information for long-range dependencies. A multi-stage fusion mechanism integrates local and global features. Detailed explanations of key components are provided in Supplementary Material, Appendix C.
+
+![[Methods.png]]
+
+### 3.2.1 Feature adapter
