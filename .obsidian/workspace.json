@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f131754c3255a8cd",
+        "id": "bc235de473635d34",
         "type": "tabs",
         "children": [
           {
-            "id": "5cf85155c282dd60",
+            "id": "bbe10699c45abe6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 275.5,
+    "collapsed": true
   },
   "right": {
     "id": "7f7b821c8e63a5d4",
@@ -182,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,30 +197,31 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "5cf85155c282dd60",
+  "active": "dea8fe59e1bcf4ed",
   "lastOpenFiles": [
-    "2025/학부연구생/논문/Animal Behavior in video/pdf/Wild ActionFormer_ Enhancing wildlife action recognition for 11 endangered species in Wolong - 1-s2.0-S1574954125001578-main.pdf",
+    "2025/학부연구생/논문/Animal Behavior in video/Pasted image 20250529130722.png",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
+    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Seasonal variation in animal action in Wolong Nature Reserve1.png",
+    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Successful cases.png",
+    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Seasonal variation in animal action in Wolong Nature Reserve..png",
+    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Heatmap.png",
+    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Fail case.png",
+    "참고/2025-05-29 (옵시디언 문법).md",
+    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Confusion matrix analysis.png",
+    "2025/학부연구생/5월/4주차/2025-05-24.md",
+    "2025/학부연구생/5월/4주차/2025-05-27 (cctv timeline 수정).md",
+    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Loss re-weighting.png",
+    "2025/학부연구생/논문/Animal Behavior in video/pdf/Wild ActionFormer_ Enhancing wildlife action recognition for 11 endangered species in Wolong - 1-s2.0-S1574954125001578-main.pdf",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Methods.png",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Comparison of mainstream methods on the video LoTE-Animal dataset.png",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Dataset content.png",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Dataset construction.png",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (DeepAction_a MATLAB toolbox for automated classification of animal behavior in video).md",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/DeepAction_a MATLAB toolbox for automated classification of animal behavior in video.pdf",
     "2025/학부연구생/논문/Animal Behavior in video/pdf",
-    "2025/학부연구생/5월/4주차/2025-05-27 (cctv timeline 수정).md",
-    "2025/학부연구생/5월/4주차/2025-05-24.md",
-    "2025/학부연구생/5월/4주차/img/참고_task3.jpg",
-    "2025/4학년1학기/운영체제 - 김정환/13주차/img/스크린샷 2025-05-26 15.11.06.png",
     "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
     "2025/개인공부/5월/2025-05-03 (Text to image).md",
-    "2025/학부연구생/5월/4주차/img/dot_line.png",
-    "2025/학부연구생/5월/4주차/img/수정_mian.png",
-    "2025/학부연구생/5월/4주차/img/수정_mian.png",
     "참고/기티.md",
-    "2025/학부연구생/5월/4주차/img/수정사항.png",
     "참고/외부포트.md",
     "2025/학부연구생/5월/4주차/2025-05-26.md",
     "2025/4학년1학기/운영체제 - 김정환/13주차/2025-05-26 (가상메모리_Virtual Memory).md",
@@ -243,7 +244,6 @@
     "무제.md",
     "2025/학생회/5월/2025-05-19 (체육대회).md",
     "2025-05-20.md",
-    "2025/멘토멘티/동아리.md",
     "무제.canvas",
     "무제 1.canvas"
   ]
