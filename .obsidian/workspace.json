@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-05-30.md",
+                "file": "2025/KT/2025-05-30 (KT디인재 Network).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-30"
+              "title": "2025-05-30 (KT디인재 Network)"
             }
           }
         ]
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,10 +196,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bbe10699c45abe6c",
+  "active": "dea8fe59e1bcf4ed",
   "lastOpenFiles": [
+    "2025/KT/img",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
-    "2025-05-30.md",
+    "2025/KT/2025-05-30 (KT디인재 Network).md",
+    "2025/KT/img/일정.png",
     "2025/학부연구생/논문/Animal Behavior in video/Pasted image 20250529130722.png",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Seasonal variation in animal action in Wolong Nature Reserve1.png",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Successful cases.png",
@@ -214,7 +215,6 @@
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Loss re-weighting.png",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/Wild ActionFormer_ Enhancing wildlife action recognition for 11 endangered species in Wolong - 1-s2.0-S1574954125001578-main.pdf",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Methods.png",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Comparison of mainstream methods on the video LoTE-Animal dataset.png",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (DeepAction_a MATLAB toolbox for automated classification of animal behavior in video).md",
@@ -244,7 +244,6 @@
     "참고/동영상변환.md",
     "무제.md",
     "2025/학생회/5월/2025-05-19 (체육대회).md",
-    "2025-05-20.md",
     "무제.canvas",
     "무제 1.canvas"
   ]
