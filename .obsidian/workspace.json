@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +197,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "dea8fe59e1bcf4ed",
+  "active": "bbe10699c45abe6c",
   "lastOpenFiles": [
     "2025/KT/img",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
