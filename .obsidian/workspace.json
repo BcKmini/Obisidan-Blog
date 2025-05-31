@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bc235de473635d34",
+        "id": "cc1afdf9f11480da",
         "type": "tabs",
         "children": [
           {
-            "id": "bbe10699c45abe6c",
+            "id": "8fa1cc5d9349d013",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025/KT/2025-05-30 (KT디인재 Network).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-05-30 (KT디인재 Network)"
+              "title": "새 탭"
             }
           }
         ]
@@ -182,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +193,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "dea8fe59e1bcf4ed",
+  "active": "8fa1cc5d9349d013",
   "lastOpenFiles": [
+    "2025/KT/2025-05-30 (KT디인재 Network).md",
     "2025/KT/img",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
-    "2025/KT/2025-05-30 (KT디인재 Network).md",
     "2025/KT/img/일정.png",
     "2025/학부연구생/논문/Animal Behavior in video/Pasted image 20250529130722.png",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Seasonal variation in animal action in Wolong Nature Reserve1.png",
@@ -232,7 +229,6 @@
     "2025/4학년1학기/운영체제 - 김정환/13주차/pdf",
     "2025/4학년1학기/운영체제 - 김정환/13주차",
     "2025/학부연구생/5월/4주차/img",
-    "2025/학부연구생/5월/5주차",
     "2025/4학년1학기/졸작개발/5월/2025-05-26 (메인, DB_Token 연결).md",
     "2025/학부연구생/5월/3주차/2025-05-19 (Reproduction of SOTA Models for Video-based Animal Behavior Classification).md",
     "2025/학부연구생/5월/3주차/2025-05-23 (CCTV_라벨링툴 개선).md",
