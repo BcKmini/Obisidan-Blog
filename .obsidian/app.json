@@ -8,5 +8,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "newFileLocation": "current",
+  "newFileFolderPath": "/img"
 }
