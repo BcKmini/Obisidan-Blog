@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/4학년1학기/졸작개발/5월/2025-05-26 (메인, DB_Token 연결).md",
+                "file": "2025/4학년1학기/졸작개발/6월/2025-06-02 (upload, ocr_v1 구현.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-26 (메인, DB_Token 연결)"
+              "title": "2025-06-02 (upload, ocr_v1 구현"
             }
           }
         ]
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,11 +196,20 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "8fa1cc5d9349d013",
+  "active": "dea8fe59e1bcf4ed",
   "lastOpenFiles": [
+    "2025/4학년1학기/졸작개발/6월/img/엔티티 관계도.png",
+    "2025/4학년1학기/졸작개발/6월/2025-06-02 (upload, ocr_v1 구현.md",
+    "2025/4학년1학기/졸작개발/6월/img/swagger.png",
+    "2025/4학년1학기/졸작개발/6월/img/OCR.png",
+    "2025/4학년1학기/졸작개발/6월/img/upload.png",
+    "2025/4학년1학기/졸작개발/6월/img/folder.png",
+    "2025/4학년1학기/졸작개발/6월/img",
+    "2025/4학년1학기/졸작개발/6월",
+    "2025/4학년1학기/졸작개발/6월/img/main.png",
+    "2025/4학년1학기/졸작개발/5월/2025-05-26 (메인, DB_Token 연결).md",
     "2025/KT/2025-05-30 (KT디인재 Network).md",
     "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
-    "2025/4학년1학기/졸작개발/5월/2025-05-26 (메인, DB_Token 연결).md",
     "2025/개인공부/5월/2025-05-07 (OCR 모델 돌려보기).md",
     "2025/KT/img",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
@@ -209,16 +217,10 @@
     "2025/학부연구생/논문/Animal Behavior in video/Pasted image 20250529130722.png",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Seasonal variation in animal action in Wolong Nature Reserve1.png",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Successful cases.png",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Seasonal variation in animal action in Wolong Nature Reserve..png",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Heatmap.png",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Fail case.png",
     "참고/2025-05-29 (옵시디언 문법).md",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Confusion matrix analysis.png",
     "2025/학부연구생/5월/4주차/2025-05-24.md",
     "2025/학부연구생/5월/4주차/2025-05-27 (cctv timeline 수정).md",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Loss re-weighting.png",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/Wild ActionFormer_ Enhancing wildlife action recognition for 11 endangered species in Wolong - 1-s2.0-S1574954125001578-main.pdf",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Methods.png",
     "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (DeepAction_a MATLAB toolbox for automated classification of animal behavior in video).md",
@@ -232,8 +234,6 @@
     "2025/학부연구생/논문/Animal Behavior in video",
     "2025/4학년1학기/운영체제 - 김정환/13주차/img",
     "2025/4학년1학기/운영체제 - 김정환/13주차/pdf",
-    "2025/4학년1학기/운영체제 - 김정환/13주차",
-    "2025/학부연구생/5월/4주차/img",
     "2025/학부연구생/5월/3주차/2025-05-19 (Reproduction of SOTA Models for Video-based Animal Behavior Classification).md",
     "2025/학부연구생/5월/3주차/2025-05-23 (CCTV_라벨링툴 개선).md",
     "2025/학부연구생/5월/3주차/2025-05-22 (ChatGPT).md",
@@ -243,7 +243,6 @@
     "2025/학부연구생/5월/3주차/2025-05-20 (베리어프리 공모전 인터뷰).md",
     "참고/동영상변환.md",
     "무제.md",
-    "2025/학생회/5월/2025-05-19 (체육대회).md",
     "무제.canvas",
     "무제 1.canvas"
   ]
