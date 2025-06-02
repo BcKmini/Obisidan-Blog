@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
+                "file": "2025/학생회/4월/2025-04-28 (체육대회).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-02 (Animal Behavior Classification Using DeepLabCut)"
+              "title": "2025-04-28 (체육대회)"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.5
   },
   "right": {
     "id": "54ba721a3a6998a5",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
+                "file": "2025/학생회/4월/2025-04-28 (체육대회).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-06-02 (Animal Behavior Classification Using DeepLabCut) 의 백링크"
+              "title": "2025-04-28 (체육대회) 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
+                "file": "2025/학생회/4월/2025-04-28 (체육대회).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-06-02 (Animal Behavior Classification Using DeepLabCut) 의 나가는 링크"
+              "title": "2025-04-28 (체육대회) 의 나가는 링크"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
+                "file": "2025/학생회/4월/2025-04-28 (체육대회).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-02 (Animal Behavior Classification Using DeepLabCut) 의 개요"
+              "title": "2025-04-28 (체육대회) 의 개요"
             }
           },
           {
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +197,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "110ed66f2dc58a74",
+  "active": "3cff4b2c0e00a1a8",
   "lastOpenFiles": [
-    "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/Fig3.png",
     "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
+    "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/Fig3.png",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/tree.png",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img"
