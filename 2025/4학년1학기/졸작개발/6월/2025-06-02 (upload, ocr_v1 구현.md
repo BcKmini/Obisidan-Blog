@@ -1,3 +1,6 @@
+# Hugging Face 참고
+[Image-Text-to-Text](https://huggingface.co/models?pipeline_tag=image-text-to-text&sort=downloads)
+
 # Frontend
 ## Main
 - mainpage -> 전체적인 내용 교체
@@ -15,6 +18,7 @@
 
 ![[OCR.png]]
 
+---
 # Backend
 ## Swagger 확인
 ![[swagger.png]]
