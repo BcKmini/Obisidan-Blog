@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "cd7f158212ba1014",
+    "id": "5c3af3353d443a11",
     "type": "split",
     "children": [
       {
-        "id": "cc1afdf9f11480da",
+        "id": "caa7507807df31fd",
         "type": "tabs",
         "children": [
           {
-            "id": "8fa1cc5d9349d013",
+            "id": "3cff4b2c0e00a1a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/4학년1학기/졸작개발/6월/2025-06-02 (upload, ocr_v1 구현.md",
+                "file": "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-02 (upload, ocr_v1 구현"
+              "title": "2025-06-02 (Animal Behavior Classification Using DeepLabCut)"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e65f02ef40b9a684",
+    "id": "ef194b073d6ada87",
     "type": "split",
     "children": [
       {
-        "id": "cf8d9bab5472312c",
+        "id": "cdafa17c52fa936b",
         "type": "tabs",
         "children": [
           {
-            "id": "19b007a01bd87112",
+            "id": "6d9b5c5bf07a7b7a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,17 +48,7 @@
             }
           },
           {
-            "id": "5fed9b162ba090b2",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "북마크"
-            }
-          },
-          {
-            "id": "2d34a5541f0774aa",
+            "id": "daded2efff09daaf",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -73,28 +63,71 @@
               "icon": "lucide-search",
               "title": "검색"
             }
+          },
+          {
+            "id": "6ce2a540839636cd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 200
   },
   "right": {
-    "id": "7f7b821c8e63a5d4",
+    "id": "54ba721a3a6998a5",
     "type": "split",
     "children": [
       {
-        "id": "64060ae0128f61f7",
+        "id": "92a8affb7903f760",
         "type": "tabs",
         "children": [
           {
-            "id": "6effff8475b6ed07",
+            "id": "157f7e5076b94151",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2025-06-02 (Animal Behavior Classification Using DeepLabCut) 의 백링크"
+            }
+          },
+          {
+            "id": "110ed66f2dc58a74",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2025-06-02 (Animal Behavior Classification Using DeepLabCut) 의 나가는 링크"
+            }
+          },
+          {
+            "id": "db74f6f73b4026d5",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequencyReverse",
+                "sortOrder": "frequency",
                 "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -104,41 +137,22 @@
             }
           },
           {
-            "id": "0e63aa4986c3910f",
+            "id": "fcefafffb9f9367d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
+                "file": "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-04-18 의 개요"
+              "title": "2025-06-02 (Animal Behavior Classification Using DeepLabCut) 의 개요"
             }
           },
           {
-            "id": "bcaec3f98401fdea",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "2025-04-18 의 백링크"
-            }
-          },
-          {
-            "id": "dea8fe59e1bcf4ed",
+            "id": "2e8936021d305671",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -146,30 +160,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "bb3d667d115785f8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2025/학부연구생/5월/1주차/2025-05-07 (프로그램 코딩 채점 서비스).md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "2025-05-07 (프로그램 코딩 채점 서비스) 의 나가는 링크"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
-        "id": "f094219d66cc1191",
+        "id": "65707762b1bce0b9",
         "type": "tabs",
         "children": [
           {
-            "id": "9ccde5d51fc1b4d7",
+            "id": "3e5fa5e82dfa9395",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -186,65 +186,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "dea8fe59e1bcf4ed",
+  "active": "110ed66f2dc58a74",
   "lastOpenFiles": [
-    "2025/학부연구생/논문/Animal Behavior in video/2025-06-02.md",
-    "2025/4학년1학기/졸작개발/6월/2025-06-02 (upload, ocr_v1 구현.md",
-    "2025/KT/2025-05-30 (KT디인재 Network).md",
-    "2025/4학년1학기/졸작개발/6월/img/엔티티 관계도.png",
-    "2025/4학년1학기/졸작개발/6월/img/swagger.png",
-    "2025/4학년1학기/졸작개발/6월/img/OCR.png",
-    "2025/4학년1학기/졸작개발/6월/img/upload.png",
-    "2025/4학년1학기/졸작개발/6월/img/folder.png",
-    "2025/4학년1학기/졸작개발/6월/img",
-    "2025/4학년1학기/졸작개발/6월",
-    "2025/4학년1학기/졸작개발/6월/img/main.png",
-    "2025/4학년1학기/졸작개발/5월/2025-05-26 (메인, DB_Token 연결).md",
-    "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
-    "2025/개인공부/5월/2025-05-07 (OCR 모델 돌려보기).md",
-    "2025/KT/img",
+    "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/Fig3.png",
+    "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
+    "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/tree.png",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
-    "2025/KT/img/일정.png",
-    "2025/학부연구생/논문/Animal Behavior in video/Pasted image 20250529130722.png",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Seasonal variation in animal action in Wolong Nature Reserve1.png",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img/Successful cases.png",
-    "참고/2025-05-29 (옵시디언 문법).md",
-    "2025/학부연구생/5월/4주차/2025-05-24.md",
-    "2025/학부연구생/5월/4주차/2025-05-27 (cctv timeline 수정).md",
-    "2025/학부연구생/논문/Animal Behavior in video/pdf/Wild ActionFormer_ Enhancing wildlife action recognition for 11 endangered species in Wolong - 1-s2.0-S1574954125001578-main.pdf",
-    "2025/학부연구생/논문/Animal Behavior in video/Wild ActionFormer_img",
-    "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
-    "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (DeepAction_a MATLAB toolbox for automated classification of animal behavior in video).md",
-    "2025/학부연구생/논문/Animal Behavior in video/pdf/DeepAction_a MATLAB toolbox for automated classification of animal behavior in video.pdf",
-    "2025/학부연구생/논문/Animal Behavior in video/pdf",
-    "2025/개인공부/5월/2025-05-03 (Text to image).md",
-    "참고/기티.md",
-    "참고/외부포트.md",
-    "2025/학부연구생/5월/4주차/2025-05-26.md",
-    "2025/4학년1학기/운영체제 - 김정환/13주차/2025-05-26 (가상메모리_Virtual Memory).md",
-    "2025/학부연구생/논문/Animal Behavior in video",
-    "2025/4학년1학기/운영체제 - 김정환/13주차/img",
-    "2025/4학년1학기/운영체제 - 김정환/13주차/pdf",
-    "2025/학부연구생/5월/3주차/2025-05-19 (Reproduction of SOTA Models for Video-based Animal Behavior Classification).md",
-    "2025/학부연구생/5월/3주차/2025-05-23 (CCTV_라벨링툴 개선).md",
-    "2025/학부연구생/5월/3주차/2025-05-22 (ChatGPT).md",
-    "2025/학부연구생/5월/1주차/2025-05-12 (프로그램 채점 코딩 에러 해결).md",
-    "2025/학부연구생/5월/3주차/2025-05-21 (베리어프리 공모전 제출).md",
-    "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
-    "2025/학부연구생/5월/3주차/2025-05-20 (베리어프리 공모전 인터뷰).md",
-    "참고/동영상변환.md",
-    "무제.md",
-    "무제.canvas",
-    "무제 1.canvas"
+    "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img"
   ]
 }

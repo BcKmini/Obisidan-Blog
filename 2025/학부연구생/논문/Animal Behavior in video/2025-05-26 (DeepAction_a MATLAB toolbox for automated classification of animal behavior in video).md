@@ -637,15 +637,17 @@ $$
 > **프레임 수준의 신뢰도를 계산하기 위해 softmax 기반 방법과 temperature scaling 방법 두 가지를 테스트하였다.**
 
 - **Softmax 기반**:
-    
-    pjSM=max⁡kσ(zj)kp_j^{SM} = \max_k \sigma(z_j)_kpjSM​=kmax​σ(zj​)k​
+    $$
+    p_j^{SM} = \max_k \sigma(z_j)_kpj
+    $$​
     - 가장 높은 소프트맥스 확률을 그대로 사용
         
     - 일반적으로 **과신(overconfident)** 경향이 있음
         
 - **Temperature scaling**:
-    
-    pjTS=max⁡kσ(zjT)kp_j^{TS} = \max_k \sigma\left(\frac{z_j}{T}\right)_kpjTS​=kmax​σ(Tzj​​)k​
+    $$
+  p_j^{TS} = \max k * \sigma\left(\frac{z_j}{T}\right)_k
+    $$​
     - T는 검증 세트에서 최적화됨
         
     - 과신도 감소 효과
@@ -659,8 +661,9 @@ $$
 > **시스템은 신뢰도가 가장 낮은 클립부터 우선적으로 검토하게 구성되어 있다.**
 
 - 전체 신뢰도 기반 정확도:
-    
-    conf(Dunlabeled)=∑iconf(clipi)⋅∣clipi∣∑j∣clipj∣\text{conf}(D_{unlabeled}) = \frac{\sum_i conf(clip_i) \cdot |clip_i|}{\sum_j |clip_j|}conf(Dunlabeled​)=∑j​∣clipj​∣∑i​conf(clipi​)⋅∣clipi​∣​
+    $$
+    conf(Dunlabeled​)=∑j​∣clipj​∣∑i​conf(clipi​)⋅∣clipi​∣​
+    $$
     - 이 값이 전체 미라벨링 데이터의 평균 정확도 추정치가 된다.
         
 
@@ -674,8 +677,10 @@ $$
 - **정의**:
     
     - 리뷰 후 정확도:
-        
-        acc(Dk)=∣reviewed∣+acc(unreviewed)⋅∣unreviewed∣∣D∣acc(D_k) = \frac{|\text{reviewed}| + acc(\text{unreviewed}) \cdot |\text{unreviewed}|}{|D|}acc(Dk​)=∣D∣∣reviewed∣+acc(unreviewed)⋅∣unreviewed∣​
+        $$
+        acc(D_k) = \frac{|\text{reviewed}| + acc(\text{unreviewed}) \cdot |\text{unreviewed}|}{|D|}
+        $$
     - **Review Efficiency**:
-        
-        Efficiency=Improvement (신뢰도 기반)Improvement (이론적 최대)\text{Efficiency} = \frac{\text{Improvement (신뢰도 기반)}}{\text{Improvement (이론적 최대)}}Efficiency=Improvement (이론적 최대)Improvement (신뢰도 기반)​
+        $$
+       {Efficiency} = \frac{\text{Improvement (신뢰도 기반)}}{\text{Improvement (이론적 최대)}}
+        $$​
