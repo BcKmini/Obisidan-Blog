@@ -118,7 +118,10 @@
     5. SVM/이상치 검출기 학습(training.py)  
     6. 실험 반복 및 성능 평가(evaluation.py)  
 
-## 4. 모델의 재현 (Reproducibility)
+
+
+
+## 4. 모델의 재현
 ### 4.1 데이터셋 준비
 - 고정 카메라로 촬영된 영상 확보  
   - 야생동물 예시: 고양이, 기타 포유류 등 적용 가능  
@@ -203,7 +206,7 @@ preds = iso_forest.predict(test_feature_array)  # -1: 이상치, 1: 정상
 
 ### 4.5 종합 실험 및 결과 재현
 - 실험 환경  
-  - 하드웨어: GPU(CUDA) 권장, CPU만으로도 가능하나 속도 느려짐  
+  - 하드웨어: GPU(CUDA) 권장, CPU만으로도 가능하나 속도 느려짐 
   - 소프트웨어: Python 3.7+, DeepLabCut v2.x 이상, scikit-learn 0.24+  
 - 실험 절차  
   1. 라벨링된 데이터로 DeepLabCut 학습 완료  
