@@ -150,9 +150,19 @@
               "icon": "lucide-list",
               "title": "2025-06-05 (논문 세미나) 의 개요"
             }
+          },
+          {
+            "id": "bea6369ae0cb4007",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "65707762b1bce0b9",
@@ -186,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "fcefafffb9f9367d",
+  "active": "66157d0d9d8c5951",
   "lastOpenFiles": [
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
     "2025-06-05 (논문 세미나).md",
