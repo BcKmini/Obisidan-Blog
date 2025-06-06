@@ -142,27 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/개인공부/6월/2025-06-03 (빅데이터분석기사 실기).md",
+                "file": "2025-06-05 (논문 세미나).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-03 (빅데이터분석기사 실기) 의 개요"
-            }
-          },
-          {
-            "id": "2e8936021d305671",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "2025-06-05 (논문 세미나) 의 개요"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "65707762b1bce0b9",
@@ -196,7 +186,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e8936021d305671",
+  "active": "fcefafffb9f9367d",
   "lastOpenFiles": [
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
     "2025-06-05 (논문 세미나).md",
