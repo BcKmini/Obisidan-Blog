@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +197,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "66157d0d9d8c5951",
   "lastOpenFiles": [
     "2025/학부연구생/6월/1주차/pdf/Endow SAM with Keen Eyes- Temporal-spatial Prompt Learning for Video Camouflaged Object Detection.pdf",
     "2025/학부연구생/6월/1주차/pdf",
