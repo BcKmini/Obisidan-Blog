@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,12 +196,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "66157d0d9d8c5951",
+  "active": "bea6369ae0cb4007",
   "lastOpenFiles": [
+    "무제.md",
+    "2025/학부연구생/6월/1주차/2025-06-05 (논문 세미나).md",
     "2025/학부연구생/6월/1주차/pdf/Endow SAM with Keen Eyes- Temporal-spatial Prompt Learning for Video Camouflaged Object Detection.pdf",
     "2025/학부연구생/6월/1주차/pdf",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
-    "2025/학부연구생/6월/1주차/2025-06-05 (논문 세미나).md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-06-05.md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/Animal Behavior Classification Using DeepLabCut - 2020_GCCE_fujimori.pdf",
@@ -226,7 +226,6 @@
     "2025/학부연구생/5월/2주차/2025-05-13 (CCTV - Labelbox 개선).md",
     "2025/학생회/5월/2025-05-05 (비대면 회의).md",
     "2025/학생회/4월/2025-04-14 (오프라인).md",
-    "무제.md",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/Fig3.png",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/tree.png",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img"
