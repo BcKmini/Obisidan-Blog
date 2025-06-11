@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "bea6369ae0cb4007",
   "lastOpenFiles": [
     "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 1주차 - 강의 설명.pdf",
     "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 2주차 - 미디어에 대한 이해.pdf",
