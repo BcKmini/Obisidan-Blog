@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c688cec688c29b9a",
+  "active": "bea6369ae0cb4007",
   "lastOpenFiles": [
     "2025/개인공부/4월/2025-04-28 (빅분기 시험일정_ 필기합).md",
     "2025/4학년1학기/미디어와세상/과제/2025-06-10 (기사 비판적으로 읽기).md",
