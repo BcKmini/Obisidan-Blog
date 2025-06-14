@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "54ba721a3a6998a5",
@@ -182,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +197,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "55c185f8f02c6b98",
+  "active": "bea6369ae0cb4007",
   "lastOpenFiles": [
+    "2025-06-14.md",
+    "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "참고/동영상변환.md",
     "참고/외부포트.md",
     "참고/2025-05-29 (옵시디언 문법).md",
@@ -206,7 +208,6 @@
     "2025/4학년1학기/졸작개발/6월/2025-06-01 (upload, ocr_v1 구현.md",
     "2025/4학년1학기/졸작개발/6월/2025-06-05 (졸작 1차 발표 안내 ).md",
     "2025/4학년1학기/졸작개발/6월/2025-06-10 (졸작 피드백).md",
-    "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "2025/개인공부/4월/2025-04-28 (빅분기 시험일정_ 필기합).md",
     "2025/4학년1학기/미디어와세상/과제/2025-06-10 (기사 비판적으로 읽기).md",
     "2025/4학년1학기/미디어와세상/과제/미디어와세상_202020827_김경민.pdf",
@@ -234,7 +235,6 @@
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
     "2025/학부연구생/5월/2주차/2025-05-15 (베리어프리공모전).md",
     "2025/학부연구생/5월/2주차/2025-05-14 (DB 재구성).md",
-    "2025/학부연구생/5월/2주차/2025-05-13 (프로그램 채점 코딩 에러 해결).md",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/Fig3.png",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/tree.png"
   ]
