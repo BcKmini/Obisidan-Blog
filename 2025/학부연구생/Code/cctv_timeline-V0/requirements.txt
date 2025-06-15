@@ -1,9 +1,0 @@
-opencv-python
-werkzeug
-pandas
-ultralytics
-Flask
-gunicorn
-
-# 실행
-# gunicorn -b 0.0.0.0:2299 app:app or python3 app.py
