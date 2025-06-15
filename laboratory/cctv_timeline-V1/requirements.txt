@@ -1,0 +1,14 @@
+opencv-python
+werkzeug
+pandas
+ultralytics
+Flask
+gunicorn
+Flask-Login
+Flask-SQLAlchemy
+Werkzeug  
+pymysql
+cryptography
+ffmpeg
+# 실행
+# gunicorn -b 0.0.0.0:2299 app:app --timeout 1200 or python3 app.py

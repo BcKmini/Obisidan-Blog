@@ -1,0 +1,227 @@
+/* ------------------------------
+   전역 스타일
+------------------------------ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;  /* 라이트 배경 */
+}
+
+/* ------------------------------
+   네비게이션바
+------------------------------ */
+.navbar {
+  height: 60px;
+}
+.navbar-brand,
+.nav-link {
+  color: #343a40 !important; /* 어두운 텍스트 */
+  font-size: 0.95rem;
+}
+
+/* ------------------------------
+   카드 공통
+------------------------------ */
+.card {
+  border: none;
+  border-radius: 0.75rem;
+}
+.card-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* ------------------------------
+   입력 그룹
+------------------------------ */
+.input-group-text {
+  background-color: #f1f3f5;
+  border-right: 0;
+}
+.form-control {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* ------------------------------
+   서버 목록 테이블
+------------------------------ */
+.server-table-wrapper {
+  max-height: calc(2.5rem * 5 + 1px);
+  overflow-y: auto;
+}
+.server-table-wrapper table {
+  width: 100%;
+}
+.server-table-wrapper thead th,
+.server-table-wrapper tbody td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.server-table-wrapper thead th {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 10;
+}
+.server-table-wrapper tbody tr:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+/* ------------------------------
+   프로그레스 바
+------------------------------ */
+.progress {
+  background-color: #e9ecef;
+}
+.progress-bar {
+  background-color: #0d6efd;
+}
+
+/* ------------------------------
+   타임라인
+------------------------------ */
+#timelines {
+  background-color: #e9ecef;
+  border-radius: 6px !important;
+}
+.segment-detected {
+  background-color: #0d6efd;
+}
+#timelineProgress {
+  background-color: #dc3545;
+}
+
+/* ------------------------------
+   아코디언
+------------------------------ */
+.accordion-button {
+  background-color: #ffffff;
+  color: #343a40;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #f1f3f5;
+}
+
+/* ------------------------------
+   탐지 결과 섹션
+------------------------------ */
+#detectionSection h5 {
+  margin-bottom: 1rem;
+}
+#detectionSection .btn {
+  min-width: 120px;
+}
+
+/* ------------------------------
+   반응형 여백
+------------------------------ */
+@media (max-width: 767px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+/* --------------------------------------------------
+   업로드 섹션 전용
+--------------------------------------------------- */
+.upload-section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* 버튼 공통 */
+.upload-section .btn-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 3rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: 0.15s ease-in-out;
+}
+
+/* 검출 없이 업로드 (Outline Secondary) */
+#uploadOnlyBtn {
+  color: #495057;
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+}
+#uploadOnlyBtn:hover {
+  background-color: #e2e6ea;
+  border-color: #adb5bd;
+  transform: translateY(-1px);
+}
+
+/* 검출 버튼 (Primary) */
+#uploadForm button[type="submit"] {
+  background: linear-gradient(135deg, #4e9cf3, #1976d2);
+  border: none;
+  color: #fff;
+}
+#uploadForm button[type="submit"]:hover {
+  background: linear-gradient(135deg, #5aa8f7, #1e7fe5);
+  transform: translateY(-1px);
+}
+
+/* 아이콘 크기 및 컬러 */
+.upload-section .btn-upload i {
+  font-size: 1.2rem;
+}
+
+/* 모바일 반응형: 버튼 세로 스택 */
+@media (max-width: 576px) {
+  .upload-section .d-flex.gap-2 {
+    flex-direction: column;
+  }
+}
+
+/* --------------------------------------------------
+   업로드/검출 Flex 행 추가 규칙
+--------------------------------------------------- */
+/* 컨테이너 */
+.upload-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* 레이블 간격 조정 */
+.upload-row .form-label {
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+}
+
+/* input-group-sm, btn-sm 높이 통일 */
+.upload-row .input-group-sm .form-control,
+.upload-row .input-group-sm .input-group-text,
+.upload-row .btn-sm {
+  /* Bootstrap input-group-sm 기본 높이 계산식 사용 */
+  height: calc(1.5em + 0.5rem + 2px);
+}
+
+/* 타임라인 검출 구간 표시 스타일 */
+#timelines {
+  overflow: hidden;     /* 자식 요소 절대 위치 대비 잘림 방지 */
+}
+.segment-detected {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: #dc3545;
+  cursor: pointer;
+}
+
+/* static/css/style.css – 클릭 마커 스타일 추가 */
+.click-marker {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: #ffffff;
+  pointer-events: none;
+}

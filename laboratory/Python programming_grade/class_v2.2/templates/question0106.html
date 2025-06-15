@@ -1,0 +1,732 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>코딩 문제 1장. 별 헤는 밤</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: undefined; }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-transparentGray { background-color: undefined; }
+.select-value-color-translucentGray { background-color: undefined; }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="122ec508-cf3c-8039-966a-fe96066e42fe" class="page sans"><header><h1 class="page-title">코딩 문제 1장. 별 헤는 밤</h1><p class="page-description"></p><table class="properties"><tbody><tr class="property-row property-row-multi_select"><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesMultipleSelect"><path d="M1.91602 4.83789C2.44238 4.83789 2.87305 4.40723 2.87305 3.87402C2.87305 3.34766 2.44238 2.91699 1.91602 2.91699C1.38281 2.91699 0.952148 3.34766 0.952148 3.87402C0.952148 4.40723 1.38281 4.83789 1.91602 4.83789ZM5.1084 4.52344H14.3984C14.7607 4.52344 15.0479 4.23633 15.0479 3.87402C15.0479 3.51172 14.7607 3.22461 14.3984 3.22461H5.1084C4.74609 3.22461 4.45898 3.51172 4.45898 3.87402C4.45898 4.23633 4.74609 4.52344 5.1084 4.52344ZM1.91602 9.03516C2.44238 9.03516 2.87305 8.60449 2.87305 8.07129C2.87305 7.54492 2.44238 7.11426 1.91602 7.11426C1.38281 7.11426 0.952148 7.54492 0.952148 8.07129C0.952148 8.60449 1.38281 9.03516 1.91602 9.03516ZM5.1084 8.7207H14.3984C14.7607 8.7207 15.0479 8.43359 15.0479 8.07129C15.0479 7.70898 14.7607 7.42188 14.3984 7.42188H5.1084C4.74609 7.42188 4.45898 7.70898 4.45898 8.07129C4.45898 8.43359 4.74609 8.7207 5.1084 8.7207ZM1.91602 13.2324C2.44238 13.2324 2.87305 12.8018 2.87305 12.2686C2.87305 11.7422 2.44238 11.3115 1.91602 11.3115C1.38281 11.3115 0.952148 11.7422 0.952148 12.2686C0.952148 12.8018 1.38281 13.2324 1.91602 13.2324ZM5.1084 12.918H14.3984C14.7607 12.918 15.0479 12.6309 15.0479 12.2686C15.0479 11.9062 14.7607 11.6191 14.3984 11.6191H5.1084C4.74609 11.6191 4.45898 11.9062 4.45898 12.2686C4.45898 12.6309 4.74609 12.918 5.1084 12.918Z"></path></svg></span>태그</th><td></td></tr></tbody></table></header><div class="page-body"><p id="122ec508-cf3c-81d6-936d-d501d0e740eb" class="">
+</p><h2 id="122ec508-cf3c-8133-9daa-d0787100d26b" class="">문제 1: 별로 삼각형 그리기</h2><h3 id="122ec508-cf3c-8140-90a3-fd8cfb946d74" class="">문제 설명:</h3><ul id="122ec508-cf3c-81c3-b714-fe23fd561ee0" class="bulleted-list"><li style="list-style-type:disc">숫자 <strong>N</strong>이 주어지면, <strong>별</strong>로 삼각형을 그리는 프로그램을 작성하세요.</li></ul><ul id="122ec508-cf3c-8153-808e-d54a2933eb2e" class="bulleted-list"><li style="list-style-type:disc"><strong>N의 범위</strong> <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">0\leq n\leq 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7804em;vertical-align:-0.136em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span></span><span>﻿</span></span></li></ul><ul id="122ec508-cf3c-8180-b773-c8e94dd96a4a" class="bulleted-list"><li style="list-style-type:disc"><strong>N</strong>은 삼각형의 높이를 나타냅니다.</li></ul><ul id="122ec508-cf3c-819b-ba6c-e55b82ee5281" class="bulleted-list"><li style="list-style-type:disc">입력은 <code><strong>input.txt</strong></code> 파일에서 읽어오고, 출력은 <code><strong>output.txt</strong></code> 파일에 저장해야 합니다.</li></ul><p id="122ec508-cf3c-801c-b23c-c1a27144952b" class=""><strong>풀이 팁</strong>:</p><ul id="122ec508-cf3c-8023-8807-d16ca90f940c" class="bulleted-list"><li style="list-style-type:disc">이중 <code>for</code> 루프를 사용하여 첫 번째 루프는 줄 수를, 두 번째 루프는 별을 출력합니다.</li></ul><ul id="122ec508-cf3c-8074-9d9a-c1f538a6ac85" class="bulleted-list"><li style="list-style-type:disc">첫 번째 루프는 1부터 N까지 반복하며, 두 번째 루프는 각 줄마다 출력할 별의 개수를 제어합니다.</li></ul><ul id="122ec508-cf3c-807d-956e-db25a4b50604" class="bulleted-list"><li style="list-style-type:disc"><code>printf()</code>를 사용해 별을 출력하고, 각 줄의 끝에 <code>\n</code>을 추가해 줄바꿈을 합니다.</li></ul><h3 id="122ec508-cf3c-81f1-b9c5-fd1255b3f5f6" class="">입력:</h3><ul id="122ec508-cf3c-81dd-bc1f-c8641601780f" class="bulleted-list"><li style="list-style-type:disc"><code><strong>input.txt</strong></code> 파일의 첫 번째 줄에 <strong>정수 N</strong>이 주어집니다.</li></ul><h3 id="122ec508-cf3c-8172-9f85-e30e8d99c7c1" class="">입력 예시 1 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81d3-a305-f387cab3261b" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">1</code></pre><h3 id="122ec508-cf3c-8173-ab83-cbc28758c276" class="">출력 예시 1 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81d5-9db6-d7b81ffe37c8" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">*</code></pre><h3 id="122ec508-cf3c-81c9-8fdc-e1838b87b5c9" class="">입력 예시 2 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81ad-b39c-fb9d2b6a0b64" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">3</code></pre><h3 id="122ec508-cf3c-812d-bedd-e56ad255b22d" class="">출력 예시 2 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81e8-aabf-f4330884ed03" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">*
+**
+***</code></pre><h3 id="122ec508-cf3c-81e1-9037-fc0d51460c67" class="">입력 예시 3 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-814c-8ede-ed63ffb5aa64" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">5</code></pre><h3 id="122ec508-cf3c-8107-8a8d-c7002fdea58f" class="">출력 예시 3 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81b4-b4e8-dd0d38b2e61d" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">*
+**
+***
+****
+*****</code></pre><hr id="122ec508-cf3c-818b-847a-e4b215dc3996"/><h2 id="122ec508-cf3c-8117-a417-d779175c40fe" class="">문제 2: 별로 역삼각형 그리기</h2><h3 id="122ec508-cf3c-814a-a2cd-ff58ff2699f0" class="">문제 설명:</h3><ul id="122ec508-cf3c-8191-b815-ce1060e91b7f" class="bulleted-list"><li style="list-style-type:disc">숫자 <strong>N</strong>이 주어지면, <strong>별</strong>로 역삼각형을 그리는 프로그램을 작성하세요.</li></ul><ul id="122ec508-cf3c-818f-8536-d25522c20a2a" class="bulleted-list"><li style="list-style-type:disc"><strong>N의 범위</strong> <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">0\leq n\leq 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7804em;vertical-align:-0.136em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span></span><span>﻿</span></span></li></ul><ul id="122ec508-cf3c-81d7-bd4d-f34c47af1634" class="bulleted-list"><li style="list-style-type:disc"><strong>N</strong>은 역삼각형의 높이를 나타냅니다.</li></ul><ul id="122ec508-cf3c-8122-8b26-c0becafe68c2" class="bulleted-list"><li style="list-style-type:disc">입력은 <code><strong>input.txt</strong></code> 파일에서 읽어오고, 출력은 <code><strong>output.txt</strong></code> 파일에 저장해야 합니다.</li></ul><p id="122ec508-cf3c-80b2-ab17-c0d5e17e95cf" class=""><strong>풀이 팁</strong>:</p><ul id="122ec508-cf3c-80db-89d5-fc90db6d77cc" class="bulleted-list"><li style="list-style-type:disc">이중 <code>for</code> 루프를 사용하되, 첫 번째 루프는 N부터 1까지 반복하여 줄을 제어합니다.</li></ul><ul id="122ec508-cf3c-80d3-9d57-f88523aec976" class="bulleted-list"><li style="list-style-type:disc">두 번째 루프는 현재 줄에 출력할 별의 개수를 제어합니다.</li></ul><ul id="122ec508-cf3c-80c7-8f9a-e4fc96788377" class="bulleted-list"><li style="list-style-type:disc"><code>printf()</code>를 사용해 별을 출력하고 줄바꿈을 적절히 추가합니다.</li></ul><h3 id="122ec508-cf3c-8170-b521-ec5ded79a12c" class="">입력:</h3><ul id="122ec508-cf3c-8108-80ff-da1b55f88876" class="bulleted-list"><li style="list-style-type:disc"><code><strong>input.txt</strong></code> 파일의 첫 번째 줄에 <strong>정수 N</strong>이 주어집니다.</li></ul><h3 id="122ec508-cf3c-81be-a63d-f5390816c21c" class="">입력 예시 1 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81e1-8e7f-cc6b168de52a" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">2</code></pre><h3 id="122ec508-cf3c-811f-bf7f-f5170ba18940" class="">출력 예시 1 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81cb-954a-c4ae537ef3cb" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">**
+*</code></pre><h3 id="122ec508-cf3c-811d-be6f-e1dffd9c307a" class="">입력 예시 2 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81a3-ae31-e486e49d3dcf" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">3</code></pre><h3 id="122ec508-cf3c-817f-9987-c4588d75b98b" class="">출력 예시 2 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-813f-8563-e07c631e416b" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">***
+**
+*</code></pre><h3 id="122ec508-cf3c-8125-a4bd-dd703ac24151" class="">입력 예시 3 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81ad-baeb-f4bec3b1d12f" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">5</code></pre><h3 id="122ec508-cf3c-81d5-9705-ffa7f8ebe593" class="">출력 예시 3 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81e9-8e92-db6a22e22799" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">*****
+****
+***
+**
+*</code></pre><hr id="122ec508-cf3c-81fb-b1f2-efb29fe78c46"/><h2 id="122ec508-cf3c-8149-9fc4-f2992ca68fd5" class="">문제 3: 별로 피라미드 그리기</h2><h3 id="122ec508-cf3c-8122-a4ff-eb50cbbcb779" class="">문제 설명:</h3><ul id="122ec508-cf3c-81d4-885d-f01764fc9878" class="bulleted-list"><li style="list-style-type:disc">숫자 <strong>N</strong>이 주어지면, <strong>별</strong>로 피라미드를 그리는 프로그램을 작성하세요.</li></ul><ul id="122ec508-cf3c-81a0-a36a-f5710549a01a" class="bulleted-list"><li style="list-style-type:disc"><strong>N의 범위</strong> <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">0\leq n\leq 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7804em;vertical-align:-0.136em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span></span><span>﻿</span></span></li></ul><ul id="122ec508-cf3c-81a2-ab00-cf12e301cb2f" class="bulleted-list"><li style="list-style-type:disc"><strong>N</strong>은 피라미드의 높이를 나타냅니다.</li></ul><ul id="122ec508-cf3c-81e4-a47e-d20ddb50fc91" class="bulleted-list"><li style="list-style-type:disc">입력은 <code><strong>input.txt</strong></code> 파일에서 읽어오고, 출력은 <code><strong>output.txt</strong></code> 파일에 저장해야 합니다.</li></ul><p id="122ec508-cf3c-80c7-bf51-d62d9fa6f747" class=""><strong>풀이 팁</strong>:</p><ul id="122ec508-cf3c-8057-9833-fd10297fc2c8" class="bulleted-list"><li style="list-style-type:disc">첫 번째 <code>for</code> 루프는 피라미드의 높이 N을 제어하고, 두 번째 루프는 각 줄에 대해 공백을 먼저 출력한 후 별을 출력합니다.</li></ul><ul id="122ec508-cf3c-809c-9836-e8517fb4bcd2" class="bulleted-list"><li style="list-style-type:disc"><code>printf()</code>로 별을 출력한 후 줄바꿈을 합니다.</li></ul><h3 id="122ec508-cf3c-8107-a67d-e84d9b8796f3" class="">입력:</h3><ul id="122ec508-cf3c-8130-9dea-ce14fa05a01a" class="bulleted-list"><li style="list-style-type:disc"><code><strong>input.txt</strong></code> 파일의 첫 번째 줄에 <strong>정수 N</strong>이 주어집니다.</li></ul><h3 id="122ec508-cf3c-81f7-9b09-e27514b61e8b" class="">입력 예시 1 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-815c-a61e-f34af92de47e" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">2</code></pre><h3 id="122ec508-cf3c-815f-afc6-db1e52d4116b" class="">출력 예시 1 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8199-8edd-d27273b81e4c" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all"> *
+***</code></pre><h3 id="122ec508-cf3c-8179-9d3f-c28be2611812" class="">입력 예시 2 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81a1-8c04-caff4f990bac" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">3</code></pre><h3 id="122ec508-cf3c-8184-969d-cdcad31716a7" class="">출력 예시 2 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-816b-8e5f-d75c63a6722e" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">  *
+ ***
+*****</code></pre><h3 id="122ec508-cf3c-8136-ad12-f798f426954a" class="">입력 예시 3 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8192-965c-eb0ad4a0547d" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">5</code></pre><h3 id="122ec508-cf3c-8124-a5f9-d71185547217" class="">출력 예시 3 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8101-92b7-f716c443eebc" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">    *
+   ***
+  *****
+ *******
+*********</code></pre><hr id="122ec508-cf3c-81c8-97f1-c57c3776ced4"/><h2 id="122ec508-cf3c-81a0-8c15-f347ffc74c3a" class="">문제 4: 별로 다이아몬드 그리기</h2><h3 id="122ec508-cf3c-818f-b5a0-cafdc1137064" class="">문제 설명:</h3><ul id="122ec508-cf3c-813d-9c85-f8bfc5a07c10" class="bulleted-list"><li style="list-style-type:disc">숫자 <strong>N</strong>이 주어지면, <strong>별</strong>로 다이아몬드를 그리는 프로그램을 작성하세요.</li></ul><ul id="122ec508-cf3c-81e1-b591-c256b2f61a59" class="bulleted-list"><li style="list-style-type:disc"><strong>N의 범위</strong> <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">0\leq n\leq 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7804em;vertical-align:-0.136em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span></span><span>﻿</span></span></li></ul><ul id="122ec508-cf3c-81a2-89b6-f66a8f078460" class="bulleted-list"><li style="list-style-type:disc"><strong>N</strong>은 다이아몬드의 반쪽 높이를 나타냅니다.</li></ul><ul id="122ec508-cf3c-819f-84b2-c130ce8d1cdd" class="bulleted-list"><li style="list-style-type:disc">입력은 <code><strong>input.txt</strong></code> 파일에서 읽어오고, 출력은 <code><strong>output.txt</strong></code> 파일에 저장해야 합니다.</li></ul><p id="122ec508-cf3c-807e-b8e6-cdb2854fbb39" class=""><strong>풀이 팁</strong>:</p><ul id="122ec508-cf3c-8059-af06-e107fdcc52eb" class="bulleted-list"><li style="list-style-type:disc">다이아몬드를 두 부분으로 나누어 출력합니다. 첫 번째 루프는 위쪽 피라미드, 두 번째 루프는 아래쪽 역삼각형을 출력합니다.</li></ul><ul id="122ec508-cf3c-8057-9819-cdeeb2b7040c" class="bulleted-list"><li style="list-style-type:disc">공백과 별의 개수를 각각 적절히 제어하며 출력합니다.</li></ul><ul id="122ec508-cf3c-80c3-b6f1-f36008388316" class="bulleted-list"><li style="list-style-type:disc"><code>printf()</code>로 공백과 별을 출력하고, 줄바꿈을 추가합니다.</li></ul><h3 id="122ec508-cf3c-8166-ba99-cb2b6fd0e335" class="">입력:</h3><ul id="122ec508-cf3c-8145-805b-e192f079f444" class="bulleted-list"><li style="list-style-type:disc"><code><strong>input.txt</strong></code> 파일의 첫 번째 줄에 <strong>정수 N</strong>이 주어집니다.</li></ul><h3 id="122ec508-cf3c-81fa-8f84-eef5be5d1911" class="">입력 예시 1 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8190-946d-cdecc37581f0" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">1</code></pre><h3 id="122ec508-cf3c-8179-aa56-cdf8b72fd08f" class="">출력 예시 1 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8124-806e-d9dffc45b76e" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">*</code></pre><h3 id="122ec508-cf3c-810a-948f-faa43f2986b6" class="">입력 예시 2 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-810a-9892-d8668eac4795" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">2</code></pre><h3 id="122ec508-cf3c-818e-9440-cf0fedac1b9e" class="">출력 예시 2 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81bd-9caf-dcae1191bef6" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all"> *
+***
+ *</code></pre><h3 id="122ec508-cf3c-8184-ad61-c90134b918b8" class="">입력 예시 3 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81b7-9a58-c0206ac8ef7a" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">3</code></pre><h3 id="122ec508-cf3c-8114-bfb6-cf3039887a26" class="">출력 예시 3 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81f3-bcca-e57e820eb35f" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">  *
+ ***
+*****
+ ***
+  *</code></pre><hr id="122ec508-cf3c-81d5-a6a9-fbd1440d04c4"/><h2 id="122ec508-cf3c-812a-978b-daaa98372b24" class="">문제 5: 별로 세모 그리기</h2><h3 id="122ec508-cf3c-81e0-9f22-c678a05529d7" class="">문제 설명:</h3><ul id="122ec508-cf3c-814a-b674-e92602519a41" class="bulleted-list"><li style="list-style-type:disc">숫자 <strong>N</strong>이 주어지면, <strong>별</strong>로 세모를 그리는 프로그램을 작성하세요.</li></ul><ul id="122ec508-cf3c-81e0-bc3f-db8c1d4488ce" class="bulleted-list"><li style="list-style-type:disc"><strong>N의 범위</strong> <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">0\leq n\leq 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7804em;vertical-align:-0.136em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span></span><span>﻿</span></span></li></ul><ul id="122ec508-cf3c-81f3-82e2-f245a75b45ad" class="bulleted-list"><li style="list-style-type:disc"><strong>N</strong>은 세모의 높이를 나타냅니다.</li></ul><ul id="122ec508-cf3c-814f-973c-d3dba777edb6" class="bulleted-list"><li style="list-style-type:disc">입력은 <code><strong>input.txt</strong></code> 파일에서 읽어오고, 출력은 <code><strong>output.txt</strong></code> 파일에 저장해야 합니다.</li></ul><p id="122ec508-cf3c-8036-96fb-f75823e899f7" class=""><strong>풀이 팁</strong>:</p><ul id="122ec508-cf3c-809f-a749-e9f51453115a" class="bulleted-list"><li style="list-style-type:disc">중간이 비어 있는 세모는 별과 공백을 번갈아 출력하는 방식으로 구현할 수 있습니다.</li></ul><ul id="122ec508-cf3c-80ba-931f-cd03ea0345ca" class="bulleted-list"><li style="list-style-type:disc">첫 번째 루프는 세모의 높이를 제어하고, 두 번째 루프는 공백과 별을 번갈아 가며 출력합니다.</li></ul><ul id="122ec508-cf3c-8072-b17e-f3bec4f23f44" class="bulleted-list"><li style="list-style-type:disc">첫 번째와 마지막 줄은 별로 가득 채우고, 나머지 줄은 양 끝에만 별을 출력합니다.</li></ul><h3 id="122ec508-cf3c-818c-9392-c7df50202dce" class="">입력:</h3><ul id="122ec508-cf3c-81a7-9590-eaf915b594a9" class="bulleted-list"><li style="list-style-type:disc"><code><strong>input.txt</strong></code> 파일의 첫 번째 줄에 <strong>정수 N</strong>이 주어집니다.</li></ul><h3 id="122ec508-cf3c-8107-9949-ececd011867c" class="">입력 예시 1 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8148-a203-fd94012c3593" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">2</code></pre><h3 id="122ec508-cf3c-81a6-8232-cc9e5bd64fe4" class="">출력 예시 1 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81f4-89eb-d2681b31870b" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all"> *
+***</code></pre><h3 id="122ec508-cf3c-81a9-85df-f6f13872b0fe" class="">입력 예시 2 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8137-b55f-ca4f6ee41c7c" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">3</code></pre><h3 id="122ec508-cf3c-8171-9bda-e05df22a7ed0" class="">출력 예시 2 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81e9-b3b2-f5a4f2f7d3eb" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">  *
+ * *
+*****</code></pre><h3 id="122ec508-cf3c-8112-82e1-fa3852273734" class="">입력 예시 3 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8136-bbb6-e0a3357077a0" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">5</code></pre><h3 id="122ec508-cf3c-815d-9f35-eb0fb87fc775" class="">출력 예시 3 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81fb-be82-d8420730a7e0" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">    *
+   * *
+  *   *
+ *     *
+*********</code></pre><hr id="122ec508-cf3c-8187-ba08-dc07c59344d3"/><h2 id="122ec508-cf3c-818f-95d1-df47296ffc0a" class="">문제 6: X 모양 별 그리기</h2><h3 id="122ec508-cf3c-8170-91af-c2ebb50af0c1" class="">문제 설명:</h3><ul id="122ec508-cf3c-8135-8a07-db616d5d085b" class="bulleted-list"><li style="list-style-type:disc">숫자 <strong>N</strong>이 주어지면, <strong>X 모양</strong>의 별을 그리는 프로그램을 작성하세요.</li></ul><ul id="122ec508-cf3c-819c-be25-f643e9b86e2f" class="bulleted-list"><li style="list-style-type:disc"><strong>N의 범위</strong> <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">3\leq n\leq 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7804em;vertical-align:-0.136em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span></span><span>﻿</span></span> 이면서, 홀수 </li></ul><ul id="122ec508-cf3c-81dc-8b3c-d5827548cd05" class="bulleted-list"><li style="list-style-type:disc"><strong>N</strong>은 X 모양의 높이를 나타냅니다.</li></ul><ul id="122ec508-cf3c-8016-8c5a-c944b0a2a7a2" class="bulleted-list"><li style="list-style-type:disc">각 행별로 가장 마지막으로 출력된 * 뒤로는 공백을 출력하지 않습니다.</li></ul><ul id="122ec508-cf3c-8183-b8d3-e321a81177b3" class="bulleted-list"><li style="list-style-type:disc">입력은 <code><strong>input.txt</strong></code> 파일에서 읽어오고, 출력은 <code><strong>output.txt</strong></code> 파일에 저장해야 합니다.</li></ul><p id="122ec508-cf3c-80dd-8697-f32c40432712" class=""><strong>풀이 팁</strong>:</p><ul id="122ec508-cf3c-80bc-b613-f01824e0ded4" class="bulleted-list"><li style="list-style-type:disc"><code>for</code> 루프를 사용하여 두 대각선의 위치에 별을 출력합니다. <code>if</code> 조건문을 사용해 <code>(i == j)</code>와 <code>???</code>인 경우에만 별을 출력합니다.</li></ul><ul id="122ec508-cf3c-80fe-ab13-efe546eb7d3c" class="bulleted-list"><li style="list-style-type:disc">나머지 경우에는 공백을 출력합니다.</li></ul><ul id="122ec508-cf3c-802e-ba05-cd893f30fef8" class="bulleted-list"><li style="list-style-type:disc">각 줄마다 <code>printf()</code>로 줄바꿈을 추가하여 출력 형식을 맞춥니다.</li></ul><h3 id="122ec508-cf3c-812a-9fc5-d46b5eb991bb" class="">입력:</h3><ul id="122ec508-cf3c-8101-9f3e-c1a70a8d70e2" class="bulleted-list"><li style="list-style-type:disc"><code><strong>input.txt</strong></code> 파일의 첫 번째 줄에 <strong>정수 N</strong>이 주어집니다.</li></ul><h3 id="122ec508-cf3c-8193-b245-cd0b574c3970" class="">입력 예시 1 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8148-8eed-e4528b585767" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">3</code></pre><h3 id="122ec508-cf3c-813d-ac72-dff900703a41" class="">출력 예시 1 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81f8-8262-c9e9dc6fcee3" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">* *
+ *
+* *</code></pre><h3 id="122ec508-cf3c-81db-9601-d0f0db9d6bd8" class="">입력 예시 2 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-8120-974f-e78113c8d7e0" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">5</code></pre><h3 id="122ec508-cf3c-8184-9424-ed0fcb1e0d9b" class="">출력 예시 2 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-815c-8b15-fee3008d477a" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">*   *
+ * *
+  *
+ * *
+*   *</code></pre><h3 id="122ec508-cf3c-811a-bcfa-f8d124daf6ee" class="">입력 예시 3 (<code>input.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-81e0-befe-dd30307015e7" class="code"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">7</code></pre><h3 id="122ec508-cf3c-81f0-8c71-c3f15bc2b515" class="">출력 예시 3 (<code>output.txt</code>):</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="122ec508-cf3c-816d-a689-c83c9832bd9f" class="code"><code class="language-Makefile" style="white-space:pre-wrap;word-break:break-all">*     *
+ *   *
+  * *
+   *
+  * *
+ *   *
+*     *</code></pre><hr id="122ec508-cf3c-811c-a6d6-f8b7804926fb"/><p id="122ec508-cf3c-81d2-aa76-cd71d92cd192" class="">
+</p><p id="122ec508-cf3c-81a1-9954-dd47a5131bc8" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

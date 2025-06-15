@@ -1,0 +1,1 @@
+torchrun --nproc_per_node=4 yolo_train.py

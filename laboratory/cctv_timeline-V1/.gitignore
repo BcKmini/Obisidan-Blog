@@ -1,0 +1,10 @@
+venv/
+.env       # 환경변수 파일(.env)이 있으면 무시
+
+static/detections/
+static/uploads/
+static/frames/
+
+*.pt
+all_yolo11x_imgsz640_orgin.pt   # 프로젝트마다 파일명 다르면 수정
+
