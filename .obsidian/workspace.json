@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2107ed85e3c7b523",
+        "id": "512a2173fa6b75b2",
         "type": "tabs",
         "children": [
           {
-            "id": "55c185f8f02c6b98",
+            "id": "13f46b9cb1dbd0b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "54ba721a3a6998a5",
@@ -197,10 +196,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bea6369ae0cb4007",
+  "active": "13f46b9cb1dbd0b5",
   "lastOpenFiles": [
+    "2025/개인공부/6월/pdf/빅분기_응시가이드.pdf",
     "2025-06-14.md",
     "2025/개인공부/6월/(빅데이터분석기사 실기).md",
+    "2025/개인공부/6월/pdf",
     "참고/동영상변환.md",
     "참고/외부포트.md",
     "참고/2025-05-29 (옵시디언 문법).md",
@@ -219,8 +220,6 @@
     "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 10~11주차 - 미디어 리터러시 알아보기.pdf",
     "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 11주차 - 인포데믹스 생산·유통·소비.pdf",
     "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 12주차 - 미디어 리터러시에 대한 이해와 토론.pdf",
-    "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 13주차 - 알고리즘 리터러시.pdf",
-    "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 14주차 - 소셜 미디어 이용자의 권리와 책임.pdf",
     "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
     "2025-06-08 1.md",
     "무제.md",
@@ -234,7 +233,6 @@
     "2025/멘토멘티/장학금 관련(2023 요람).md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
     "2025/학부연구생/5월/2주차/2025-05-15 (베리어프리공모전).md",
-    "2025/학부연구생/5월/2주차/2025-05-14 (DB 재구성).md",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/Fig3.png",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/tree.png"
   ]
