@@ -1,2 +1,0 @@
-Vowels: 0
-Consonants: 0
