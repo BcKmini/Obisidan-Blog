@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "512a2173fa6b75b2",
+        "id": "29c7c78745d31e40",
         "type": "tabs",
         "children": [
           {
-            "id": "13f46b9cb1dbd0b5",
+            "id": "388096e04825548b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025/개인공부/6월/(빅데이터분석기사 실기).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "(빅데이터분석기사 실기)"
+              "title": "새 탭"
             }
           }
         ]
@@ -196,11 +192,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "13f46b9cb1dbd0b5",
+  "active": "388096e04825548b",
   "lastOpenFiles": [
+    "2025/학부연구생/5월/3주차/pdf/베리어프리_참고출처.pdf",
+    "2025/학부연구생/5월/3주차/pdf/배리어프리.pdf",
+    "2025/학부연구생/5월/3주차/pdf/공고문.pdf",
+    "2025/학부연구생/5월/3주차/2025-05-21 (베리어프리 공모전 제출).md",
+    "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "2025/개인공부/6월/pdf/빅분기_응시가이드.pdf",
     "2025-06-14.md",
-    "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "2025/개인공부/6월/pdf",
     "참고/동영상변환.md",
     "참고/외부포트.md",
@@ -218,8 +218,6 @@
     "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 2주차 - 미디어에 대한 이해.pdf",
     "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 5주차 - 디지털 미디어에 대한 이해 (비판적으로 미디어 읽고 쓰기) - 1.pdf",
     "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 10~11주차 - 미디어 리터러시 알아보기.pdf",
-    "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 11주차 - 인포데믹스 생산·유통·소비.pdf",
-    "2025/4학년1학기/미디어와세상/pdf/미세 - 2025년 1학기 - 12주차 - 미디어 리터러시에 대한 이해와 토론.pdf",
     "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
     "2025-06-08 1.md",
     "무제.md",
@@ -232,7 +230,6 @@
     "2025/멘토멘티/장학금 관련(에타참고).md",
     "2025/멘토멘티/장학금 관련(2023 요람).md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
-    "2025/학부연구생/5월/2주차/2025-05-15 (베리어프리공모전).md",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/Fig3.png",
     "2025/학부연구생/논문/Animal Behavior in video/Animal Behavior_img/tree.png"
   ]
