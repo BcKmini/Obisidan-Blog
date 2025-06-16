@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "63c1e476579b8e1b",
+        "id": "b10de828266f6733",
         "type": "tabs",
         "children": [
           {
-            "id": "9fce0ff070306eac",
+            "id": "fdb0296f6e7789e9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -192,7 +192,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "9fce0ff070306eac",
+  "active": "fdb0296f6e7789e9",
   "lastOpenFiles": [
     "2025-06-14.md",
     "2025/멘토멘티/Doc/비대면/1, 2회차/img/2회차-2.jpeg",
