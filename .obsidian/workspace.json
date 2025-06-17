@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "54ba721a3a6998a5",
@@ -182,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +198,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bea6369ae0cb4007",
+  "active": "fdb0296f6e7789e9",
   "lastOpenFiles": [
     "2025/멘토멘티/Doc/보고서/17회차.pdf",
     "2025/멘토멘티/Doc/보고서/16회차.pdf",
