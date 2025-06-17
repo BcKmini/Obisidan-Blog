@@ -11,12 +11,14 @@
             "id": "fdb0296f6e7789e9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2025/개인공부/6월/pdf/2025 OSSCA_참여형_Project Guide_Hugging Face OSS.pdf"
+                "file": "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "2025 OSSCA_참여형_Project Guide_Hugging Face OSS"
+              "icon": "lucide-file",
+              "title": "2025-06-17 (OSSCA_7-7발표)"
             }
           }
         ]
@@ -197,10 +199,10 @@
   },
   "active": "fdb0296f6e7789e9",
   "lastOpenFiles": [
+    "2025/개인공부/6월/pdf/2025 OSSCA_참여형_Project Guide_Hugging Face OSS.pdf",
     "2025/개인공부/6월/pdf/빅분기_응시가이드.pdf",
     "2025/개인공부/6월/pdf/2025 OSSCA_참여형_Project Guide_OpenStack SDK _ CLI.pdf",
     "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
-    "2025/개인공부/6월/pdf/2025 OSSCA_참여형_Project Guide_Hugging Face OSS.pdf",
     "2025-06-17.md",
     "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "2025/개인공부/6월/img/OSSCA_접수.png",
