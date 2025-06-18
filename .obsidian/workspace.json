@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +197,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bea6369ae0cb4007",
+  "active": "d3ee58a4377baea4",
   "lastOpenFiles": [
     "2025-06-17.md",
     "2025/4학년1학기/기계학습 - 백우진/기말고사/기말고사 안내사항.md",
