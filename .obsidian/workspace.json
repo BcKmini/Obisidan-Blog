@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "54ba721a3a6998a5",
@@ -183,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,13 +196,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "7a42431c5a855b44",
+  "active": "6d9b5c5bf07a7b7a",
   "lastOpenFiles": [
-    "2025-06-17.md",
+    "2025/개인공부/6월/img/빅분기.png",
+    "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
     "2025/개인공부/6월/2025-06-18 (AUSG 신청).md",
+    "2025/개인공부/6월/(빅데이터분석기사 실기).md",
+    "2025-06-17.md",
     "2025/4학년1학기/기계학습 - 백우진/midterm/pdf/지침서.pdf",
     "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/data/README.md",
-    "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/pdf/202020827_student_mental_health.pdf",
     "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/data/무제.md",
     "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
@@ -225,7 +225,6 @@
     "2025/4학년1학기/졸작개발/6월/2025-06-10 (졸작 피드백).md",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/14주차/2025-06-16 (기말고사_범위).md",
     "2025/4학년1학기/컴퓨터알고리즘 - 김창호/중간고사/2025-04-19 (중간고사 준비).md",
-    "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
     "2025/개인공부/6월/img/OSSCA_접수.png",
     "2025/학부연구생/5월/1주차/2025-05-12 (프로그램 채점 코딩 에러 해결).md",
     "2025/학부연구생/5월/1주차/2025-05-09 (한-중앙아시아 추진체계 작성).md",
