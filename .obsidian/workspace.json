@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "53f5da7cbd08cf62",
+        "id": "4e1be913b0f2c1cb",
         "type": "tabs",
         "children": [
           {
-            "id": "7a42431c5a855b44",
+            "id": "073867deabcaf084",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-06-17.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-06-17"
+              "title": "새 탭"
             }
           }
         ]
@@ -142,27 +138,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/학부연구생/6월/1주차/2025-06-05 (논문 세미나).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-05 (논문 세미나) 의 개요"
-            }
-          },
-          {
-            "id": "bea6369ae0cb4007",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "개요"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "65707762b1bce0b9",
@@ -182,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,15 +181,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "073867deabcaf084",
   "lastOpenFiles": [
+    "2025/개인공부/6월/2025-06-18 (AUSG 신청).md",
+    "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
+    "2025-06-17.md",
     "2025/4학년1학기/미디어와세상/기말/미디어와세상(기말)_202020827_김경민.pdf",
     "2025/4학년1학기/미디어와세상/기말",
     "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "2025/개인공부/6월/img/빅분기.png",
-    "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
-    "2025/개인공부/6월/2025-06-18 (AUSG 신청).md",
-    "2025-06-17.md",
     "2025/4학년1학기/기계학습 - 백우진/midterm/pdf/지침서.pdf",
     "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/data/README.md",
     "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/pdf/202020827_student_mental_health.pdf",
@@ -218,7 +202,6 @@
     "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/mlop4.pdf",
     "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/mlop3.pdf",
     "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/mlop2.pdf",
-    "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/mlop1.pdf",
     "2025/4학년1학기/미디어와세상/과제/2025-06-10 (기사 비판적으로 읽기).md",
     "2025/4학년1학기/졸작개발/5월/2025-05-26 (메인, DB_Token 연결).md",
     "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
