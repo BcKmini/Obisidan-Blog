@@ -11,10 +11,14 @@
             "id": "073867deabcaf084",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025/4학년1학기/기계학습 - 백우진/기말고사/기말고사 안내사항.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "기말고사 안내사항"
             }
           }
         ]
@@ -138,16 +142,27 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "2025/4학년1학기/기계학습 - 백우진/기말고사/기말고사 안내사항.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "기말고사 안내사항 의 개요"
+            }
+          },
+          {
+            "id": "5b7f6a907a389d1b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "65707762b1bce0b9",
@@ -181,27 +196,28 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "073867deabcaf084",
+  "active": "5b7f6a907a389d1b",
   "lastOpenFiles": [
-    "2025/개인공부/6월/2025-06-18 (AUSG 신청).md",
+    "2025/4학년1학기/기계학습 - 백우진/기말고사/202020827_김경민.ipynb",
+    "2025/4학년1학기/기계학습 - 백우진/기말고사/기말_기계학습.pdf",
+    "2025/4학년1학기/기계학습 - 백우진/기말고사/기말고사 안내사항.md",
+    "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
+    "2025/개인공부/6월/2025-06-18 (AUSG 신청).md",
     "2025-06-17.md",
     "2025/4학년1학기/미디어와세상/기말/미디어와세상(기말)_202020827_김경민.pdf",
     "2025/4학년1학기/미디어와세상/기말",
-    "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "2025/개인공부/6월/img/빅분기.png",
     "2025/4학년1학기/기계학습 - 백우진/midterm/pdf/지침서.pdf",
     "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/data/README.md",
     "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/pdf/202020827_student_mental_health.pdf",
     "2025/4학년1학기/기계학습 - 백우진/midterm/machineLearning/data/무제.md",
     "2025/4학년1학기/기계학습 - 백우진/중간고사/2025-04-18.md",
-    "2025/4학년1학기/기계학습 - 백우진/기말고사/기말고사 안내사항.md",
     "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/cart1.pdf",
     "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/unsuper2.pdf",
     "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/unsuper1.pdf",
     "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/mlop4.pdf",
     "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/mlop3.pdf",
-    "2025/4학년1학기/기계학습 - 백우진/기말고사/pdf/mlop2.pdf",
     "2025/4학년1학기/미디어와세상/과제/2025-06-10 (기사 비판적으로 읽기).md",
     "2025/4학년1학기/졸작개발/5월/2025-05-26 (메인, DB_Token 연결).md",
     "2025/4학년1학기/졸작개발/5월/2025-05-11 ((구글 +네이버) 로그인API).md",
