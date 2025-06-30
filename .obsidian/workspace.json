@@ -11,10 +11,14 @@
             "id": "6a4efb5d7b44a2bb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "참고/기티.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "기티"
             }
           }
         ]
@@ -195,6 +199,7 @@
   },
   "active": "6a4efb5d7b44a2bb",
   "lastOpenFiles": [
+    "무제.md",
     "xx.md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-06-25 (DeepEthogram, a machine learningpipeline for supervised behaviorclassification from raw pixels).md",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/elife-63377-v2-1.pdf",
@@ -207,7 +212,6 @@
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (DeepAction_a MATLAB toolbox for automated classification of animal behavior in video).md",
     "참고/동영상.md",
     "참고/옵시디언 문법.md",
-    "무제.md",
     "2025/개인공부/5월/2025-05-03 (Text to image).md",
     "2025/개인공부/5월/2025-05-07 (OCR 모델 돌려보기).md",
     "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
