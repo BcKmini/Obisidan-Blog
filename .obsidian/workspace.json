@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "085f6848c06756b8",
+  "active": "5b7f6a907a389d1b",
   "lastOpenFiles": [
     "2025/학부연구생/논문/Animal Behavior in video/pdf/elife-63377-v2-1.pdf",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/Animal Behavior Classification Using DeepLabCut - 2020_GCCE_fujimori.pdf",
