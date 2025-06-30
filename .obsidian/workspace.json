@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "2025/학부연구생/논문/Animal Behavior in video/2025-06-25 (DeepEthogram, a machine learningpipeline for supervised behaviorclassification from raw pixels).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "2025-06-25 (DeepEthogram, a machine learningpipeline for supervised behaviorclassification from raw pixels)"
             }
           }
         ]
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,20 +199,31 @@
   },
   "active": "085f6848c06756b8",
   "lastOpenFiles": [
+    "2025/학부연구생/논문/Animal Behavior in video/pdf/elife-63377-v2-1.pdf",
+    "2025/학부연구생/논문/Animal Behavior in video/pdf/Animal Behavior Classification Using DeepLabCut - 2020_GCCE_fujimori.pdf",
+    "2025/학부연구생/논문/Animal Behavior in video/pdf/Wild ActionFormer_ Enhancing wildlife action recognition for 11 endangered species in Wolong - 1-s2.0-S1574954125001578-main.pdf",
+    "2025/학부연구생/논문/Animal Behavior in video/pdf/DeepAction_a MATLAB toolbox for automated classification of animal behavior in video.pdf",
     "2025/학부연구생/논문/Animal Behavior in video/2025-06-25 (DeepEthogram, a machine learningpipeline for supervised behaviorclassification from raw pixels).md",
-    "2025/학부연구생/논문/Animal Behavior in video/2025-06-25.md",
-    "무제.md",
-    "참고/기티.md",
-    "2025-06-17.md",
-    "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (DeepAction_a MATLAB toolbox for automated classification of animal behavior in video).md",
-    "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-06-02 (Animal Behavior Classification Using DeepLabCut).md",
+    "2025/학부연구생/논문/Animal Behavior in video/2025-05-28 (Wild ActionFormer_ Enhancing wildlife action recognition for endangered species videos).md",
+    "2025/학부연구생/논문/Animal Behavior in video/2025-06-25.md",
+    "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (DeepAction_a MATLAB toolbox for automated classification of animal behavior in video).md",
+    "참고/동영상.md",
+    "참고/옵시디언 문법.md",
+    "무제.md",
+    "2025/개인공부/5월/2025-05-03 (Text to image).md",
+    "2025/개인공부/5월/2025-05-07 (OCR 모델 돌려보기).md",
+    "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
+    "2025/개인공부/6월/2025-06-18 (AUSG 신청).md",
+    "xx.md",
+    "2025/KT/2025-05-30 (KT디인재 Network).md",
+    "2025/개인공부/6월/(빅데이터분석기사 실기).md",
+    "2025/개인공부/6월/img/스케줄.png",
+    "참고/기티.md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-06-05.md",
     "2025/KT/2025-06-24 (공지사항).md",
     "2025/학부연구생/논문/Animal Behavior in video/무제.md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
-    "참고/동영상.md",
-    "참고/옵시디언 문법.md",
     "참고/외부포트.md",
     "2025/학부연구생/논문세미나/6월/pdf/Endow SAM with Keen Eyes- Temporal-spatial Prompt Learning for Video Camouflaged Object Detection.pdf",
     "2025/학부연구생/논문세미나/6월/pdf/SegVol_ Universal and Interactive Volumetric Medical Image Segmentation.pdf",
@@ -221,20 +233,9 @@
     "2025/학부연구생/논문세미나/6월/pdf/2024(may)Tracking Small Birds by Detection Candidate Region Filtering and Detection History-aware Association.pdf",
     "2025/학부연구생/논문세미나/6월/2025-06-05 (논문 세미나).md",
     "2025/학부연구생/2월/4주차/pdf/AN IMAGE IS WORTH 16X16 WORDS- TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.pdf",
-    "2025/학부연구생/2월/4주차/pdf/dentity Mappings in Deep Residual Networks.pdf",
-    "2025/학부연구생/2월/4주차/pdf/Densely Connected Convolutional Networks.pdf",
-    "2025/학부연구생/2월/4주차/pdf/Deep Residual Learning for Image Recognition.pdf",
     "2025/학부연구생/3월/4주차/2025-03-26 (AI TIMELINE).md",
     "2025/학부연구생/3월/4주차/2025-03-29 (과학기술대전 포스터).md",
     "2025/학부연구생/3월/1주차/2025-03-06 (제안서 PPT).md",
-    "2025/학부연구생/3월/1주차/2025-03-05 (3D모델링-라이노).md",
-    "2025/학부연구생/4월/4주차/2025-05-03 (Development of Video Labeling Tools).md",
-    "2025/학부연구생/4월/4주차/2025-04-30 (우분투 서버 구축).md",
-    "2025/학부연구생/4월/4주차/2025-05-02 (검출 시각 추출 도구 사용 가이드).md",
-    "2025/학부연구생/4월/4주차/2025-04-29 (랩미팅).md",
-    "2025/학부연구생/4월/3주차/2025-04-15 (중간고사 준비).md",
-    "2025/학부연구생/5월/3주차/2025-05-23 (CCTV_라벨링툴 개선).md",
-    "2025/개인공부/6월/img/스케줄.png",
     "2025/개인공부/6월/img/빅분기.png",
     "2025/개인공부/6월/img/OSSCA_접수.png",
     "2025/멘토멘티/Doc/대면/7회차-8히촤/img/IMG_2877.jpg",

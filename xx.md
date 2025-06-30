@@ -1,0 +1,31 @@
+[gitflow](https://tech.mfort.co.kr/blog/2022-08-05-trunk-based-development/)
+
+
+`0000 0000 0100`₂
+`0110 0000 0000 0100`
+
+
+**문제 및 이미지에 표시된 답 (제 판단 기준 포함):**
+```
+F. F  F. F
+T. F. F. F
+F. F. F. F
+T. T. T. T
+
+F. T. F. F -1
+F. F. F. T
+T. F. F. F
+T. T. F. F -1
+
+T. F. T. T -1
+T. T. T. T
+
+5   3
+```
+
+
+
+https://ghchart.rshah.org/219138/BcKmini
+
+---
+
