@@ -11,10 +11,14 @@
             "id": "ab1833564a936c0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025-07-01.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "2025-07-01"
             }
           }
         ]
@@ -196,6 +200,8 @@
   "active": "ab1833564a936c0a",
   "lastOpenFiles": [
     "무제.md",
+    "2025-07-01.md",
+    "2025/학부연구생/논문세미나/6월/2025-06-05 (논문 세미나).md",
     "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
     "2025/개인공부/6월/2025-06-18 (AUSG 신청).md",
     "참고/기티.md",
@@ -227,7 +233,6 @@
     "2025/학부연구생/논문세미나/6월/pdf/Cross-Modal and Uni-Modal Soft-Label Alignment.pdf",
     "2025/학부연구생/논문세미나/6월/pdf/AN IMAGE IS WORTH 16X16 WORDS.pdf",
     "2025/학부연구생/논문세미나/6월/pdf/2024(may)Tracking Small Birds by Detection Candidate Region Filtering and Detection History-aware Association.pdf",
-    "2025/학부연구생/논문세미나/6월/2025-06-05 (논문 세미나).md",
     "2025/학부연구생/3월/4주차/2025-03-26 (AI TIMELINE).md",
     "2025/학부연구생/3월/4주차/2025-03-29 (과학기술대전 포스터).md",
     "2025/학부연구생/3월/1주차/2025-03-06 (제안서 PPT).md",
