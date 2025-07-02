@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0a09da4926d38104",
+        "id": "d743bc6410b97007",
         "type": "tabs",
         "children": [
           {
-            "id": "ab1833564a936c0a",
+            "id": "85c17246ef3a5de3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,14 +197,18 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "85c17246ef3a5de3",
   "lastOpenFiles": [
     "무제.md",
+    "2025/KT/2025-07-02 (Veo3).md",
+    "2025/KT/2025-06-24 (공지사항).md",
+    "2025/KT/img/공모전.jpeg",
+    "2025/KT/2025-05-30 (KT디인재 Network).md",
+    "참고/기티.md",
     "2025-07-01.md",
     "2025/학부연구생/논문세미나/6월/2025-06-05 (논문 세미나).md",
     "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
     "2025/개인공부/6월/2025-06-18 (AUSG 신청).md",
-    "참고/기티.md",
     "xx.md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-06-25 (DeepEthogram, a machine learningpipeline for supervised behaviorclassification from raw pixels).md",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/elife-63377-v2-1.pdf",
@@ -218,11 +223,9 @@
     "참고/옵시디언 문법.md",
     "2025/개인공부/5월/2025-05-03 (Text to image).md",
     "2025/개인공부/5월/2025-05-07 (OCR 모델 돌려보기).md",
-    "2025/KT/2025-05-30 (KT디인재 Network).md",
     "2025/개인공부/6월/(빅데이터분석기사 실기).md",
     "2025/개인공부/6월/img/스케줄.png",
     "2025/학부연구생/논문/Animal Behavior in video/2025-06-05.md",
-    "2025/KT/2025-06-24 (공지사항).md",
     "2025/학부연구생/논문/Animal Behavior in video/무제.md",
     "2025/학부연구생/논문/Animal Behavior in video/2025-05-26 (논문읽기).md",
     "참고/외부포트.md",
@@ -234,7 +237,6 @@
     "2025/학부연구생/논문세미나/6월/pdf/2024(may)Tracking Small Birds by Detection Candidate Region Filtering and Detection History-aware Association.pdf",
     "2025/학부연구생/3월/4주차/2025-03-26 (AI TIMELINE).md",
     "2025/학부연구생/3월/4주차/2025-03-29 (과학기술대전 포스터).md",
-    "2025/학부연구생/3월/1주차/2025-03-06 (제안서 PPT).md",
     "2025/개인공부/6월/img/빅분기.png",
     "2025/개인공부/6월/img/OSSCA_접수.png",
     "2025/멘토멘티/Doc/대면/7회차-8히촤/img/IMG_2877.jpg",
@@ -242,7 +244,6 @@
     "2025/멘토멘티/Doc/비대면/1, 2회차/img/2회차-4.jpeg",
     "2025/멘토멘티/Doc/비대면/1, 2회차/img/2회차-3.jpeg",
     "2025/멘토멘티/Doc/비대면/1, 2회차/img/2회차.jpeg",
-    "2025/멘토멘티/Doc/비대면/1, 2회차/img/2회차-1.jpeg",
-    "2025/멘토멘티/Doc/비대면/1, 2회차/img/2회차-2.jpeg"
+    "2025/멘토멘티/Doc/비대면/1, 2회차/img/2회차-1.jpeg"
   ]
 }
