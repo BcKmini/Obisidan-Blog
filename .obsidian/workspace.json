@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ab1833564a936c0a",
+  "active": "6d9b5c5bf07a7b7a",
   "lastOpenFiles": [
     "무제.md",
     "2025-07-01.md",
