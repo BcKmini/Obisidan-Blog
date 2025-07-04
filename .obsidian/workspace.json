@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/학부연구생/논문세미나/6-7월/2025-06-05 (논문 세미나).md",
+                "file": "2025/학부연구생/논문세미나/6-7월/ImageNet Classification with Deep Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-05 (논문 세미나)"
+              "title": "ImageNet Classification with Deep Convolutional Neural Networks"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-07-01.md",
+                "file": "2025/KT/2025-07-03 (Veo3).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-01"
+              "title": "2025-07-03 (Veo3)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "54ba721a3a6998a5",
@@ -212,15 +212,16 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "85c17246ef3a5de3",
   "lastOpenFiles": [
-    "2025/KT/2025-07-02 (Veo3).md",
-    "2025/KT/2025-07-03 (Veo3).md",
-    "HTML import",
-    "HTML import 15-48-16-107",
-    "2025-07-01.md",
+    "2025/학부연구생/논문세미나/6-7월/Vision-Language_Models_CVPRW_2024.md",
     "2025/학부연구생/논문세미나/6-7월/ImageNet Classification with Deep Convolutional Neural Networks.md",
     "2025/학부연구생/논문세미나/6-7월/2025-06-05 (논문 세미나).md",
+    "2025/KT/2025-07-03 (Veo3).md",
+    "2025-07-01.md",
+    "2025/KT/2025-07-02 (Veo3).md",
+    "HTML import",
+    "HTML import 15-48-16-107",
     "2025/학부연구생/논문세미나/6-7월/pdf/ImageNet Classification with Deep Convolutional Neural Networks (1).pdf",
     "무제",
     "무제.md",
