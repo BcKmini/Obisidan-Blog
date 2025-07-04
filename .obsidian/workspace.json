@@ -150,34 +150,9 @@
               "icon": "lucide-tags",
               "title": "태그"
             }
-          },
-          {
-            "id": "fcefafffb9f9367d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "무제.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "무제 의 개요"
-            }
-          },
-          {
-            "id": "5b7f6a907a389d1b",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "65707762b1bce0b9",
@@ -211,7 +186,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "5b7f6a907a389d1b",
+  "active": "db74f6f73b4026d5",
   "lastOpenFiles": [
     "2025/학부연구생/논문세미나/6-7월/ImageNet Classification with Deep Convolutional Neural Networks.md",
     "2025/학부연구생/7월/2025-07-04 (논문세미나_교수님 강의).md",
