@@ -164,9 +164,19 @@
               "icon": "lucide-list",
               "title": "2025-07-04(장학금 심사) 의 개요"
             }
+          },
+          {
+            "id": "2e37b87dd47febcf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "65707762b1bce0b9",
@@ -186,8 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,17 +210,19 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "85c17246ef3a5de3",
+  "active": "2e37b87dd47febcf",
   "lastOpenFiles": [
-    "2025/학부연구생/7월/2025-07-04 (논문세미나_교수님 강의).md",
-    "2025/KT/2025-07-03 (Veo3).md",
     "2025/KT/2025-07-04(장학금 심사).md",
+    "2025/KT/2025-06-24 (공지사항).md",
+    "2025-07-01.md",
+    "무제.md",
+    "2025/학부연구생/논문세미나/6-7월/pdf/NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "2025/KT/2025-07-03 (Veo3).md",
+    "2025/학부연구생/7월/2025-07-04 (논문세미나_교수님 강의).md",
     "2025/학부연구생/논문세미나/6-7월/2025-06-05 (논문 세미나).md",
     "2025/학부연구생/논문세미나/6-7월/ImageNet Classification with Deep Convolutional Neural Networks.md",
     "2025/학부연구생/논문세미나/6-7월/Vision-Language_Models_CVPRW_2024.md",
-    "2025-07-01.md",
     "2025/KT/img/학사공지.png",
-    "무제.md",
     "2025/학부연구생/7월/무제.md",
     "2025/학부연구생/7월",
     "2025/KT/2025-07-02 (Veo3).md",
@@ -237,7 +248,6 @@
     "2025/4학년1학기/졸작개발/5월/img/스크린샷 2025-05-13 19.09.25.png",
     "2025/4학년1학기/졸작개발/5월/img/DB_ER.png",
     "2025/4학년1학기/졸작개발/5월/img/Detailpage.png",
-    "2025/KT/2025-06-24 (공지사항).md",
     "2025/KT/2025-05-30 (KT디인재 Network).md",
     "참고/기티.md",
     "2025/개인공부/6월/2025-06-17 (OSSCA_7-7발표).md",
@@ -246,7 +256,6 @@
     "2025/학부연구생/논문/Animal Behavior in video/pdf/elife-63377-v2-1.pdf",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/Animal Behavior Classification Using DeepLabCut - 2020_GCCE_fujimori.pdf",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/Wild ActionFormer_ Enhancing wildlife action recognition for 11 endangered species in Wolong - 1-s2.0-S1574954125001578-main.pdf",
-    "2025/학부연구생/논문/Animal Behavior in video/pdf/DeepAction_a MATLAB toolbox for automated classification of animal behavior in video.pdf",
-    "2025/학부연구생/논문세미나/6-7월/pdf/Endow SAM with Keen Eyes- Temporal-spatial Prompt Learning for Video Camouflaged Object Detection.pdf"
+    "2025/학부연구생/논문/Animal Behavior in video/pdf/DeepAction_a MATLAB toolbox for automated classification of animal behavior in video.pdf"
   ]
 }
