@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/학부연구생/4월/3주차/2025-04-15 (중간고사 준비).md",
+                "file": "2025/학부연구생/논문/생태원/2025-07-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-15 (중간고사 준비)"
+              "title": "2025-07-07"
             }
           }
         ]
@@ -199,6 +199,12 @@
   },
   "active": "a95645fe5b4f5498",
   "lastOpenFiles": [
+    "2025/학부연구생/논문/생태원/2025-07-08.md",
+    "2025/학부연구생/논문/생태원/2025-07-07.md",
+    "2025/학부연구생/논문/생태원",
+    "무제.md",
+    "2025/KT/2025-07-04(장학금 심사).md",
+    "2025/학부연구생/4월/3주차/2025-04-15 (중간고사 준비).md",
     "2025/학부연구생/4월/2주차/2025-04-13 (collection_web_back-V1).md",
     "2025/학부연구생/4월/2주차/2025-04-10 (오픈소스 LLM으로 금융 뉴스 요약).md",
     "2025/학부연구생/4월/2주차/2025-04-9 (축전 포스터 최종 기초연구실).md",
@@ -209,9 +215,7 @@
     "2025/학부연구생/4월/1주차/2025-04-02 (녹기융-컴공).md",
     "2025/학부연구생/4월/1주차/2025-04-02 (최종 보고서 확인).md",
     "2025/학부연구생/4월/1주차/2025-04-03 (자연 관찰 웹사이트 회의).md",
-    "2025-07-07.md",
     "2025/KT/2025-07-03 (Veo3).md",
-    "무제.md",
     "2025/KT/2025-07-02 (Veo3).md",
     "2025/KT/2025-06-24 (공지사항).md",
     "2025/KT/2025-05-30 (KT디인재 Network).md",
@@ -221,10 +225,6 @@
     "2025/학부연구생/5월/3주차/2025-05-22 (ChatGPT).md",
     "2025/학부연구생/5월/3주차/2025-05-21 (베리어프리 공모전 제출).md",
     "2025/학부연구생/5월/3주차/2025-05-20 (베리어프리 공모전 인터뷰).md",
-    "2025/학부연구생/5월/3주차/2025-05-19 (Reproduction of SOTA Models for Video-based Animal Behavior Classification).md",
-    "2025/학부연구생/5월/1주차/2025-05-09 (한-중앙아시아 추진체계 작성).md",
-    "2025/학부연구생/5월/1주차/2025-05-08 (제안서 작성_대학로고).md",
-    "2025/학부연구생/5월/1주차/2025-05-07 (프로그램 코딩 채점 서비스).md",
     "2025/학부연구생/논문세미나/6-7월/pdf/NIPS-2017-attention-is-all-you-need-Paper.pdf",
     "2025/KT/img/학사공지.png",
     "2025/학부연구생/7월",
@@ -243,7 +243,6 @@
     "2025/4학년1학기/졸작개발/5월/img/Detailpage.png",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/elife-63377-v2-1.pdf",
     "2025/학부연구생/논문/Animal Behavior in video/pdf/Animal Behavior Classification Using DeepLabCut - 2020_GCCE_fujimori.pdf",
-    "2025/학부연구생/논문/Animal Behavior in video/pdf/Wild ActionFormer_ Enhancing wildlife action recognition for 11 endangered species in Wolong - 1-s2.0-S1574954125001578-main.pdf",
-    "2025/학부연구생/논문/Animal Behavior in video/pdf/DeepAction_a MATLAB toolbox for automated classification of animal behavior in video.pdf"
+    "2025/학부연구생/논문/Animal Behavior in video/pdf/Wild ActionFormer_ Enhancing wildlife action recognition for 11 endangered species in Wolong - 1-s2.0-S1574954125001578-main.pdf"
   ]
 }
