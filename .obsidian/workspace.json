@@ -211,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,7 +225,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "2e37b87dd47febcf",
   "lastOpenFiles": [
     "2025/개인공부/7월",
     "2025/학부연구생/7월/1주차/2025-07-04 (논문세미나_교수님 강의).md",
