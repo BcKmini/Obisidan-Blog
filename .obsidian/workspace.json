@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +197,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e37b87dd47febcf",
+  "active": "8404498e6c090f6e",
   "lastOpenFiles": [
     "2025/개인공부/7월/img/자바문제.png",
     "2025/개인공부/7월/정보처리기사 실기.md",
