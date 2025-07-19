@@ -11,14 +11,12 @@
             "id": "8404498e6c090f6e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "2025/개인공부/7월/정보처리기사 실기.md",
-                "mode": "source",
-                "source": false
+                "file": "2025/개인공부/7월/img/정처기.png"
               },
-              "icon": "lucide-file",
-              "title": "정보처리기사 실기"
+              "icon": "lucide-image",
+              "title": "정처기"
             }
           }
         ]
@@ -182,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,10 +194,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "8404498e6c090f6e",
+  "active": "6d9b5c5bf07a7b7a",
   "lastOpenFiles": [
-    "2025/개인공부/7월/정처기.png",
     "2025/개인공부/7월/정보처리기사 실기.md",
+    "2025/개인공부/7월/img/정처기.png",
     "2025/KT/2024-07-18 (블루보드 프로젝트).md",
     "2025/KT/2025-07-14 (KT 킥오프).md",
     "2025/개인공부/7월/img/자바문제.png",
