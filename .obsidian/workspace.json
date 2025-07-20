@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4e3dc5e637701070",
+        "id": "88d534fbe4abd698",
         "type": "tabs",
         "children": [
           {
-            "id": "8404498e6c090f6e",
+            "id": "c9a88d597cca87f9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2025/개인공부/7월/img/정처기.png"
+                "file": "2025/KT/2025-07-20 (자료조사).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "정처기"
+              "icon": "lucide-file",
+              "title": "2025-07-20 (자료조사)"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.50390243530273
+    "width": 318.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "54ba721a3a6998a5",
@@ -194,12 +197,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "c9a88d597cca87f9",
   "lastOpenFiles": [
-    "2025/개인공부/7월/정보처리기사 실기.md",
-    "2025/개인공부/7월/img/정처기.png",
-    "2025/KT/2024-07-18 (블루보드 프로젝트).md",
     "2025/KT/2025-07-14 (KT 킥오프).md",
+    "2025/KT/2025-07-20 (자료조사).md",
+    "2025/개인공부/7월/img/정처기.png",
+    "2025/개인공부/7월/정보처리기사 실기.md",
+    "2025/KT/2024-07-18 (블루보드 프로젝트).md",
     "2025/개인공부/7월/img/자바문제.png",
     "2025/개인공부/7월/img",
     "2025/학부연구생/7월/1주차/2025-07-12 고니 고도 계산.md",
