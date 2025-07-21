@@ -11,12 +11,14 @@
             "id": "c9a88d597cca87f9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2025/KT/img/빈집신고구조.png"
+                "file": "2025/KT/2025-07-20 (자료조사).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "빈집신고구조"
+              "icon": "lucide-file",
+              "title": "2025-07-20 (자료조사)"
             }
           }
         ]
@@ -180,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,11 +197,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "c9a88d597cca87f9",
   "lastOpenFiles": [
+    "2025/KT/img/빈집신고구조.png",
     "2025/KT/img/빈집활용현황.png",
     "2025/KT/img/화재.png",
-    "2025/KT/img/빈집신고구조.png",
     "2025/KT/img/빈집현황.png",
     "2025/KT/Pasted image 20250720212408.png",
     "2025/KT/Pasted image 20250720212400.png",
