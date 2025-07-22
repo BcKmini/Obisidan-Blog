@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0dfe232f9233a83e",
+        "id": "b0793f343806cf82",
         "type": "tabs",
         "children": [
           {
-            "id": "58e08c38c373f970",
+            "id": "22f5118d033cb68f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -193,15 +193,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "58e08c38c373f970",
+  "active": "22f5118d033cb68f",
   "lastOpenFiles": [
+    "2025/KT/2025-07-20 (자료조사).md",
     "참고/외부포트.md",
     "참고/터미널 - 파일다운.md",
     "참고/기티.md",
     "참고/동영상.md",
     "참고/옵시디언 문법.md",
     "무제.md",
-    "2025/KT/2025-07-20 (자료조사).md",
     "2025/KT/img/빈집신고구조.png",
     "2025/KT/img/빈집활용현황.png",
     "2025/KT/img/화재.png",
