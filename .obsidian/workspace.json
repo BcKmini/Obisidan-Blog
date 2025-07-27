@@ -11,10 +11,14 @@
             "id": "52a352f29d6ec39d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025-07-26.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "2025-07-26"
             }
           }
         ]
@@ -194,6 +198,7 @@
   },
   "active": "52a352f29d6ec39d",
   "lastOpenFiles": [
+    "2025-07-26.md",
     "무제 1.md",
     "무제 2.md",
     "무제.md",
