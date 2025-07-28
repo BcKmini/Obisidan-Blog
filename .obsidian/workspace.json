@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +197,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "bf8d325a9a5433d8",
   "lastOpenFiles": [
     "2025/학부연구생/7월/2025-07-28 (파이썬교안_2-1).md",
     "2025/학부연구생/7월/2025-07-28 (파이썬교안_2-2).md",
