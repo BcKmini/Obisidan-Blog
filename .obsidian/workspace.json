@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bf8d325a9a5433d8",
+  "active": "2e37b87dd47febcf",
   "lastOpenFiles": [
     "무제 3.md",
     "2025/학부연구생/1월/4주차/2025-01-22 (나노랩 + 개인공부).md",
