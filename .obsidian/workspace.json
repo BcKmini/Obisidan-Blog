@@ -11,10 +11,14 @@
             "id": "a4189cdc01d21890",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "참고/외부포트.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "외부포트"
             }
           }
         ]
