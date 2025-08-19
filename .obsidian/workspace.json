@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ccb50f919f58908d",
+        "id": "521453e111b7b4c2",
         "type": "tabs",
         "children": [
           {
-            "id": "67ab415d8327b6be",
+            "id": "fd87ac1e8329f3f3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -193,7 +193,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "67ab415d8327b6be",
+  "active": "fd87ac1e8329f3f3",
   "lastOpenFiles": [
     "참고/기티.md",
     "참고/외부포트.md",
