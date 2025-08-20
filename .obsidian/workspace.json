@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "521453e111b7b4c2",
+        "id": "1d634b589476b800",
         "type": "tabs",
         "children": [
           {
-            "id": "fd87ac1e8329f3f3",
+            "id": "4983bb54434f5cf7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -193,8 +193,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "fd87ac1e8329f3f3",
+  "active": "4983bb54434f5cf7",
   "lastOpenFiles": [
+    "무제.md",
     "참고/기티.md",
     "참고/외부포트.md",
     "참고/옵시디언 문법.md",
@@ -202,7 +203,6 @@
     "2025/KT/천안재생센터 (URL).md",
     "2025/KT/FAQ_질문.md",
     "2025/KT/KT 조사.md",
-    "무제.md",
     "2025-07-26.md",
     "깃허브 md/무제 1.md",
     "깃허브 md/무제.md",
