@@ -11,10 +11,14 @@
             "id": "4983bb54434f5cf7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "참고/외부포트.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "외부포트"
             }
           }
         ]
@@ -183,6 +187,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -195,8 +200,8 @@
   },
   "active": "4983bb54434f5cf7",
   "lastOpenFiles": [
-    "무제.md",
     "참고/기티.md",
+    "무제.md",
     "참고/외부포트.md",
     "참고/옵시디언 문법.md",
     "참고/동영상.md",
