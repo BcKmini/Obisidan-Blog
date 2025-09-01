@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "술마심 -> 김경민.md",
+                "file": "2025-07-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "술마심 -> 김경민"
+              "title": "2025-07-26"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5026054382324,
-    "collapsed": true
+    "width": 327.5026054382324
   },
   "right": {
     "id": "54ba721a3a6998a5",
@@ -183,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,11 +197,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b432377a3432b974",
+  "active": "2e37b87dd47febcf",
   "lastOpenFiles": [
+    "무제.md",
     "무제 1.md",
     "술마심 -> 김경민.md",
-    "무제.md",
     "2025/KT/2025-07-03 (Veo3).md",
     "2025/KT/무제 1.md",
     "2025/KT/pdf/KT디지털인재장학생 지역사회 문제 해결 프로젝트 킥오프자료.pdf",
