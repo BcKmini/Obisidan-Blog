@@ -1,0 +1,2 @@
+regex:sk-[A-Za-z0-9_-]{16,}==>***REMOVED***
+OPENAI_API_KEY=.+==>OPENAI_API_KEY=***REMOVED***
