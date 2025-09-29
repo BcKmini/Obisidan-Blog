@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +198,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e37b87dd47febcf",
+  "active": "f98c140533762172",
   "lastOpenFiles": [
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/4주차/Kotlin_review_pt3-1.pdf",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/4주차",
