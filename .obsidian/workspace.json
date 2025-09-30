@@ -211,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,7 +226,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6cb430755e9b848e",
+  "active": "2e37b87dd47febcf",
   "lastOpenFiles": [
     "img/IMG_4288.jpg",
     "무제 1.md",
