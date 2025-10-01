@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "105a230d26279c10",
+        "id": "bad53c2a3c253929",
         "type": "tabs",
         "children": [
           {
-            "id": "f98c140533762172",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025/4학년2학기/프로젝트종합설계 - 이철원/2025-09-29.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-09-29"
-            }
-          },
-          {
-            "id": "ac495c1166b65304",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "무제"
-            }
-          },
-          {
-            "id": "6cb430755e9b848e",
+            "id": "b1711ce16773e113",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,8 +21,7 @@
               "title": "무제"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "베리어",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,18 +198,21 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e37b87dd47febcf",
+  "active": "b1711ce16773e113",
   "lastOpenFiles": [
-    "img/IMG_4288.jpg",
     "무제 1.md",
+    "2025/학부연구생/5월/3주차/2025-05-21 (베리어프리 공모전 제출).md",
+    "2025/학부연구생/5월/2주차/2025-05-15 (베리어프리공모전).md",
+    "2025/학부연구생/5월/3주차/2025-05-20 (베리어프리 공모전 인터뷰).md",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/2025-09-29.md",
+    "무제.md",
+    "img/IMG_4288.jpg",
     "img",
     "img/IMG_4314.jpg",
     "img/IMG_4313.jpg",
     "img/IMG_4312.jpg",
     "img/IMG_4311.jpg",
     "img/IMG_4289.jpg",
-    "무제.md",
-    "2025/4학년2학기/프로젝트종합설계 - 이철원/2025-09-29.md",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/4주차/Kotlin_review_pt3-1.pdf",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/4주차",
     "2025/4학년2학기/프로젝트종합설계 - 이철원/일정표.jpeg",
@@ -270,8 +245,6 @@
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/10주차/2025-05-08 (졸업작품 평가).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/9주차/2025-05-01 (교수님 피드백).md",
     "2025/4학년1학기/소프트웨어종합설계 - 이철원/9주차/2025-04-29 (팀회의 - 2).md",
-    "2025/4학년1학기/소프트웨어종합설계 - 이철원/8주차/2025-04-24.md",
-    "2025/4학년1학기/소프트웨어종합설계 - 이철원/7주차/2025-04-15 (팀 회의 - 1).md",
     "2025/개인공부/8월/img/오픈소스 컨트리뷰션 합격.png"
   ]
 }
