@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "무제"
             }
-          },
-          {
-            "id": "40b3c5e7f6c23b0d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.14"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,7 +198,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "40b3c5e7f6c23b0d",
+  "active": "b1711ce16773e113",
   "lastOpenFiles": [
     "무제 1.md",
     "2025/학부연구생/5월/3주차/2025-05-21 (베리어프리 공모전 제출).md",
