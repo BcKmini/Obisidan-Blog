@@ -11,12 +11,10 @@
             "id": "b1711ce16773e113",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "img/IMG_4289.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "IMG_4289"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -180,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,6 +196,7 @@
   },
   "active": "b1711ce16773e113",
   "lastOpenFiles": [
+    "img/IMG_4289.jpg",
     "img/IMG_4288.jpg",
     "무제.md",
     "2025/4학년2학기/MOS활용 - 권영애/4주차/2025-09-25.md",
@@ -215,7 +215,6 @@
     "img/IMG_4313.jpg",
     "img/IMG_4312.jpg",
     "img/IMG_4311.jpg",
-    "img/IMG_4289.jpg",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/4주차/Kotlin_review_pt3-1.pdf",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/4주차",
     "2025/4학년2학기/프로젝트종합설계 - 이철원/일정표.jpeg",
