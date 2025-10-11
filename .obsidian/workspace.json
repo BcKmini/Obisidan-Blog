@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d787b9ba40798e0e",
+        "id": "791fb444a4bb8e6a",
         "type": "tabs",
         "children": [
           {
-            "id": "f65ad47e48f02829",
+            "id": "39f565c3066ccf4e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -194,10 +194,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f65ad47e48f02829",
+  "active": "39f565c3066ccf4e",
   "lastOpenFiles": [
-    "interview/2025-10-10 (Q).md",
     "interview/2025-10-09 (Script).md",
+    "interview/2025-10-10 (Q).md",
     "무제.md",
     "interview/2025-10-09 (가안).md",
     "interview/2025-10-09 (Guideline).md",
