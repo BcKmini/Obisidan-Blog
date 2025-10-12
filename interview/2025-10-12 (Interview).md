@@ -153,7 +153,6 @@
 **A (KR):** 데이터와 근거를 투명하게 공유하며, Notion과 GitHub을 활용해 명확히 기록하고 협업했습니다.
 
 ---
-
 ## 20. Research Contribution
 
 **Q (EN):** What contribution can you make to DGIST’s research community?  
