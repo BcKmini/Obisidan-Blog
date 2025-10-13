@@ -198,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,7 +214,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e37b87dd47febcf",
+  "active": "42085198eb5a7a9f",
   "lastOpenFiles": [
     "interview/2025-10-10 (Q).md",
     "interview/2025-10-12 (Interview).md",
