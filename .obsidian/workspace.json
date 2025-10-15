@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +197,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b02fafa3ee239369",
+  "active": "2e37b87dd47febcf",
   "lastOpenFiles": [
     "무제 1.md",
     "2025-10-15 (중간정리).md",
