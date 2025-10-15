@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +197,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "39f565c3066ccf4e",
+  "active": "2e37b87dd47febcf",
   "lastOpenFiles": [
     "interview/2025-10-10 (Q).md",
     "2025/4학년2학기/나노랩심화 - 백우진/5주차/2025-10-1 (발표).md",
