@@ -137,32 +137,22 @@
             }
           },
           {
-            "id": "cf71b37b63c0f9d8",
+            "id": "d7487df76a025cff",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/KT/2025-07-04(장학금 심사).md",
+                "file": "2025-10-15 (중간정리).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-04(장학금 심사) 의 개요"
-            }
-          },
-          {
-            "id": "2e37b87dd47febcf",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "2025-10-15 (중간정리) 의 개요"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "65707762b1bce0b9",
@@ -197,7 +187,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e37b87dd47febcf",
+  "active": "db74f6f73b4026d5",
   "lastOpenFiles": [
     "무제 1.md",
     "2025-10-15 (중간정리).md",
