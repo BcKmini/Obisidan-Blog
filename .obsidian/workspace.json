@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +198,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "b02fafa3ee239369",
   "lastOpenFiles": [
     "2025/4학년2학기/지도자의자질과인성/지도자의자질과인성_중간고사.pdf",
     "2025/4학년2학기/지도자의자질과인성/지도자의자질과인성_중간고사.docx",
