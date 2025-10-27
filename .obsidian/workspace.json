@@ -11,10 +11,14 @@
             "id": "a585b97448852870",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "무제 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "무제 1"
             }
           }
         ]
@@ -194,8 +198,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "a585b97448852870",
   "lastOpenFiles": [
+    "무제 1.md",
     "참고/동영상.md",
     "참고/기티.md",
     "참고/터미널 - 파일다운.md",
@@ -229,7 +234,6 @@
     "2024/3-2/소프트웨어공학_6.md",
     "2024/3-2/소프트웨어공학_7.md",
     "2024/3-2/중간고사를 마치며, 10월 정리.md",
-    "무제 1.md",
     "2025/개인공부/interview/2025-10-10 (Q).md",
     "2025/개인공부/interview/2025-10-12 (script).md",
     "img/IMG_4289.jpg",
