@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "644ab519b1f6e022",
+  "active": "6d9b5c5bf07a7b7a",
   "lastOpenFiles": [
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/5주차/ad_ch01.pdf",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/9주차/ad_ch01.pdf",
