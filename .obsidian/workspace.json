@@ -11,12 +11,14 @@
             "id": "8fe96dfeaa6af5fb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2025/4학년2학기/안드로이드프로그래밍 - 박민규/9주차/ap_ch02-1.pdf"
+                "file": "무제.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ap_ch02-1"
+              "icon": "lucide-file",
+              "title": "무제"
             }
           }
         ]
@@ -195,20 +197,31 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "644ab519b1f6e022",
+  "active": "8fe96dfeaa6af5fb",
   "lastOpenFiles": [
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/10주차/mid_term.png",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/10주차",
-    "무제",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/11주차/ap_ch02-2.pdf",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/11주차",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/androidTest/java/com/example/tipcalculator/ExampleInstrumentedTest.kt",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/test/java/com/example/tipcalculator/ExampleUnitTest.kt",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/java/com/example/tipcalculator/OutputActivity.kt",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/java/com/example/tipcalculator/MainActivity.kt",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/androidTest/java/com/example/tipcalculator",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/test/java/com/example/tipcalculator",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/java/com/example/tipcalculator",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/test/java/com/example",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/xml/motion_scene.xml",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/values/themes.xml",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/values/strings.xml",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/README.md",
     "무제.md",
-    "2025/개인공부/11월/정보처리기사/이론/[꿈꾸는라이언] 추가 학습 자료 (프로세스 스케쥴링).pdf",
-    "2025/개인공부/11월/정보처리기사/이론/[꿈꾸는라이언] 정보처리기사 실기 요약노트 (이론편).pdf",
-    "2025/개인공부/11월/정보처리기사/이론/(복습용) [꿈꾸는라이언] 정보처리기사 실기 요약노트 (이론편).pdf",
-    "2025/개인공부/11월/정보처리기사/이론",
-    "2025/개인공부/11월/정보처리기사/정처기실기요약2.pdf",
-    "2025/개인공부/11월/정보처리기사/정처기실기요약1.pdf",
     "무제 1.md",
     "참고/터미널 - 파일다운.md",
     "참고/토익.md",
@@ -220,16 +233,6 @@
     "2025/멘토멘티/멘토멘티.md",
     "2025/멘토멘티/장학금 관련(에타참고).md",
     "2025/멘토멘티/장학금 관련(2023 요람).md",
-    "2025/멘토멘티/img/시간표/태희시간표.png",
-    "2025/멘토멘티/img/시간표/지환시간표.png",
-    "2025/멘토멘티/img/시간표/정주시간표.png",
-    "2025/멘토멘티/img/시간표/아현시간표.png",
-    "2025/멘토멘티/img/seKUrity 모집.jpg",
-    "2025/멘토멘티/img/Map-kku.jpg",
-    "2025/멘토멘티/img/학교 캠퍼스맵.jpg",
-    "2025/멘토멘티/img/오라클 모집공고.png",
-    "2025/멘토멘티/img/어플.jpg",
-    "2025/멘토멘티/img/신편입생 학번 조회.png",
     "2025/4학년2학기/2025-10-15 (중간정리).md",
     "2025/학생회/10월/졸전 준비.md",
     "2025/4학년2학기/나노랩심화 - 백우진/8주차/중간고사/2025-10-15(최종과제 + 보고서 + 데모 비디오 (마감 10.15 수 16.00).md",
@@ -241,7 +244,6 @@
     "2024/3-2/소프트웨어공학_5.md",
     "2024/3-2/방학을 마치며 개강...md",
     "2024/3-2/밑바닥부터 시작하는 딥러닝_2장.md",
-    "2024/3-2/2024_국민체육진흥공단 공공데이터_3.md",
-    "2024/3-2/2024를 마치며.md"
+    "2024/3-2/2024_국민체육진흥공단 공공데이터_3.md"
   ]
 }
