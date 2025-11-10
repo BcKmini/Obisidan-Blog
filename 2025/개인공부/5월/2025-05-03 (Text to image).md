@@ -29,7 +29,7 @@
 - **PaddleOCR**
   - 모델 유형: OCR 딥러닝 모델 모음  
   - 제공 방식: 오픈소스 (Apache 2.0)  
-  - 배포: 로컬 (Python/​PaddlePaddle)  
+  - 배포: 로컬 (Python/PaddlePaddle)  
   - 상업적 이용: 허용  
   - 지원 형식: 다국어 OCR, 레이아웃·표 인식  
   - 링크: [PaddleOCR 문서](https://paddlepaddle.github.io/PaddleOCR)  
@@ -45,7 +45,7 @@
 - **TrOCR (Microsoft)**
   - 모델 유형: Transformer 기반 OCR  
   - 제공 방식: 오픈소스 (MIT)  
-  - 배포: 로컬 (Python/​Transformers)  
+  - 배포: 로컬 (Python/Transformers)  
   - 상업적 이용: 허용  
   - 지원 형식: 인쇄·필기체 인식 SOTA  
   - 링크: [Hugging Face](https://huggingface.co/models/microsoft/trocr)  

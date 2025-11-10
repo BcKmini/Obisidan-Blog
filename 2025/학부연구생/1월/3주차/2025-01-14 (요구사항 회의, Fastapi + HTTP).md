@@ -383,53 +383,53 @@ from .base import Base
 
 class RepellentData(Base):
 
-    __tablename__ = "repellent_data"
+    __tablename__ = "repellent_data"
 
   
 
-    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 
-    detection_date = Column(DateTime, nullable=False)  # 탐지 날짜
+    detection_date = Column(DateTime, nullable=False)  # 탐지 날짜
 
-    detection_num = Column(Integer, nullable=False)  # 탐지 횟수
+    detection_num = Column(Integer, nullable=False)  # 탐지 횟수
 
-    detection_time = Column(String(255), nullable=False)  # 탐지 시간
+    detection_time = Column(String(255), nullable=False)  # 탐지 시간
 
-    re_detection_minutes = Column(Integer, nullable=True)  # 재탐지 시간(분)
+    re_detection_minutes = Column(Integer, nullable=True)  # 재탐지 시간(분)
 
-    detection_type = Column(String(255), nullable=False)  # 탐지 유형
+    detection_type = Column(String(255), nullable=False)  # 탐지 유형
 
-    gateway_id = Column(Integer, ForeignKey("gateway.id"), nullable=False)
+    gateway_id = Column(Integer, ForeignKey("gateway.id"), nullable=False)
 
-    repellent_device_id = Column(
+    repellent_device_id = Column(
 
-        Integer, ForeignKey("repellent_device.id"), nullable=False
+        Integer, ForeignKey("repellent_device.id"), nullable=False
 
-    )
+    )
 
-    species = Column(
+    species = Column(
 
-        Enum('wild_boar', 'jay', 'crow', 'magpie', 'pigeon', 'cormorant', 'sparrow', 'bulbul'),
+        Enum('wild_boar', 'jay', 'crow', 'magpie', 'pigeon', 'cormorant', 'sparrow', 'bulbul'),
 
-        nullable=True
+        nullable=True
 
-    )
+    )
 
-    repellent_sound_id = Column(
+    repellent_sound_id = Column(
 
-        Integer, ForeignKey("repellent_sound.id"), nullable=False
+        Integer, ForeignKey("repellent_sound.id"), nullable=False
 
-    )
+    )
 
   
 
-    # relationship 설정
+    # relationship 설정
 
-    gateway = relationship("Gateway", back_populates="repellent_data")
+    gateway = relationship("Gateway", back_populates="repellent_data")
 
-    repellent_device = relationship("RepellentDevice", back_populates="repellent_data")
+    repellent_device = relationship("RepellentDevice", back_populates="repellent_data")
 
-    repellent_sound = relationship("RepellentSound", back_populates="repellent_data")
+    repellent_sound = relationship("RepellentSound", back_populates="repellent_data")
 ```
 
 # RepellentData 모델 설명

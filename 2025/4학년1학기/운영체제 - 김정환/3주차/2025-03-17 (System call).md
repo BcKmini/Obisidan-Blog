@@ -4,14 +4,14 @@
 ---
 ## Simultaneous Multithreaing (SMT)
 ![[스크린샷 2025-03-24 09.55.57.png]]
-- Hardware Multithreading 
- - –Ex. Intel Hyperthreading   
- - –1개의 CPU core에서 여러 개의  thread를 실행할 수 있음
- -  어떤 thread의 메모리 지연시간을  다른 thread의 CPU 실행으로  감추는 효과 
->  multiprogramming의 효과와  비교  
-  >2개의 thread를 지원하는 CPU   core는 OS 입장에서 2개의 CPU로  보임
+- Hardware Multithreading 
+ - –Ex. Intel Hyperthreading   
+ - –1개의 CPU core에서 여러 개의  thread를 실행할 수 있음
+ -  어떤 thread의 메모리 지연시간을  다른 thread의 CPU 실행으로  감추는 효과 
+>  multiprogramming의 효과와  비교  
+  >2개의 thread를 지원하는 CPU   core는 OS 입장에서 2개의 CPU로  보임
 ![[스크린샷 2025-03-24 09.57.03.png]]
-> 코어가 2개이고, 각 코어가 2개의 스레드를  지원하면  OS는 4 CPU가 존재하는 것으로 인식
+> 코어가 2개이고, 각 코어가 2개의 스레드를  지원하면  OS는 4 CPU가 존재하는 것으로 인식
 
 ---
 ## 메모리 계층(Hierarchy)

@@ -68,8 +68,8 @@ Yoon Kim (뉴욕대학교, yhk255@nyu.edu)
 
 ### **Step 1: 입력층 (Embedding Layer)**
 
-- 문장을 **길이 nnn**의 단어 시퀀스로 변환: x1:n=x1⊕x2⊕⋯⊕xnx_1:n = x_1 \oplus x_2 \oplus \dots \oplus x_nx1​:n=x1​⊕x2​⊕⋯⊕xn​ 여기서 ⊕\oplus⊕는 단어 벡터의 연결(concatenation)을 의미함.
-- 각 단어 xix_ixi​는 kkk-차원의 벡터로 표현됨. (예: Word2Vec 벡터는 300차원)
+- 문장을 **길이 nnn**의 단어 시퀀스로 변환: x1:n=x1⊕x2⊕⋯⊕xnx_1:n = x_1 \oplus x_2 \oplus \dots \oplus x_nx1:n=x1⊕x2⊕⋯⊕xn 여기서 ⊕\oplus⊕는 단어 벡터의 연결(concatenation)을 의미함.
+- 각 단어 xix_ixi는 kkk-차원의 벡터로 표현됨. (예: Word2Vec 벡터는 300차원)
 - 사전 학습된 Word2Vec 벡터를 사용할 수도 있고, 랜덤으로 초기화할 수도 있음.
 
 ---
@@ -80,15 +80,15 @@ Yoon Kim (뉴욕대학교, yhk255@nyu.edu)
     
 - 수식:
     
-    ci=f(w⋅xi:i+h−1+b)c_i = f(w \cdot x_{i:i+h-1} + b)ci​=f(w⋅xi:i+h−1​+b)
+    ci=f(w⋅xi:i+h−1+b)c_i = f(w \cdot x_{i:i+h-1} + b)ci=f(w⋅xi:i+h−1+b)
     - www: 필터 (길이 hhh, 차원 kkk)
     - bbb: 편향 (bias)
     - fff: 활성화 함수 (예: ReLU, Tanh)
-    - cic_ici​: 새로운 특징(feature)
+    - cic_ici: 새로운 특징(feature)
 - 예를 들어, "I love NLP"라는 문장에서 3-gram 필터를 사용하면 다음과 같은 특징을 추출할 수 있음:
     
-    - "I love NLP" → c1c_1c1​
-    - "love NLP is" → c2c_2c2​
+    - "I love NLP" → c1c_1c1
+    - "love NLP is" → c2c_2c2
 
 ---
 
@@ -96,7 +96,7 @@ Yoon Kim (뉴욕대학교, yhk255@nyu.edu)
 
 - CNN에서는 **다양한 필터가 여러 개의 특징(feature map)을 생성**.
 - 하지만 출력 크기를 일정하게 유지하기 위해 **맥스 풀링(max-pooling)** 적용.
-- 수식: c^=max⁡(c1,c2,…,cn−h+1)\hat{c} = \max(c_1, c_2, \dots, c_{n-h+1})c^=max(c1​,c2​,…,cn−h+1​)
+- 수식: c^=max⁡(c1,c2,…,cn−h+1)\hat{c} = \max(c_1, c_2, \dots, c_{n-h+1})c^=max(c1,c2,…,cn−h+1)
     - 문장에서 가장 중요한 특징값만 유지.
     - 모델이 문장의 길이에 관계없이 작동할 수 있도록 함.
 

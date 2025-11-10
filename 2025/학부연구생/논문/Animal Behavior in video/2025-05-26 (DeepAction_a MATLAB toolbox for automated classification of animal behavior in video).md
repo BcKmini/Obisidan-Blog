@@ -376,7 +376,7 @@
 
 - **정의**:
     $$
-    리뷰 효율성= \frac{신뢰도 기반 리뷰 개선}{이론적으로 가능한 최대 개선량}
+    리뷰 효율성= \frac{신뢰도 기반 리뷰 개선}{이론적으로 가능한 최대 개선량}
 $$
 > As shown in Fig. 6H, as the proportion of data labeled increases, both confidence scores become closer to optimal in sorting videos for review.  
 > **Fig. 6H, 6I에 따르면, 학습된 데이터 비율이 높아질수록 신뢰도 기반 정렬이 이상적인 정렬(실제 정확도 기준)과 가까워진다.**
@@ -627,7 +627,7 @@ p_j=P(\hat y_j = y_j)
 $$    
 - 클립 신뢰도 점수(confidence)는 해당 클립의 프레임별 평균 확률:
     $$
-    conf(clipi)=\frac1N \sum_j^N= N p_j​
+    conf(clipi)=\frac1N \sum_j^N= N p_j
 $$
 ---
 
@@ -639,7 +639,7 @@ $$
 - **Softmax 기반**:
     $$
     p_j^{SM} = \max_k \sigma(z_j)_kpj
-    $$​
+    $$
     - 가장 높은 소프트맥스 확률을 그대로 사용
         
     - 일반적으로 **과신(overconfident)** 경향이 있음
@@ -647,7 +647,7 @@ $$
 - **Temperature scaling**:
     $$
   p_j^{TS} = \max k * \sigma\left(\frac{z_j}{T}\right)_k
-    $$​
+    $$
     - T는 검증 세트에서 최적화됨
         
     - 과신도 감소 효과
@@ -662,7 +662,7 @@ $$
 
 - 전체 신뢰도 기반 정확도:
     $$
-    conf(Dunlabeled​)=∑j​∣clipj​∣∑i​conf(clipi​)⋅∣clipi​∣​
+    conf(Dunlabeled)=∑j∣clipj∣∑iconf(clipi)⋅∣clipi∣
     $$
     - 이 값이 전체 미라벨링 데이터의 평균 정확도 추정치가 된다.
         
@@ -683,4 +683,4 @@ $$
     - **Review Efficiency**:
         $$
        {Efficiency} = \frac{\text{Improvement (신뢰도 기반)}}{\text{Improvement (이론적 최대)}}
-        $$​
+        $$

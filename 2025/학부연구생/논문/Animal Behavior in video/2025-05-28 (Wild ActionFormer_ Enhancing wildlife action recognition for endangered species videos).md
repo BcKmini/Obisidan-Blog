@@ -99,7 +99,7 @@ The model has four main components: input, feature adapter, backbone, and output
     2. Δt를 소프트맥스(softmax)로 확률 분포로 변환
     3. Kullback–Leibler 발산(KL divergence)으로 두 분포 간 거리를 측정
 - **정규화 손실**$$
-    L{div}=\sum _t D_{KL}(P_{true}(Δt) ∥ P_{pred}(Δt))
+    L{div}=\sum _t D_{KL}(P_{true}(Δt) ∥ P_{pred}(Δt))
     $$순차적 특징 예측에 제약을 부여하는 규제항으로 작용
 
 ### 3.2.3 저가시성 샘플 학습 (Low-Visibility Sample Learning)

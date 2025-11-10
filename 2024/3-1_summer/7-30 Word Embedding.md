@@ -328,7 +328,7 @@ Context Window 주변에 나타나는 단어일수록 비슷한 벡터를 가질
 문장의 문맥에 따라 정해지는 것은 아님  window size에 따라 다른 의미도 가능</li>
 <li>Strategy
 주변 단어를 예측하는 과정에서 정보 압축
-예측 값 𝑦 ̂ 을 위해 필요한 정보만 압축
+예측 값 𝑦 ̂ 을 위해 필요한 정보만 압축
 Dense Vector를 얻을 수 있음
 <img alt="" src="https://velog.velcdn.com/images/mi_nini/post/4ff6a5e3-8720-4255-8615-506300b67944/image.png" /></li>
 </ul>
