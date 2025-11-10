@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "index"
             }
           }
         ]
@@ -199,6 +199,7 @@
   },
   "active": "6d9b5c5bf07a7b7a",
   "lastOpenFiles": [
+    "무제.md",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/java/com/example/colors/MainActivity.kt",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/java/com/example/colors",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values-night/themes.xml",
@@ -209,7 +210,6 @@
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/layout/activity_main.xml",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/java/com/example",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values-night",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
@@ -221,7 +221,6 @@
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-mdpi/ic_launcher.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/README.md",
-    "무제.md",
     "무제 1.md",
     "참고/터미널 - 파일다운.md",
     "참고/토익.md",
