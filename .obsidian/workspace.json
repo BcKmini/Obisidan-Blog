@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "38449cc0de123ce5",
+        "id": "f325f3e6746d05e1",
         "type": "tabs",
         "children": [
           {
-            "id": "f53a231353de7e3d",
+            "id": "11db8c1dbfa94423",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.3"
+                "file": "2025/개인공부/11월/유아교육과 (Img_gen).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.10.3"
+              "icon": "lucide-file",
+              "title": "유아교육과 (Img_gen)"
             }
           }
         ]
@@ -195,10 +197,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f53a231353de7e3d",
+  "active": "6d9b5c5bf07a7b7a",
   "lastOpenFiles": [
+    "2025/개인공부/11월/유아교육과 (Img_gen).md",
     "index.md",
-    "무제.md",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/java/com/example/colors/MainActivity.kt",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/java/com/example/colors",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values-night/themes.xml",
