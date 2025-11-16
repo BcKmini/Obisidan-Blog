@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +198,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "11db8c1dbfa94423",
   "lastOpenFiles": [
     "2025/개인공부/11월/유아교육과 (Img_gen).md",
     "index.md",
