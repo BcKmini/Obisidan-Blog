@@ -11,14 +11,12 @@
             "id": "a508c047d7f96152",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "무제.md",
-                "mode": "source",
-                "source": false
+                "file": "2025/4학년2학기/MOS활용 - 권영애/4주차/4주차 강의자료.pdf"
               },
-              "icon": "lucide-file",
-              "title": "무제"
+              "icon": "lucide-file-text",
+              "title": "4주차 강의자료"
             }
           }
         ]
@@ -197,23 +195,24 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "644ab519b1f6e022",
+  "active": "6d9b5c5bf07a7b7a",
   "lastOpenFiles": [
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/13주차/ap_ch03.pdf",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/13주차",
-    "무제",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/중간평가-발표자료.pptx",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/포스터,팜플렛 제작 양식 및 참고자료 2/2024 참고자료/2024 졸업작품전시회 포스터 제작_62명_v3.pdf",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/포스터,팜플렛 제작 양식 및 참고자료 2/2024 참고자료/2024 졸업작품전시회 팜플렛 제작_작품설명서용_작업용_v3.pdf",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/포스터,팜플렛 제작 양식 및 참고자료 2/2023 참고자료/3.책자 - A5 무선제본 450개_v2.pdf",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/포스터,팜플렛 제작 양식 및 참고자료 2/2023 참고자료/1.포스터 - 2절 29종 1매씩.pdf",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/포스터,팜플렛 제작 양식 및 참고자료 2/2025 졸업작품전시회 팜플렛 제작_작품설명서용 - 기본양식.pptx",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/포스터,팜플렛 제작 양식 및 참고자료 2/2024 참고자료",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/포스터,팜플렛 제작 양식 및 참고자료 2/2023 참고자료",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/포스터,팜플렛 제작 양식 및 참고자료 2",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/졸업예정자 서류 양식 모음/라. 졸업논문(실기) 심사요지.docx",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/졸업예정자 서류 양식 모음/다. 학위논문 연구 윤리 준수 확인서.docx",
+    "2025/4학년2학기/프로젝트종합설계 - 이철원/졸업 전시회/2025 졸업작품전시회 팜플랫 - 손준서,김경민.pptx.jpeg",
     "무제.md",
     "2025/개인공부/11월/유아교육과_프롬포트.md",
     "2025/개인공부/11월/유아교육과 (Img_gen).md",
     "index.md",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/java/com/example/colors/MainActivity.kt",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/java/com/example/colors",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values-night/themes.xml",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values/themes.xml",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values/strings.xml",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values/dimens.xml",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values/colors.xml",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/layout/activity_main.xml",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
@@ -223,7 +222,6 @@
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-hdpi/ic_launcher.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-mdpi/ic_launcher.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/README.md",
     "무제 1.md",
     "참고/터미널 - 파일다운.md",
