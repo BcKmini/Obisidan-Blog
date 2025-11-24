@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "agent-book-chapter12"
+version = "1.0.0"
+description = ""
+authors = ["Masahiro Nishimi <nishimi@generative-agents.co.jp>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+langchain-core = "^0.3.0"
+langchain-community = "^0.3.0"
+langgraph = "^0.2.22"
+langchain-openai = "^0.2.0"
+langchain-anthropic = "^0.2.0"
+python-dotenv = "^1.0.1"
+numpy = "1.26.*"
+faiss-cpu = "^1.8.0.post1"
+pydantic-settings = "^2.5.2"
+retry = "^0.9.2"
+decorator = "4.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
