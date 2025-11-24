@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +197,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "a508c047d7f96152",
+  "active": "644ab519b1f6e022",
   "lastOpenFiles": [
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/13주차/ap_ch03.pdf",
+    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/13주차",
+    "무제",
     "무제.md",
     "2025/개인공부/11월/유아교육과_프롬포트.md",
     "2025/개인공부/11월/유아교육과 (Img_gen).md",
@@ -212,8 +214,6 @@
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values/dimens.xml",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values/colors.xml",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/layout/activity_main.xml",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/java/com/example",
-    "2025/4학년2학기/안드로이드프로그래밍 - 박민규/Activity 1.01: Producing an App to Create RGB Colors/app/src/main/res/values-night",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/How_to_Build_Android_Apps_with_Kotilin/Chapter16/Exercise16.03/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
@@ -244,7 +244,6 @@
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/8주차/중간고사/Chapter01_학습_가이드.md",
     "2025/4학년2학기/안드로이드프로그래밍 - 박민규/8주차/중간고사/Chapter01_코드_비교_리포트.md",
     "2024/3-2/소프트웨어공학_14.md",
-    "2024/3-2/소프트웨어공학_5.md",
-    "2024/3-2/방학을 마치며 개강...md"
+    "2024/3-2/소프트웨어공학_5.md"
   ]
 }
