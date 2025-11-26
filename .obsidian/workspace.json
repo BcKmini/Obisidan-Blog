@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268.50271224975586
   },
   "right": {
     "id": "54ba721a3a6998a5",
@@ -197,7 +197,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "644ab519b1f6e022",
+  "active": "6d9b5c5bf07a7b7a",
   "lastOpenFiles": [
     "2025/개인공부/RAG/code/chapter12/venv/lib64/python3.9/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__/weakref_finalize.cpython-39.pyc",
     "2025/개인공부/RAG/code/chapter12/venv/lib64/python3.9/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__/makefile.cpython-39.pyc",
