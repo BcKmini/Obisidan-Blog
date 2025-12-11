@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,10 +198,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6d9b5c5bf07a7b7a",
+  "active": "6079576451d3aa76",
   "lastOpenFiles": [
-    "index.md",
     "무제.md",
+    "index.md",
     "참고/외부포트.md",
     "참고/토익.md",
     "참고/터미널 - 파일다운.md",
